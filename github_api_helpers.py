@@ -1,7 +1,7 @@
 import requests
 from env import ACCESS_TOKEN
 
-def search_java_projects_with_jmh( page):
+def search_java_projects_with_jmh(page):
     url = "https://api.github.com/search/code"
     params = {
         "q": "filename:pom.xml jmh-core in:file",
@@ -78,8 +78,6 @@ def search_performance_issues(query, page):
     params = {"q": query, "per_page": 50, "page": page}
 
     # Make a GET request to the GitHub API
-    # response = requests.get(url, params=params)
-
     try:
         response = requests.get(url, params=params)
         response.raise_for_status()  # Raise an exception for 4XX and 5XX status codes

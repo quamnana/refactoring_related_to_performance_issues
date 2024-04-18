@@ -8,11 +8,10 @@ from github_api_helpers import (
 
 
 def retrieve_java_projects_with_jmh():
-    access_token = "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"
     page = 1
 
     while True:
-        java_projects = search_java_projects_with_jmh(access_token, page)
+        java_projects = search_java_projects_with_jmh(page)
         if java_projects:
             for project in java_projects:
                 repo = project["repository"]
@@ -30,7 +29,6 @@ def retrieve_java_projects_with_jmh():
 
 
 def retrieve_java_project_details():
-    access_token = "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"
 
     # get projects from mongodb
     java_projects = get_all_data_from_db("jmh-projects")
@@ -41,10 +39,10 @@ def retrieve_java_project_details():
         owner, repo = full_name.split("/")
         id = project["_id"]
 
-        project_details = get_java_project_details(full_name, access_token)
+        project_details = get_java_project_details(full_name)
         if project_details:
             total_closed_issues, total_closed_pull_requests = (
-                get_closed_issue_and_pr_count(owner, repo, access_token)
+                get_closed_issue_and_pr_count(owner, repo)
             )
 
             data_to_persist = {
