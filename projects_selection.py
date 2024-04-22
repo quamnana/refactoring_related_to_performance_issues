@@ -32,12 +32,18 @@ def retrieve_java_project_details():
 
     # get projects from mongodb
     java_projects = get_all_data_from_db("jmh-projects")
+    # java_projects = [
+    #     {"full_name": "apache/cassandra"},
+    #     {"full_name": "apache/pdfbox"},
+    #     {"full_name": "apache/activemq-artemis"},
+
+    # ]
 
     # use full_name of each project to get project details
     for index, project in enumerate(java_projects, start=1):
         full_name = project["full_name"]
         owner, repo = full_name.split("/")
-        id = project["_id"]
+        # id = project["_id"]
 
         project_details = get_java_project_details(full_name)
         if project_details:
@@ -65,6 +71,7 @@ def retrieve_java_project_details():
                 "total_issue_and_prs": total_closed_issues + total_closed_pull_requests,
             }
             update_data_in_db("jmh-projects", id, data_to_persist)
+            # persist_data_to_db("final-projects", data_to_persist)
 
             # this is to make sure the GitHub API rate limit is not exceeded
             if index % 50 == 0:

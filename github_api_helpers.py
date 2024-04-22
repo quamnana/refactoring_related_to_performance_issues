@@ -1,5 +1,6 @@
 import requests
-from env import ACCESS_TOKEN
+from env import GITHUB_ACCESS_TOKEN
+
 
 def search_java_projects_with_jmh(page):
     url = "https://api.github.com/search/code"
@@ -10,7 +11,7 @@ def search_java_projects_with_jmh(page):
         "per_page": 100,
         "page": page,
     }
-    headers = {"Authorization": f"token {ACCESS_TOKEN}"}
+    headers = {"Authorization": f"token {GITHUB_ACCESS_TOKEN}"}
 
     try:
         response = requests.get(url, params=params, headers=headers)
@@ -24,7 +25,7 @@ def search_java_projects_with_jmh(page):
 
 def get_java_project_details(full_name):
     url = f"https://api.github.com/repos/{full_name}"
-    headers = {"Authorization": f"token {ACCESS_TOKEN}"}
+    headers = {"Authorization": f"token {GITHUB_ACCESS_TOKEN}"}
 
     try:
         response = requests.get(url, headers=headers)
@@ -53,7 +54,7 @@ def get_closed_issue_and_pr_count(owner, repo):
         repo,
     )
 
-    headers = {"Authorization": "Bearer " + ACCESS_TOKEN}
+    headers = {"Authorization": "Bearer " + GITHUB_ACCESS_TOKEN}
 
     response = requests.post(
         "https://api.github.com/graphql", json={"query": query}, headers=headers
@@ -73,13 +74,14 @@ def get_closed_issue_and_pr_count(owner, repo):
 def search_performance_issues(query, page):
     # Define the GitHub API endpoint for searching issues
     url = "https://api.github.com/search/issues"
+    headers = {"Authorization": f"token {GITHUB_ACCESS_TOKEN}"}
 
     # Define the parameters for the search query
     params = {"q": query, "per_page": 50, "page": page}
 
     # Make a GET request to the GitHub API
     try:
-        response = requests.get(url, params=params)
+        response = requests.get(url, params=params, headers=headers)
         response.raise_for_status()  # Raise an exception for 4XX and 5XX status codes
         data = response.json()
         return data["items"]
@@ -90,7 +92,7 @@ def search_performance_issues(query, page):
 
 def get_issue_timeline(url):
 
-    headers = {"Authorization": f"token {ACCESS_TOKEN}"}
+    headers = {"Authorization": f"token {GITHUB_ACCESS_TOKEN}"}
 
     try:
         response = requests.get(url, headers=headers)

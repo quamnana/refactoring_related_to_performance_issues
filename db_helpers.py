@@ -33,3 +33,12 @@ def update_data_in_db(collection_name, id, data):
         print("Successfully updated data for ID: ", id)
     except:
         print("Failed to update")
+
+
+def get_distict_values(collection_name, field_name):
+    collection = db[collection_name]
+    try:
+        distict_values = collection.distinct(field_name)
+        return distict_values
+    except:
+        print("Failed to get distinct values")

@@ -1,5 +1,10 @@
 import time
-from db_helpers import get_all_data_from_db, persist_data_to_db, update_data_in_db
+from db_helpers import (
+    get_all_data_from_db,
+    persist_data_to_db,
+    update_data_in_db,
+    get_distict_values,
+)
 from github_api_helpers import search_performance_issues, get_issue_timeline
 
 
@@ -44,6 +49,7 @@ def get_performance_issues():
                 print(
                     f"================= FETCHING ISSUES FOR {project['name']} WITH PERFORMANCE KEYWORD [[{perf_keyword}]] AND BUG KEYWORD [[{bug_keyword}]] ========================="
                 )
+                print(full_name)
                 while True:
                     # Search for issues related to performance
                     search_query = f'"{perf_keyword}" repo:{full_name} {bug_keyword} in:title,body,comments is:closed linked:pr'
@@ -87,7 +93,7 @@ def get_performance_issues():
                                 "perf_keyword": perf_keyword,
                                 "bug_keyword": bug_keyword,
                             }
-
+                            break
                             persist_data_to_db("perf-issues", data_to_persist)
                         page = page + 1
                         time.sleep(10)
@@ -149,9 +155,22 @@ def get_performance_pull_requests():
             break
 
 
+def verify_collected_issues():
+    results = {}
+    project_names = get_distict_values("final-projects", "full_name")
+    issues_repo_names = get_distict_values("perf-issues", "repo_fullname")
+    for project_name in project_names:
+        if project_name in issues_repo_names:
+            results[project_name] = True
+        else:
+            results[project_name] = False
+    print(results)
+
+
 def main():
     # get_performance_issues()
-    get_performance_pull_requests()
+    # get_performance_pull_requests()
+    verify_collected_issues()
 
 
 main()
