@@ -1,5 +1,31 @@
 import requests
+import time
 from env import GITHUB_ACCESS_TOKEN
+
+
+def search_java_projects(page, least_stars, most_stars):
+    url = "https://api.github.com/search/repositories"
+    params = {
+        "q": f"language:java stars:{least_stars}..{most_stars} archived:false",
+        "sort": "stars",
+        "order": "desc",
+        "per_page": 100,
+        "page": page,
+    }
+    headers = {
+        "Authorization": f"token {GITHUB_ACCESS_TOKEN}",
+        "Accept": "application/vnd.github.v3+json",
+    }
+
+    try:
+        response = requests.get(url, params=params, headers=headers)
+        response.raise_for_status()  # Raise an exception for 4XX and 5XX status codes
+        data = response.json()
+        print(response.headers)
+        return data["items"]
+    except requests.exceptions.RequestException as e:
+        print("Error:", e)
+        return None
 
 
 def search_java_projects_with_jmh(page):
@@ -25,7 +51,7 @@ def search_java_projects_with_jmh(page):
 
 def get_java_project_details(full_name):
     url = f"https://api.github.com/repos/{full_name}"
-    headers = {"Authorization": f"token {GITHUB_ACCESS_TOKEN}"}
+    headers = {"Authorization": f"Bearer {GITHUB_ACCESS_TOKEN}"}
 
     try:
         response = requests.get(url, headers=headers)
@@ -87,6 +113,7 @@ def search_performance_issues(query, page):
         return data["items"]
     except requests.exceptions.RequestException as e:
         print("Error:", e)
+        time.sleep(5)
         return None
 
 

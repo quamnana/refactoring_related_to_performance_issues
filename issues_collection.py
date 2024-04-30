@@ -7,9 +7,13 @@ from db_helpers import (
 )
 from github_api_helpers import search_performance_issues, get_issue_timeline
 
+projects_collection_name = "java-projects"
+issues_collection_name = "performance-issues"
+
 
 def get_performance_issues():
-    java_projects = get_all_data_from_db("final-projects")
+    java_projects = get_all_data_from_db(projects_collection_name)
+    total_projects = 3187
     performance_keywords = [
         "performance",
         "fast",
@@ -40,14 +44,16 @@ def get_performance_issues():
         "flaw",
     ]
 
-    for project in java_projects:
+    for i, project in enumerate(java_projects, start=1):
         full_name = project["full_name"]
+        if i in range(102):
+            continue
         for perf_keyword in performance_keywords:
             for bug_keyword in bug_keywords:
 
                 page = 1
                 print(
-                    f"================= FETCHING ISSUES FOR {project['name']} WITH PERFORMANCE KEYWORD [[{perf_keyword}]] AND BUG KEYWORD [[{bug_keyword}]] ========================="
+                    f"================= FETCHING ISSUES FOR {project['name']} WITH PERFORMANCE KEYWORD [[{perf_keyword}]] AND BUG KEYWORD [[{bug_keyword}]] ========================= ({i}/{total_projects})"
                 )
                 print(full_name)
                 while True:
@@ -93,21 +99,27 @@ def get_performance_issues():
                                 "perf_keyword": perf_keyword,
                                 "bug_keyword": bug_keyword,
                             }
+                            persist_data_to_db(issues_collection_name, data_to_persist)
+                        if len(issues) >= 50:
+                            page = page + 1
+                            if bug_keyword == "flaw":
+                                time.sleep(10)
+                        else:
+                            time.sleep(5)
                             break
-                            persist_data_to_db("perf-issues", data_to_persist)
-                        page = page + 1
-                        time.sleep(10)
                     else:
                         print(
                             f"Failed to fetch project issues for performance keyword {perf_keyword} and bug keyword {bug_keyword} at page {page} from GitHub."
                         )
-                        time.sleep(10)
+                        if bug_keyword == "flaw":
+                            time.sleep(10)
                         break
 
 
 def get_performance_pull_requests():
-    issues = get_all_data_from_db("perf-issues")
-    for issue in issues:
+    issues = get_all_data_from_db(issues_collection_name)
+    total_issues = 0
+    for i, issue in enumerate(issues, start=1):
         issue_timeline_url = issue["issue_timeline_url"]
         issue_timeline = get_issue_timeline(issue_timeline_url)
         if issue_timeline:
@@ -133,7 +145,7 @@ def get_performance_pull_requests():
                     pr_labels = [label["name"] for label in _pr_labels]
 
                     print(
-                        f"The issue #{issue['issue_number']} was closed by Pull Request - Title: {pr_title} URL: {pr_url}"
+                        f"======== The issue #{issue['issue_number']} was closed by Pull Request - Title: {pr_title} URL: {pr_url} ========== ({i}/{total_issues})"
                     )
                     data_to_persist = {
                         "pr_number": pr_number,
@@ -146,7 +158,9 @@ def get_performance_pull_requests():
                         "pr_merged_at": pr_merged_at,
                         "pr_labels": pr_labels,
                     }
-                    update_data_in_db("perf-issues", issue["_id"], data_to_persist)
+                    update_data_in_db(
+                        issues_collection_name, issue["_id"], data_to_persist
+                    )
                     time.sleep(10)
                     break
         else:
@@ -157,8 +171,8 @@ def get_performance_pull_requests():
 
 def verify_collected_issues():
     results = {}
-    project_names = get_distict_values("final-projects", "full_name")
-    issues_repo_names = get_distict_values("perf-issues", "repo_fullname")
+    project_names = get_distict_values(projects_collection_name, "full_name")
+    issues_repo_names = get_distict_values(issues_collection_name, "repo_fullname")
     for project_name in project_names:
         if project_name in issues_repo_names:
             results[project_name] = True
@@ -168,9 +182,9 @@ def verify_collected_issues():
 
 
 def main():
-    # get_performance_issues()
+    get_performance_issues()
     # get_performance_pull_requests()
-    verify_collected_issues()
+    # verify_collected_issues()
 
 
 main()
