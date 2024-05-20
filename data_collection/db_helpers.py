@@ -1,6 +1,7 @@
 from pymongo import MongoClient
 
 
+# client = MongoClient("mongodb://host.docker.internal:27017/")
 client = MongoClient("mongodb://localhost:27017/")
 db = client["first-research"]
 
@@ -22,6 +23,15 @@ def get_all_data_from_db(collection_name):
         return data
     except:
         print("Failed to fetch data")
+
+
+def count_data(collection_name, query={}):
+    collection = db[collection_name]
+    try:
+        count = collection.count_documents(query)
+        return count
+    except:
+        print("Failed to get count of data")
 
 
 def update_data_in_db(collection_name, id, data):

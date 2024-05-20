@@ -1,6 +1,7 @@
 import requests
 import time
-from env import GITHUB_ACCESS_TOKEN
+
+GITHUB_ACCESS_TOKEN = "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"
 
 
 def search_java_projects(page, least_stars, most_stars):
@@ -21,7 +22,6 @@ def search_java_projects(page, least_stars, most_stars):
         response = requests.get(url, params=params, headers=headers)
         response.raise_for_status()  # Raise an exception for 4XX and 5XX status codes
         data = response.json()
-        print(response.headers)
         return data["items"]
     except requests.exceptions.RequestException as e:
         print("Error:", e)
@@ -113,7 +113,7 @@ def search_performance_issues(query, page):
         return data["items"]
     except requests.exceptions.RequestException as e:
         print("Error:", e)
-        time.sleep(5)
+        time.sleep(7)
         return None
 
 

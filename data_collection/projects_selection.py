@@ -6,7 +6,9 @@ from github_api_helpers import (
     get_closed_issue_and_pr_count,
     search_java_projects,
 )
-from env import STARS_COUNT
+
+STARS_COUNT = [20 + i * 100 if i <= 9 else 1000 + (i - 9) * 10 for i in range(0, 1000)]
+collection_name = "java-projects-alt"
 
 
 def retrieve_java_projects():
@@ -30,7 +32,7 @@ def retrieve_java_projects():
                         "language": repo["language"],
                         "stargazers_count": repo["stargazers_count"],
                     }
-                    persist_data_to_db("java-projects", data_to_persist)
+                    persist_data_to_db(collection_name, data_to_persist)
                 page = page + 1
                 time.sleep(5)
             else:
@@ -63,7 +65,7 @@ def retrieve_java_projects_with_jmh():
 def retrieve_java_project_details():
 
     # get projects from mongodb
-    java_projects = get_all_data_from_db("java-projects")
+    java_projects = get_all_data_from_db(collection_name)
 
     # use full_name of each project to get project details
     for index, project in enumerate(java_projects, start=1):
@@ -79,9 +81,9 @@ def retrieve_java_project_details():
 
         project_details = get_java_project_details(full_name)
         if project_details:
-            # total_closed_issues, total_closed_pull_requests = (
-            #     get_closed_issue_and_pr_count(owner, repo)
-            # )
+            total_closed_issues, total_closed_pull_requests = (
+                get_closed_issue_and_pr_count(owner, repo)
+            )
 
             data_to_persist = {
                 "repo_id": project_details["id"],
@@ -98,15 +100,15 @@ def retrieve_java_project_details():
                 "open_issues_count": project_details["open_issues_count"],
                 "open_issues": project_details["open_issues"],
                 "has_issues": project_details["has_issues"],
-                # "closed_issues_count": total_closed_issues,
-                # "closed_prs_count": total_closed_pull_requests,
-                # "total_issue_and_prs": total_closed_issues + total_closed_pull_requests,
+                "closed_issues_count": total_closed_issues,
+                "closed_prs_count": total_closed_pull_requests,
+                "total_issue_and_prs": total_closed_issues + total_closed_pull_requests,
             }
-            update_data_in_db("java-projects", id, data_to_persist)
+            update_data_in_db(collection_name, id, data_to_persist)
 
             # this is to make sure the GitHub API rate limit is not exceeded
-            if index % 10 == 0:
-                time.sleep(30)
+            if index % 50 == 0:
+                time.sleep(20)
         else:
             time.sleep(10)
             continue

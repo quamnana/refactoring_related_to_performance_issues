@@ -67,13 +67,42 @@ public class ExtractRefactorings {
                             .println("Refactorings for " + repoName + " at PR#" + prNumber + " Commit ID:" + commitId);
                     commitWithError[0] = commitId; // Assign the current commit ID
                     for (Refactoring ref : refactorings) {
-                        System.out.println(ref.toString());
-                        Document data = Document.parse(ref.toJSON()).append("commit_id",
+                        String type = "";
+                        String filePath = "";
+                        int startLine = 0;
+                        int endLine = 0;
+                        String codeElement = "";
+                        String codeElementType = "";
+                        String desc = "";
+
+                        JSONObject refactoringObj = new JSONObject(ref.toJSON());
+			            type = refactoringObj.getString("type");
+
+                        System.out.println("refactoring name : " + type);
+
+			            JSONArray refactoringProps = refactoringObj.getJSONArray("rightSideLocations");
+
+                        for (JSONObject prop : refactoringProps){
+                            filePath = prop.getString("filePath");
+                            startLine = prop.getInt("startLine");
+                            endLine = prop.getInt("endLine");
+                            codeElement = prop.getString("codeElement");
+                            codeElementType = prop.getString("codeElementType");
+                            desc = prop.getString("description");
+
+                            Document data = Document.parse(ref.toJSON()).append("commit_id",
                                 commitId).append("repo_name", repoName).append("repo_fullname", repoFullName)
-                                .append("pr_number", prNumber)
-                                .append("perf_keyword", perfKeyword).append("bug_keyword", bugKeyword)
+                                .append("pr_number", prNumber).append("file_path", filePath).append("start_line", startLine).append("end_line", endLine).append("code_element", codeElement).append("code_element_type", codeElementType).append("description", desc).append("perf_keyword", perfKeyword).append("bug_keyword", bugKeyword)
                                 .append("issue_number", issueNumber).append("issue_title", issueTitle);
-                        db.persistToDB("perf-refactorings", data);
+                                db.persistToDB("perf-refactorings", data);
+                        }
+                        // System.out.println(ref.toString());
+                        // Document data = Document.parse(ref.toJSON()).append("commit_id",
+                        //         commitId).append("repo_name", repoName).append("repo_fullname", repoFullName)
+                        //         .append("pr_number", prNumber)
+                        //         .append("perf_keyword", perfKeyword).append("bug_keyword", bugKeyword)
+                        //         .append("issue_number", issueNumber).append("issue_title", issueTitle);
+                        // db.persistToDB("perf-refactorings", data);
                     }
                 }
             }, 100);
