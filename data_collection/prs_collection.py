@@ -13,10 +13,6 @@ def get_performance_pull_requests():
     issues = get_all_data_from_db(issues_collection_name)
     total_issues = count_data(issues_collection_name)
     for i, issue in enumerate(issues, start=1):
-        if i in range(8501):
-            continue
-        if i == 17003:
-            break
         issue_timeline_url = issue["issue_timeline_url"]
         issue_timeline = get_issue_timeline(issue_timeline_url)
         if issue_timeline:
@@ -66,10 +62,3 @@ def get_performance_pull_requests():
             print(f"Issue #{issue['issue_number']} has no timeline")
             time.sleep(10)
             break
-
-
-def main():
-    get_performance_pull_requests()
-
-
-main()

@@ -2,13 +2,12 @@ import time
 from db_helpers import (
     get_all_data_from_db,
     persist_data_to_db,
-    update_data_in_db,
     get_distict_values,
     count_data,
 )
 from github_api_helpers import search_performance_issues, get_issue_timeline
 
-projects_collection_name = "java-projects-alt"
+projects_collection_name = "java-projects"
 issues_collection_name = "performance-issues"
 
 
@@ -47,10 +46,6 @@ def get_performance_issues():
 
     for i, project in enumerate(java_projects, start=1):
         full_name = project["full_name"]
-        # if i in range(10303):
-        #     continue
-        # if i == 10601:
-        #     break
         if project["has_issues"] is False:
             continue
         for perf_keyword in performance_keywords:
@@ -122,20 +117,12 @@ def get_performance_issues():
 
 
 def verify_collected_issues():
-    results = {}
+    results = {"has_issues": 0, "has_no_issues": 0}
     project_names = get_distict_values(projects_collection_name, "full_name")
     issues_repo_names = get_distict_values(issues_collection_name, "repo_fullname")
     for project_name in project_names:
         if project_name in issues_repo_names:
-            results[project_name] = True
+            results["has_issues"] += 1
         else:
-            results[project_name] = False
+            results["has_no_issues"] += 1
     print(results)
-
-
-def main():
-    get_performance_issues()
-    # verify_collected_issues()
-
-
-main()

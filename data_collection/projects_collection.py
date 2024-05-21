@@ -8,7 +8,7 @@ from github_api_helpers import (
 )
 
 STARS_COUNT = [20 + i * 100 if i <= 9 else 1000 + (i - 9) * 10 for i in range(0, 1000)]
-collection_name = "java-projects-alt"
+collection_name = "java-projects"
 
 
 def retrieve_java_projects():
@@ -39,27 +39,6 @@ def retrieve_java_projects():
                 print("Failed to fetch Java projects from GitHub.")
                 time.sleep(20)
                 break
-
-
-def retrieve_java_projects_with_jmh():
-    page = 1
-
-    while True:
-        java_projects = search_java_projects_with_jmh(page)
-        if java_projects:
-            for project in java_projects:
-                repo = project["repository"]
-                data_to_persist = {
-                    "repo_id": repo["id"],
-                    "node_id": repo["node_id"],
-                    "name": repo["name"],
-                    "full_name": repo["full_name"],
-                }
-                persist_data_to_db("jmh-projects", data_to_persist)
-            page = page + 1
-        else:
-            print("Failed to fetch Java projects from GitHub.")
-            break
 
 
 def retrieve_java_project_details():
@@ -112,8 +91,3 @@ def retrieve_java_project_details():
         else:
             time.sleep(10)
             continue
-
-
-if __name__ == "__main__":
-    # retrieve_java_projects()
-    retrieve_java_project_details()

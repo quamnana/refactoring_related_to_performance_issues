@@ -11,4 +11,4 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Run your Python script when the container launches
-CMD ["python", "prs_collection.py"]
+CMD ["python", "main.py"]
