@@ -6,44 +6,7 @@ from db_helpers import (
 )
 from github_api_helpers import get_issue_timeline, get_pr_commits
 
-issues_collection_name = "performance-issues-with-pr"
-
-
-def get_performance_pull_request_commits():
-    query = {}
-    issues = get_all_data_from_db(issues_collection_name, query)
-    total_issues = count_data(issues_collection_name, query)
-    for i, issue in enumerate(issues, start=1):
-        if i <= 15665:
-            continue
-        repo_fullname = issue["repo_fullname"]
-        pr_number = issue.get("pr_number", None)
-        print(
-            f"======== Adding PR Commits for PR number: {pr_number} and Issue Number: {issue['issue_number']} for {repo_fullname} ========== ({i}/{total_issues})"
-        )
-        if not pr_number:
-            continue
-        pr_commits = get_pr_commits(repo_fullname, pr_number)
-        commit_ids = []
-
-        if not pr_commits:
-            continue
-
-        for index, commit in enumerate(pr_commits, start=1):
-            if commit:
-                # commit_info = {
-                #     "commit_id": commit["sha"],
-                #     "commit_url": commit["html_url"],
-                # }
-                commit_ids.append(commit["sha"])
-        if commit_ids:
-            update_data_in_db(
-                issues_collection_name,
-                issue["_id"],
-                {"commit_ids": commit_ids},
-            )
-        if i % 50 == 0:
-            time.sleep(7)
+issues_collection_name = "performance-issues"
 
 
 def get_performance_pull_requests():
@@ -101,5 +64,34 @@ def get_performance_pull_requests():
             break
 
 
-# get_performance_pull_requests()
-get_performance_pull_request_commits()
+def get_performance_pull_request_commits():
+    query = {}
+    issues = get_all_data_from_db(issues_collection_name, query)
+    total_issues = count_data(issues_collection_name, query)
+    for i, issue in enumerate(issues, start=1):
+        if i <= 15665:
+            continue
+        repo_fullname = issue["repo_fullname"]
+        pr_number = issue.get("pr_number", None)
+        print(
+            f"======== Adding PR Commits for PR number: {pr_number} and Issue Number: {issue['issue_number']} for {repo_fullname} ========== ({i}/{total_issues})"
+        )
+        if not pr_number:
+            continue
+        pr_commits = get_pr_commits(repo_fullname, pr_number)
+        commit_ids = []
+
+        if not pr_commits:
+            continue
+
+        for index, commit in enumerate(pr_commits, start=1):
+            if commit:
+                commit_ids.append(commit["sha"])
+        if commit_ids:
+            update_data_in_db(
+                issues_collection_name,
+                issue["_id"],
+                {"commit_ids": commit_ids},
+            )
+        if i % 50 == 0:
+            time.sleep(7)

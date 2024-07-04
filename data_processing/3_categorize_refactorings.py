@@ -6,10 +6,10 @@ from bson.objectid import ObjectId
 client = MongoClient("mongodb://localhost:27017/")
 
 # Step 2: Access the database and project_refactorings_collection
-db = client["final-first-research"]
+db = client["research-data"]
 project_refactorings_collection = db["projects-refactorings"]
 all_performance_refactorings_collection = db["all-performance-refactorings"]
-project_refactorings_backup_collection = db["projects-refactorings-backup"]
+project_refactorings_clone_collection = db["projects-refactorings-clone"]
 peformance_refactorings_collection = db["peformance-refactorings"]
 
 # Step 3: Find all documents in all_performance_refactorings_collection
@@ -36,11 +36,11 @@ def categorize_refactorings(all_performance_refactorings):
         # Step 5: Print the found performance_refactoring_in_project
         if performance_refactoring_in_project:
             document_id = performance_refactoring_in_project["_id"]
-            result = project_refactorings_backup_collection.delete_one(
+            result = project_refactorings_clone_collection.delete_one(
                 {"_id": ObjectId(document_id)}
             )
 
-            # Step 6: Check if the performance_refactoring in the project_refactorings_backup_collection is removed then we insert that performance_refactoring into the peformance_refactorings_collection
+            # Step 6: Check if the performance_refactoring in the project_refactorings_clone_collection is removed then we insert that performance_refactoring into the peformance_refactorings_collection
             if result.deleted_count > 0:
                 peformance_refactorings_collection.insert_one(performance_refactoring)
 
@@ -53,6 +53,9 @@ def categorize_refactorings(all_performance_refactorings):
             )
 
         index += 1
+
+    # Step 7: Rename the collection
+    db[project_refactorings_clone_collection].rename("non-performance-refactorings")
 
 
 categorize_refactorings(all_performance_refactorings)

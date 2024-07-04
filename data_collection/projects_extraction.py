@@ -7,10 +7,10 @@ from github_api_helpers import (
 )
 
 STARS_COUNT = [20 + i * 100 if i <= 9 else 1000 + (i - 9) * 10 for i in range(0, 1000)]
-collection_name = "java-projects"
+projects_collection_name = "all-projects"
 
 
-def retrieve_java_projects():
+def retrieve_projects():
 
     for index, count in enumerate(STARS_COUNT):
         page = 1
@@ -31,7 +31,7 @@ def retrieve_java_projects():
                         "language": repo["language"],
                         "stargazers_count": repo["stargazers_count"],
                     }
-                    persist_data_to_db(collection_name, data_to_persist)
+                    persist_data_to_db(projects_collection_name, data_to_persist)
                 page = page + 1
                 time.sleep(5)
             else:
@@ -40,10 +40,10 @@ def retrieve_java_projects():
                 break
 
 
-def retrieve_java_project_details():
+def retrieve_projects_details():
 
     # get projects from mongodb
-    java_projects = get_all_data_from_db(collection_name)
+    java_projects = get_all_data_from_db(projects_collection_name)
 
     # use full_name of each project to get project details
     for index, project in enumerate(java_projects, start=1):
@@ -82,7 +82,7 @@ def retrieve_java_project_details():
                 "closed_prs_count": total_closed_pull_requests,
                 "total_issue_and_prs": total_closed_issues + total_closed_pull_requests,
             }
-            update_data_in_db(collection_name, id, data_to_persist)
+            update_data_in_db(projects_collection_name, id, data_to_persist)
 
             # this is to make sure the GitHub API rate limit is not exceeded
             if index % 50 == 0:

@@ -13,13 +13,10 @@ public class DBHelpers {
     public void establishDBConnection() {
         try {
 
-            // MongoClient mongoClient = MongoClients.create("mongodb://127.0.0.1:27017");
-            // MongoClient mongoClient =
-            // MongoClients.create("mongodb://host.docker.internal:27017/");
-            MongoClient mongoClient = MongoClients.create("mongodb+srv://troops:linu$008@cluster0.w4ycqka.mongodb.net/");
+            MongoClient mongoClient = MongoClients.create("mongodb://127.0.0.1:27017/");
 
             // Connect to the "mydb" database
-            database = mongoClient.getDatabase("first-research");
+            database = mongoClient.getDatabase("research-data");
 
         } catch (Exception e) {
             e.printStackTrace();

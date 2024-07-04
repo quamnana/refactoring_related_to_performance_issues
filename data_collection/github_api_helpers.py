@@ -121,24 +121,3 @@ def get_issue_timeline(url):
     except requests.exceptions.RequestException as e:
         print("Error:", e)
         return None
-
-
-# def search_java_projects_with_jmh(page):
-#     url = "https://api.github.com/search/code"
-#     params = {
-#         "q": "filename:pom.xml jmh-core in:file",
-#         "sort": "stars",
-#         "order": "desc",
-#         "per_page": 100,
-#         "page": page,
-#     }
-#     headers = {"Authorization": f"token {GITHUB_ACCESS_TOKEN}"}
-
-#     try:
-#         response = requests.get(url, params=params, headers=headers)
-#         response.raise_for_status()  # Raise an exception for 4XX and 5XX status codes
-#         data = response.json()
-#         return data["items"]
-#     except requests.exceptions.RequestException as e:
-#         print("Error:", e)
-#         return None

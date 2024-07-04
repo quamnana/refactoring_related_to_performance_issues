@@ -45,8 +45,8 @@ def clone_collection(
 
 
 clone_collection(
-    source_db_name="final-first-research",
+    source_db_name="research-data",
     source_collection_name="projects-refactorings",
-    target_db_name="final-first-research",
-    target_collection_name="projects-refactorings-backup",
+    target_db_name="research-data",
+    target_collection_name="projects-refactoring-clone",
 )

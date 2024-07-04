@@ -4,7 +4,7 @@ from pymongo import MongoClient
 # client = MongoClient("mongodb://host.docker.internal:27017/")
 client = MongoClient("mongodb://localhost:27017/")
 # client = MongoClient("mongodb+srv://troops:linu$008@cluster0.w4ycqka.mongodb.net/")
-db = client["first-research"]
+db = client["research-data"]
 
 
 def persist_data_to_db(collection_name, data):

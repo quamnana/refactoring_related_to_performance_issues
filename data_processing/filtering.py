@@ -5,7 +5,7 @@ from data_collection.db_helpers import (
     get_all_data_from_db,
 )
 
-projects_collection_name = "java-projects"
+projects_collection_name = "all-projects"
 issues_collection_name = "performance-issues"
 
 

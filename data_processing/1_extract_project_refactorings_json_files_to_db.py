@@ -5,10 +5,10 @@ from pymongo import MongoClient
 
 # MongoDB configuration
 MONGO_URI = "mongodb://localhost:27017"
-DATABASE_NAME = "final-first-research"
+DATABASE_NAME = "research-data"
 COLLECTION_NAME = "projects-refactorings"
 # JSON_DIRECTORY = "/Users/nanaquam/Library/CloudStorage/GoogleDrive-quamgyambrah@gmail.com/My Drive/refactoring_miner_all_projects_results"
-JSON_DIRECTORY = "./new"
+JSON_DIRECTORY = "data_collection/project_refactorings_extraction/results"
 
 
 # Connect to MongoDB
@@ -17,26 +17,7 @@ db = client[DATABASE_NAME]
 collection = db[COLLECTION_NAME]
 
 
-def persist_data_to_db(data, log):
-    # collection = db[collection_name]
-    try:
-        data_id = collection.insert_one(data).inserted_id
-        print("Successfully persisted data at ID: ", data_id, log)
-    except Exception as e:
-        print("Failed to persist data: ", e)
-
-
-def log_error(filename, error_message, index):
-    with open("logs/error.txt", "a") as error_log:
-        error_log.write(f"Error in file {filename} - {index}: {error_message}\n")
-
-
-def log_success(filename, index):
-    with open("logs/success.txt", "a") as error_log:
-        error_log.write(f"Successfully inserted file {filename} to mongodb: {index}\n")
-
-
-def load_json_to_mongodb():
+def load_json_to_db():
     # Iterate over all JSON files in the specified directory
     files = os.listdir(JSON_DIRECTORY)
     total = len(files)
@@ -110,5 +91,24 @@ def extract_repo_parts(url):
     return user_repo, repo_name
 
 
+def persist_data_to_db(data, log):
+    # collection = db[collection_name]
+    try:
+        data_id = collection.insert_one(data).inserted_id
+        print("Successfully persisted data at ID: ", data_id, log)
+    except Exception as e:
+        print("Failed to persist data: ", e)
+
+
+def log_error(filename, error_message, index):
+    with open("logs/error.txt", "a") as error_log:
+        error_log.write(f"Error in file {filename} - {index}: {error_message}\n")
+
+
+def log_success(filename, index):
+    with open("logs/success.txt", "a") as error_log:
+        error_log.write(f"Successfully inserted file {filename} to mongodb: {index}\n")
+
+
 if __name__ == "__main__":
-    load_json_to_mongodb()
+    load_json_to_db()

@@ -4,8 +4,8 @@ from data_collection.pull_requests_extraction import *
 
 
 def run_scripts():
-    retrieve_java_projects()
-    retrieve_java_project_details()
+    retrieve_projects()
+    retrieve_projects_details()
     get_performance_issues()
     get_performance_pull_requests()
     get_performance_pull_request_commits()

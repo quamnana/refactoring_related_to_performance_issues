@@ -1,4 +1,6 @@
-# To get the project refactorings, we used the RefactoringMiner CLI, because we wanted to get all commits from a project which includes refactorings or not and the Java API doesnt do that. The Java API only returns the commits with refactorings which wont be enough for our analysis.
+# To get the project refactorings, we used the RefactoringMiner CLI, because we wanted to get all commits history from a project which includes refactorings or not and the Java API doesnt do that.
+# The Java API only returns the commits with refactorings which wont be enough for our analysis.
+# We store each project's commits history as json which is later extracted into the database.
 
 import subprocess
 from db_helpers import (
@@ -8,13 +10,16 @@ from db_helpers import (
 )
 
 
-projects_collection_name = "projects"
+projects_collection_name = "all-projects"
+issues_collection_name = "performance-issues"
 
 
 def get_project_refactorings():
-    distinct_projects = get_distict_values(projects_collection_name, "full_name")
+    distinct_projects_in_performance_issues = get_distict_values(
+        issues_collection_name, "repo_fullname"
+    )
 
-    query = {"full_name": {"$in": distinct_projects}}
+    query = {"full_name": {"$in": distinct_projects_in_performance_issues}}
 
     projects = get_all_data_from_db(projects_collection_name, query)
     total_projects = count_data(projects_collection_name, query)

@@ -19,10 +19,9 @@ public class RefactoringExtraction {
     GitService gitService = new GitServiceImpl();
     GitHistoryRefactoringMiner miner = new GitHistoryRefactoringMinerImpl();
     DBHelpers db = new DBHelpers();
-    String issuesCollectionName = "performance-issues-20stars";
-    String projectsCollectionName = "projects";
-    String performanceRefCollectionName = "performance-refactorings-20stars";
-    String nonPerformanceRefCollectionName = "non-performance-refactorings";
+    String issuesCollectionName = "performance-issues";
+    String projectsCollectionName = "all-projects";
+    String performanceRefCollectionName = "all-performance-refactorings";
 
     public void getPerformanceRefactorings() {
         final String errorLogsFilePath = "./logs/perf/error.log";
@@ -32,9 +31,6 @@ public class RefactoringExtraction {
 
         for (Document issue : issues) {
             counter++;
-            if (counter < 101) {
-                continue;
-            }
             Integer prNumber = issue.getInteger("pr_number");
             System.out.println("========================= GETTING REFATORINGS ======================= (" + counter + "/"
                     + total + ")");
@@ -47,42 +43,6 @@ public class RefactoringExtraction {
         }
     }
 
-    // public void getNonPerformanceRefactorings() {
-    // final String errorLogsFilePath = "./logs/non-perf/error.log";
-    // int counter = 0;
-    // FindIterable<Document> projects =
-    // db.getAllDataFromDB(projectsCollectionName);
-    // long total = db.countData(projectsCollectionName);
-
-    // for (Document project : projects) {
-
-    // counter++;
-    // // if (counter < 128) {
-    // // continue;
-    // // }
-
-    // String projectName = project.getString("name");
-    // String projectFilePath = "./projects/" + projectName;
-    // String githubUrl = project.getString("html_url");
-    // String branch = (String) project.getString("default_branch");
-
-    // System.out
-    // .println("========================= GETTING REFATORINGS
-    // ====================== - " + projectName
-    // + " - (" + counter + "/"
-    // + total + ")");
-    // try {
-    // Repository repo = initializeRepo(projectFilePath, githubUrl);
-    // getAllRefactorings(repo, projectName, branch, errorLogsFilePath);
-    // } catch (Exception e) {
-    // // TODO: handle exception
-    // continue;
-    // }
-
-    // }
-
-    // }
-
     private void getRefactoringsByPullRequest(Document issue, String errorLogsFilePath) {
         final String repoName = issue.getString("repo_name");
         final String repoFullName = issue.getString("repo_fullname");
@@ -93,7 +53,7 @@ public class RefactoringExtraction {
         final int issueNumber = issue.getInteger("issue_number");
         final String issueTitle = issue.getString("issue_title");
 
-        final String[] commitWithError = { null }; // Using a final array to hold
+        final String[] commitWithError = { null }; 
         try {
             miner.detectAtPullRequest(repoUrl, prNumber, new RefactoringHandler() {
                 @Override
@@ -143,45 +103,6 @@ public class RefactoringExtraction {
         }
         return null;
     }
-
-    // private void getAllRefactorings(Repository repo, String projectName, String
-    // branch, String errorLogsFilePath) {
-    // // final List<Document> refactoringDocs = new ArrayList<>();
-    // final String project = projectName;
-    // final String[] commitWithError = { null }; // Using a final array to hold the
-    // commit ID
-    // try {
-    // miner.detectAll(repo, branch, new RefactoringHandler() {
-    // @Override
-    // public void handle(String commitId, List<Refactoring> refactorings) {
-    // System.out.println("Refactorings at " + commitId);
-    // commitWithError[0] = commitId; // Assign the current commit ID to the array
-
-    // for (Refactoring ref : refactorings) {
-    // try {
-    // Document data = Document.parse(ref.toJSON()).append("project",
-    // project).append("commitId",
-    // commitId);
-    // db.persistToDB(nonPerformanceRefCollectionName, data);
-    // } catch (Exception e) {
-    // // TODO: handle exception
-    // continue;
-    // }
-
-    // }
-
-    // }
-    // });
-    // } catch (Exception e) {
-    // // Log the commit ID causing the exception to a file
-    // logCommitErrorToFile(commitWithError[0], projectName, errorLogsFilePath);
-    // System.out.println(
-    // "An error occurred during the collection of refactorings for commit: " +
-    // commitWithError[0]);
-    // System.out.println("Error message: " + e.getMessage());
-    // e.printStackTrace(); // Print stack trace for debugging
-    // }
-    // }
 
     private void logCommitErrorToFile(String commitId, String projectName, String filePath) {
         try (FileWriter writer = new FileWriter(filePath, true)) {

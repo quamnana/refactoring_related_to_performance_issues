@@ -7,8 +7,8 @@ from db_helpers import (
 )
 from github_api_helpers import search_performance_issues, get_issue_timeline
 
-projects_collection_name = "java-projects-20stars"
-issues_collection_name = "performance-issues-20stars"
+projects_collection_name = "all-projects"
+issues_collection_name = "performance-issues"
 
 
 def get_performance_issues():
@@ -132,6 +132,3 @@ def verify_collected_issues():
         else:
             results["has_no_issues"] += 1
     print(results)
-
-
-get_performance_issues()
