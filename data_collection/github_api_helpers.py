@@ -1,7 +1,20 @@
 import requests
 import time
 
-GITHUB_ACCESS_TOKEN = "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"
+GITHUB_ACCESS_TOKEN = "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"
+
+
+def get_pr_commits(full_name, pr_number):
+    url = f"https://api.github.com/repos/{full_name}/pulls/{pr_number}/commits"
+    headers = {"Authorization": f"Bearer {GITHUB_ACCESS_TOKEN}"}
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()  # Raise an exception for 4XX and 5XX status codes
+        data = response.json()
+        return data
+    except requests.exceptions.RequestException as e:
+        print("Error:", e)
+        return None
 
 
 def search_java_projects(page, least_stars, most_stars):
@@ -17,27 +30,6 @@ def search_java_projects(page, least_stars, most_stars):
         "Authorization": f"token {GITHUB_ACCESS_TOKEN}",
         "Accept": "application/vnd.github.v3+json",
     }
-
-    try:
-        response = requests.get(url, params=params, headers=headers)
-        response.raise_for_status()  # Raise an exception for 4XX and 5XX status codes
-        data = response.json()
-        return data["items"]
-    except requests.exceptions.RequestException as e:
-        print("Error:", e)
-        return None
-
-
-def search_java_projects_with_jmh(page):
-    url = "https://api.github.com/search/code"
-    params = {
-        "q": "filename:pom.xml jmh-core in:file",
-        "sort": "stars",
-        "order": "desc",
-        "per_page": 100,
-        "page": page,
-    }
-    headers = {"Authorization": f"token {GITHUB_ACCESS_TOKEN}"}
 
     try:
         response = requests.get(url, params=params, headers=headers)
@@ -129,3 +121,24 @@ def get_issue_timeline(url):
     except requests.exceptions.RequestException as e:
         print("Error:", e)
         return None
+
+
+# def search_java_projects_with_jmh(page):
+#     url = "https://api.github.com/search/code"
+#     params = {
+#         "q": "filename:pom.xml jmh-core in:file",
+#         "sort": "stars",
+#         "order": "desc",
+#         "per_page": 100,
+#         "page": page,
+#     }
+#     headers = {"Authorization": f"token {GITHUB_ACCESS_TOKEN}"}
+
+#     try:
+#         response = requests.get(url, params=params, headers=headers)
+#         response.raise_for_status()  # Raise an exception for 4XX and 5XX status codes
+#         data = response.json()
+#         return data["items"]
+#     except requests.exceptions.RequestException as e:
+#         print("Error:", e)
+#         return None

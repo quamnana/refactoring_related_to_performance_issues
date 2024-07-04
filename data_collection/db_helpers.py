@@ -3,6 +3,7 @@ from pymongo import MongoClient
 
 # client = MongoClient("mongodb://host.docker.internal:27017/")
 client = MongoClient("mongodb://localhost:27017/")
+# client = MongoClient("mongodb+srv://troops:linu$008@cluster0.w4ycqka.mongodb.net/")
 db = client["first-research"]
 
 
@@ -15,10 +16,20 @@ def persist_data_to_db(collection_name, data):
         print("Failed to persist data: ", e)
 
 
-def get_all_data_from_db(collection_name):
+def get_all_data_from_db(collection_name, query={}):
     collection = db[collection_name]
     try:
-        data = collection.find()
+        data = collection.find(query)
+        print("Successfully fetched data")
+        return data
+    except:
+        print("Failed to fetch data")
+
+
+def get_single_data_from_db(collection_name, query={}):
+    collection = db[collection_name]
+    try:
+        data = collection.find_one(query)
         print("Successfully fetched data")
         return data
     except:
