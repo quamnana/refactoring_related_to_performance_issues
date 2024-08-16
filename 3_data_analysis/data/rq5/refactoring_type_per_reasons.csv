@@ -1,0 +1,11 @@
+type,CPU Usage Optimization,Caching Optimization,Concurrency and Parallelism Enhancement,Execution Time Improvement,I/O Optimization,Memory Optimization,Network Performance Optimization,Reliability and Stability Improvement,Scalability Improvement,Startup Time Reduction,Unrelated to Performance Improvement
+Add Method Annotation,0,2,0,2,0,0,0,7,1,1,17
+Add Parameter,0,0,0,3,0,0,1,12,1,0,13
+Change Attribute Type,0,1,2,1,1,7,1,7,2,0,8
+Change Parameter Type,0,0,0,3,1,1,0,14,2,0,9
+Change Return Type,0,1,0,5,0,3,0,10,0,0,11
+Change Variable Type,0,0,1,4,2,2,0,13,3,0,5
+Extract Method,0,0,0,3,0,1,0,15,0,0,11
+Move Class,0,0,1,0,0,0,1,3,0,0,25
+Rename Method,0,0,0,4,0,0,0,3,0,0,23
+Rename Variable,1,0,1,6,2,1,0,7,0,0,12

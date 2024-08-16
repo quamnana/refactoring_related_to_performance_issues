@@ -1,0 +1,3334 @@
+,repo_fullname,type,counts
+0,1c-syntax/bsl-language-server,Add Attribute Modifier,3
+1,1c-syntax/bsl-language-server,Add Class Annotation,4
+2,1c-syntax/bsl-language-server,Add Method Annotation,5
+3,1c-syntax/bsl-language-server,Add Method Modifier,27
+4,1c-syntax/bsl-language-server,Add Parameter,25
+5,1c-syntax/bsl-language-server,Add Parameter Annotation,1
+6,1c-syntax/bsl-language-server,Add Thrown Exception Type,1
+7,1c-syntax/bsl-language-server,Change Attribute Access Modifier,7
+8,1c-syntax/bsl-language-server,Change Attribute Type,30
+9,1c-syntax/bsl-language-server,Change Method Access Modifier,10
+10,1c-syntax/bsl-language-server,Change Parameter Type,38
+11,1c-syntax/bsl-language-server,Change Return Type,17
+12,1c-syntax/bsl-language-server,Change Variable Type,31
+13,1c-syntax/bsl-language-server,Extract And Move Method,1
+14,1c-syntax/bsl-language-server,Extract Attribute,5
+15,1c-syntax/bsl-language-server,Extract Class,2
+16,1c-syntax/bsl-language-server,Extract Method,29
+17,1c-syntax/bsl-language-server,Extract Superclass,1
+18,1c-syntax/bsl-language-server,Extract Variable,6
+19,1c-syntax/bsl-language-server,Inline Attribute,1
+20,1c-syntax/bsl-language-server,Inline Method,2
+21,1c-syntax/bsl-language-server,Inline Variable,7
+22,1c-syntax/bsl-language-server,Merge Conditional,1
+23,1c-syntax/bsl-language-server,Modify Attribute Annotation,3
+24,1c-syntax/bsl-language-server,Modify Class Annotation,34
+25,1c-syntax/bsl-language-server,Move And Inline Method,1
+26,1c-syntax/bsl-language-server,Move And Rename Method,1
+27,1c-syntax/bsl-language-server,Move Class,1
+28,1c-syntax/bsl-language-server,Move Method,6
+29,1c-syntax/bsl-language-server,Parameterize Attribute,8
+30,1c-syntax/bsl-language-server,Parameterize Variable,5
+31,1c-syntax/bsl-language-server,Pull Up Attribute,2
+32,1c-syntax/bsl-language-server,Pull Up Method,6
+33,1c-syntax/bsl-language-server,Remove Attribute Annotation,2
+34,1c-syntax/bsl-language-server,Remove Attribute Modifier,11
+35,1c-syntax/bsl-language-server,Remove Method Annotation,8
+36,1c-syntax/bsl-language-server,Remove Method Modifier,9
+37,1c-syntax/bsl-language-server,Remove Parameter,32
+38,1c-syntax/bsl-language-server,Remove Thrown Exception Type,1
+39,1c-syntax/bsl-language-server,Remove Variable Modifier,4
+40,1c-syntax/bsl-language-server,Rename Attribute,15
+41,1c-syntax/bsl-language-server,Rename Class,13
+42,1c-syntax/bsl-language-server,Rename Method,43
+43,1c-syntax/bsl-language-server,Rename Parameter,25
+44,1c-syntax/bsl-language-server,Rename Variable,39
+45,1c-syntax/bsl-language-server,Replace Attribute With Variable,1
+46,1c-syntax/bsl-language-server,Replace Loop With Pipeline,1
+47,1c-syntax/bsl-language-server,Replace Pipeline With Loop,3
+48,1c-syntax/bsl-language-server,Replace Variable With Attribute,1
+49,1c-syntax/bsl-language-server,Split Conditional,2
+50,Activiti/Activiti,Add Attribute Modifier,2
+51,Activiti/Activiti,Add Method Annotation,9
+52,Activiti/Activiti,Add Parameter,26
+53,Activiti/Activiti,Change Attribute Access Modifier,1
+54,Activiti/Activiti,Change Method Access Modifier,1
+55,Activiti/Activiti,Change Return Type,1
+56,Activiti/Activiti,Change Variable Type,8
+57,Activiti/Activiti,Extract Interface,2
+58,Activiti/Activiti,Move Code,1
+59,Activiti/Activiti,Pull Up Attribute,11
+60,Activiti/Activiti,Remove Method Modifier,1
+61,Activiti/Activiti,Remove Parameter,5
+62,Activiti/Activiti,Rename Attribute,8
+63,Activiti/Activiti,Rename Class,1
+64,Activiti/Activiti,Rename Method,7
+65,Activiti/Activiti,Rename Parameter,3
+66,Activiti/Activiti,Split Attribute,1
+67,Activiti/Activiti,Split Parameter,1
+68,AlexModGuy/Ice_and_Fire,Add Attribute Modifier,1
+69,AlexModGuy/Ice_and_Fire,Add Class Modifier,1
+70,AlexModGuy/Ice_and_Fire,Add Method Annotation,14
+71,AlexModGuy/Ice_and_Fire,Add Method Modifier,5
+72,AlexModGuy/Ice_and_Fire,Add Parameter,3
+73,AlexModGuy/Ice_and_Fire,Add Parameter Annotation,6
+74,AlexModGuy/Ice_and_Fire,Change Attribute Access Modifier,22
+75,AlexModGuy/Ice_and_Fire,Change Method Access Modifier,11
+76,AlexModGuy/Ice_and_Fire,Change Parameter Type,8
+77,AlexModGuy/Ice_and_Fire,Change Return Type,1
+78,AlexModGuy/Ice_and_Fire,Extract And Move Method,6
+79,AlexModGuy/Ice_and_Fire,Extract Class,3
+80,AlexModGuy/Ice_and_Fire,Extract Method,4
+81,AlexModGuy/Ice_and_Fire,Extract Superclass,1
+82,AlexModGuy/Ice_and_Fire,Extract Variable,6
+83,AlexModGuy/Ice_and_Fire,Inline Method,1
+84,AlexModGuy/Ice_and_Fire,Inline Variable,2
+85,AlexModGuy/Ice_and_Fire,Merge Conditional,1
+86,AlexModGuy/Ice_and_Fire,Move And Rename Method,3
+87,AlexModGuy/Ice_and_Fire,Move Attribute,8
+88,AlexModGuy/Ice_and_Fire,Move Code,2
+89,AlexModGuy/Ice_and_Fire,Move Method,8
+90,AlexModGuy/Ice_and_Fire,Pull Up Attribute,40
+91,AlexModGuy/Ice_and_Fire,Pull Up Method,13
+92,AlexModGuy/Ice_and_Fire,Remove Method Annotation,6
+93,AlexModGuy/Ice_and_Fire,Remove Method Modifier,2
+94,AlexModGuy/Ice_and_Fire,Remove Parameter,2
+95,AlexModGuy/Ice_and_Fire,Rename Class,1
+96,AlexModGuy/Ice_and_Fire,Rename Method,6
+97,AlexModGuy/Ice_and_Fire,Rename Parameter,4
+98,AlexModGuy/Ice_and_Fire,Rename Variable,12
+99,AlexModGuy/Ice_and_Fire,Split Conditional,3
+100,AlfaazPlus/QuranApp,Add Parameter Annotation,1
+101,AlfaazPlus/QuranApp,Add Variable Modifier,1
+102,AlfaazPlus/QuranApp,Change Attribute Type,6
+103,AlfaazPlus/QuranApp,Change Method Access Modifier,4
+104,AlfaazPlus/QuranApp,Change Parameter Type,3
+105,AlfaazPlus/QuranApp,Change Return Type,3
+106,AlfaazPlus/QuranApp,Change Variable Type,5
+107,AlfaazPlus/QuranApp,Extract Method,2
+108,AlfaazPlus/QuranApp,Extract Variable,1
+109,AlfaazPlus/QuranApp,Inline Variable,4
+110,AlfaazPlus/QuranApp,Invert Condition,1
+111,AlfaazPlus/QuranApp,Parameterize Variable,2
+112,AlfaazPlus/QuranApp,Remove Attribute Modifier,1
+113,AlfaazPlus/QuranApp,Remove Parameter,1
+114,AlfaazPlus/QuranApp,Rename Attribute,1
+115,AlfaazPlus/QuranApp,Rename Method,2
+116,AlfaazPlus/QuranApp,Rename Parameter,1
+117,AlfaazPlus/QuranApp,Rename Variable,2
+118,AlfaazPlus/QuranApp,Split Parameter,1
+119,AntennaPod/AntennaPod,Add Method Annotation,2
+120,AntennaPod/AntennaPod,Add Method Modifier,2
+121,AntennaPod/AntennaPod,Add Parameter,9
+122,AntennaPod/AntennaPod,Add Parameter Annotation,1
+123,AntennaPod/AntennaPod,Change Attribute Access Modifier,1
+124,AntennaPod/AntennaPod,Change Attribute Type,8
+125,AntennaPod/AntennaPod,Change Method Access Modifier,2
+126,AntennaPod/AntennaPod,Change Parameter Type,2
+127,AntennaPod/AntennaPod,Change Return Type,2
+128,AntennaPod/AntennaPod,Change Variable Type,7
+129,AntennaPod/AntennaPod,Encapsulate Attribute,1
+130,AntennaPod/AntennaPod,Extract And Move Method,2
+131,AntennaPod/AntennaPod,Extract Attribute,1
+132,AntennaPod/AntennaPod,Extract Method,3
+133,AntennaPod/AntennaPod,Extract Variable,7
+134,AntennaPod/AntennaPod,Inline Method,2
+135,AntennaPod/AntennaPod,Inline Variable,1
+136,AntennaPod/AntennaPod,Localize Parameter,1
+137,AntennaPod/AntennaPod,Merge Conditional,3
+138,AntennaPod/AntennaPod,Modify Method Annotation,1
+139,AntennaPod/AntennaPod,Move And Rename Class,1
+140,AntennaPod/AntennaPod,Move Method,1
+141,AntennaPod/AntennaPod,Move Source Folder,2
+142,AntennaPod/AntennaPod,Remove Attribute Modifier,2
+143,AntennaPod/AntennaPod,Remove Method Annotation,1
+144,AntennaPod/AntennaPod,Remove Method Modifier,1
+145,AntennaPod/AntennaPod,Remove Parameter,7
+146,AntennaPod/AntennaPod,Remove Thrown Exception Type,2
+147,AntennaPod/AntennaPod,Remove Variable Modifier,1
+148,AntennaPod/AntennaPod,Rename Attribute,6
+149,AntennaPod/AntennaPod,Rename Method,11
+150,AntennaPod/AntennaPod,Rename Parameter,3
+151,AntennaPod/AntennaPod,Rename Variable,9
+152,AntennaPod/AntennaPod,Replace Variable With Attribute,1
+153,AntennaPod/AntennaPod,Split Conditional,2
+154,Aspsine/MultiThreadDownload,Add Attribute Modifier,3
+155,Aspsine/MultiThreadDownload,Add Method Annotation,4
+156,Aspsine/MultiThreadDownload,Add Method Modifier,1
+157,Aspsine/MultiThreadDownload,Add Parameter,15
+158,Aspsine/MultiThreadDownload,Add Parameter Annotation,1
+159,Aspsine/MultiThreadDownload,Add Variable Modifier,11
+160,Aspsine/MultiThreadDownload,Change Attribute Access Modifier,1
+161,Aspsine/MultiThreadDownload,Change Attribute Type,11
+162,Aspsine/MultiThreadDownload,Change Class Access Modifier,2
+163,Aspsine/MultiThreadDownload,Change Method Access Modifier,7
+164,Aspsine/MultiThreadDownload,Change Parameter Type,14
+165,Aspsine/MultiThreadDownload,Change Return Type,5
+166,Aspsine/MultiThreadDownload,Change Variable Type,7
+167,Aspsine/MultiThreadDownload,Encapsulate Attribute,1
+168,Aspsine/MultiThreadDownload,Extract And Move Method,1
+169,Aspsine/MultiThreadDownload,Extract Interface,1
+170,Aspsine/MultiThreadDownload,Extract Method,28
+171,Aspsine/MultiThreadDownload,Extract Variable,3
+172,Aspsine/MultiThreadDownload,Inline Variable,2
+173,Aspsine/MultiThreadDownload,Move And Inline Method,2
+174,Aspsine/MultiThreadDownload,Move And Rename Method,2
+175,Aspsine/MultiThreadDownload,Move Attribute,2
+176,Aspsine/MultiThreadDownload,Move Class,7
+177,Aspsine/MultiThreadDownload,Move Method,1
+178,Aspsine/MultiThreadDownload,Parameterize Attribute,1
+179,Aspsine/MultiThreadDownload,Parameterize Variable,4
+180,Aspsine/MultiThreadDownload,Remove Method Modifier,2
+181,Aspsine/MultiThreadDownload,Remove Parameter,11
+182,Aspsine/MultiThreadDownload,Remove Parameter Modifier,2
+183,Aspsine/MultiThreadDownload,Remove Variable Modifier,3
+184,Aspsine/MultiThreadDownload,Rename Attribute,19
+185,Aspsine/MultiThreadDownload,Rename Class,2
+186,Aspsine/MultiThreadDownload,Rename Method,26
+187,Aspsine/MultiThreadDownload,Rename Parameter,29
+188,Aspsine/MultiThreadDownload,Rename Variable,6
+189,Aspsine/MultiThreadDownload,Replace Anonymous With Class,1
+190,Aspsine/MultiThreadDownload,Replace Attribute With Variable,2
+191,Aspsine/MultiThreadDownload,Replace Variable With Attribute,1
+192,Aspsine/MultiThreadDownload,Split Parameter,2
+193,AxonFramework/extension-springcloud,Add Attribute Annotation,2
+194,AxonFramework/extension-springcloud,Add Attribute Modifier,12
+195,AxonFramework/extension-springcloud,Add Class Annotation,3
+196,AxonFramework/extension-springcloud,Add Method Annotation,11
+197,AxonFramework/extension-springcloud,Add Parameter,2
+198,AxonFramework/extension-springcloud,Add Thrown Exception Type,1
+199,AxonFramework/extension-springcloud,Change Attribute Access Modifier,1
+200,AxonFramework/extension-springcloud,Change Attribute Type,3
+201,AxonFramework/extension-springcloud,Change Class Access Modifier,1
+202,AxonFramework/extension-springcloud,Change Method Access Modifier,14
+203,AxonFramework/extension-springcloud,Change Return Type,3
+204,AxonFramework/extension-springcloud,Change Variable Type,2
+205,AxonFramework/extension-springcloud,Encapsulate Attribute,2
+206,AxonFramework/extension-springcloud,Extract Method,2
+207,AxonFramework/extension-springcloud,Extract Variable,5
+208,AxonFramework/extension-springcloud,Inline Method,1
+209,AxonFramework/extension-springcloud,Modify Class Annotation,3
+210,AxonFramework/extension-springcloud,Modify Method Annotation,2
+211,AxonFramework/extension-springcloud,Move And Rename Class,1
+212,AxonFramework/extension-springcloud,Move And Rename Method,1
+213,AxonFramework/extension-springcloud,Move Attribute,1
+214,AxonFramework/extension-springcloud,Move Class,9
+215,AxonFramework/extension-springcloud,Remove Attribute Annotation,8
+216,AxonFramework/extension-springcloud,Remove Attribute Modifier,5
+217,AxonFramework/extension-springcloud,Remove Class Annotation,5
+218,AxonFramework/extension-springcloud,Remove Method Annotation,6
+219,AxonFramework/extension-springcloud,Remove Parameter,2
+220,AxonFramework/extension-springcloud,Remove Thrown Exception Type,1
+221,AxonFramework/extension-springcloud,Rename Attribute,5
+222,AxonFramework/extension-springcloud,Rename Method,9
+223,AxonFramework/extension-springcloud,Rename Parameter,3
+224,AxonFramework/extension-springcloud,Rename Variable,5
+225,AxonFramework/extension-springcloud,Replace Attribute With Variable,6
+226,AxonFramework/extension-springcloud,Replace Variable With Attribute,1
+227,Axway-API-Management-Plus/apim-cli,Extract Variable,1
+228,BetonQuest/BetonQuest,Add Attribute Annotation,12
+229,BetonQuest/BetonQuest,Add Class Annotation,4
+230,BetonQuest/BetonQuest,Add Method Annotation,17
+231,BetonQuest/BetonQuest,Add Parameter,1
+232,BetonQuest/BetonQuest,Add Parameter Modifier,4
+233,BetonQuest/BetonQuest,Add Thrown Exception Type,7
+234,BetonQuest/BetonQuest,Add Variable Modifier,11
+235,BetonQuest/BetonQuest,Change Attribute Access Modifier,4
+236,BetonQuest/BetonQuest,Change Attribute Type,2
+237,BetonQuest/BetonQuest,Change Class Access Modifier,2
+238,BetonQuest/BetonQuest,Change Method Access Modifier,6
+239,BetonQuest/BetonQuest,Change Parameter Type,7
+240,BetonQuest/BetonQuest,Change Return Type,5
+241,BetonQuest/BetonQuest,Change Variable Type,16
+242,BetonQuest/BetonQuest,Encapsulate Attribute,5
+243,BetonQuest/BetonQuest,Extract And Move Method,16
+244,BetonQuest/BetonQuest,Extract Class,2
+245,BetonQuest/BetonQuest,Extract Method,21
+246,BetonQuest/BetonQuest,Extract Superclass,1
+247,BetonQuest/BetonQuest,Extract Variable,3
+248,BetonQuest/BetonQuest,Invert Condition,1
+249,BetonQuest/BetonQuest,Modify Class Annotation,19
+250,BetonQuest/BetonQuest,Move And Rename Class,6
+251,BetonQuest/BetonQuest,Move And Rename Method,1
+252,BetonQuest/BetonQuest,Move Attribute,6
+253,BetonQuest/BetonQuest,Move Class,2
+254,BetonQuest/BetonQuest,Pull Up Attribute,3
+255,BetonQuest/BetonQuest,Remove Attribute Modifier,1
+256,BetonQuest/BetonQuest,Remove Class Annotation,8
+257,BetonQuest/BetonQuest,Remove Method Annotation,5
+258,BetonQuest/BetonQuest,Remove Method Modifier,1
+259,BetonQuest/BetonQuest,Remove Parameter Modifier,1
+260,BetonQuest/BetonQuest,Rename Attribute,2
+261,BetonQuest/BetonQuest,Rename Class,3
+262,BetonQuest/BetonQuest,Rename Method,3
+263,BetonQuest/BetonQuest,Rename Parameter,5
+264,BetonQuest/BetonQuest,Rename Variable,1
+265,BetonQuest/BetonQuest,Replace Loop With Pipeline,1
+266,BetonQuest/BetonQuest,Replace Variable With Attribute,5
+267,Bram-Hub/LEGUP,Change Method Access Modifier,1
+268,Bram-Hub/LEGUP,Extract Method,1
+269,Bram-Hub/LEGUP,Extract Variable,1
+270,Bram-Hub/LEGUP,Inline Variable,1
+271,Bram-Hub/LEGUP,Parameterize Variable,1
+272,Bram-Hub/LEGUP,Remove Thrown Exception Type,1
+273,Bram-Hub/LEGUP,Remove Variable Modifier,1
+274,Bram-Hub/LEGUP,Rename Method,1
+275,Bram-Hub/LEGUP,Rename Variable,1
+276,CellularPrivacy/Android-IMSI-Catcher-Detector,Move Method,1
+277,ClickHouse/clickhouse-java,Add Attribute Annotation,1
+278,ClickHouse/clickhouse-java,Add Attribute Modifier,2
+279,ClickHouse/clickhouse-java,Add Class Annotation,1
+280,ClickHouse/clickhouse-java,Add Class Modifier,1
+281,ClickHouse/clickhouse-java,Add Method Annotation,17
+282,ClickHouse/clickhouse-java,Add Method Modifier,1
+283,ClickHouse/clickhouse-java,Add Parameter,20
+284,ClickHouse/clickhouse-java,Add Thrown Exception Type,4
+285,ClickHouse/clickhouse-java,Add Variable Modifier,7
+286,ClickHouse/clickhouse-java,Change Attribute Access Modifier,3
+287,ClickHouse/clickhouse-java,Change Attribute Type,5
+288,ClickHouse/clickhouse-java,Change Class Access Modifier,1
+289,ClickHouse/clickhouse-java,Change Method Access Modifier,3
+290,ClickHouse/clickhouse-java,Change Parameter Type,1
+291,ClickHouse/clickhouse-java,Change Thrown Exception Type,5
+292,ClickHouse/clickhouse-java,Change Variable Type,12
+293,ClickHouse/clickhouse-java,Extract And Move Method,9
+294,ClickHouse/clickhouse-java,Extract Method,8
+295,ClickHouse/clickhouse-java,Extract Superclass,1
+296,ClickHouse/clickhouse-java,Extract Variable,30
+297,ClickHouse/clickhouse-java,Inline Variable,10
+298,ClickHouse/clickhouse-java,Move Attribute,3
+299,ClickHouse/clickhouse-java,Move Class,1
+300,ClickHouse/clickhouse-java,Parameterize Variable,1
+301,ClickHouse/clickhouse-java,Pull Up Attribute,36
+302,ClickHouse/clickhouse-java,Push Down Method,2
+303,ClickHouse/clickhouse-java,Remove Class Modifier,1
+304,ClickHouse/clickhouse-java,Remove Method Annotation,1
+305,ClickHouse/clickhouse-java,Remove Method Modifier,1
+306,ClickHouse/clickhouse-java,Remove Parameter,4
+307,ClickHouse/clickhouse-java,Remove Thrown Exception Type,2
+308,ClickHouse/clickhouse-java,Rename Attribute,3
+309,ClickHouse/clickhouse-java,Rename Method,4
+310,ClickHouse/clickhouse-java,Rename Parameter,2
+311,ClickHouse/clickhouse-java,Rename Variable,6
+312,ClickHouse/clickhouse-java,Split Attribute,1
+313,ClickHouse/clickhouse-java,Split Conditional,2
+314,Col-E/Recaf,Change Return Type,2
+315,Col-E/Recaf,Change Variable Type,2
+316,Col-E/Recaf,Extract Variable,2
+317,Col-E/Recaf,Rename Variable,1
+318,Col-E/Recaf,Split Conditional,1
+319,ConnectedPlacesCatapult/TomboloDigitalConnector,Change Variable Type,1
+320,ConnectedPlacesCatapult/TomboloDigitalConnector,Extract And Move Method,1
+321,ConnectedPlacesCatapult/TomboloDigitalConnector,Extract Variable,2
+322,ConnectedPlacesCatapult/TomboloDigitalConnector,Inline Method,2
+323,ConnectedPlacesCatapult/TomboloDigitalConnector,Remove Parameter,3
+324,ConnectedPlacesCatapult/TomboloDigitalConnector,Rename Variable,1
+325,ConnectedPlacesCatapult/TomboloDigitalConnector,Replace Loop With Pipeline,1
+326,CycloneDX/cyclonedx-maven-plugin,Add Class Annotation,3
+327,CycloneDX/cyclonedx-maven-plugin,Add Method Annotation,4
+328,CycloneDX/cyclonedx-maven-plugin,Extract Variable,1
+329,CycloneDX/cyclonedx-maven-plugin,Modify Class Annotation,3
+330,CycloneDX/cyclonedx-maven-plugin,Rename Parameter,1
+331,DSheirer/sdrtrunk,Add Attribute Modifier,1
+332,DSheirer/sdrtrunk,Add Class Annotation,2
+333,DSheirer/sdrtrunk,Add Class Modifier,2
+334,DSheirer/sdrtrunk,Add Method Annotation,6
+335,DSheirer/sdrtrunk,Add Parameter,9
+336,DSheirer/sdrtrunk,Add Thrown Exception Type,3
+337,DSheirer/sdrtrunk,Change Attribute Access Modifier,1
+338,DSheirer/sdrtrunk,Change Attribute Type,22
+339,DSheirer/sdrtrunk,Change Method Access Modifier,13
+340,DSheirer/sdrtrunk,Change Parameter Type,14
+341,DSheirer/sdrtrunk,Change Return Type,8
+342,DSheirer/sdrtrunk,Change Variable Type,24
+343,DSheirer/sdrtrunk,Extract Subclass,1
+344,DSheirer/sdrtrunk,Extract Variable,1
+345,DSheirer/sdrtrunk,Inline Variable,3
+346,DSheirer/sdrtrunk,Modify Class Annotation,2
+347,DSheirer/sdrtrunk,Move And Rename Attribute,1
+348,DSheirer/sdrtrunk,Move And Rename Class,4
+349,DSheirer/sdrtrunk,Move And Rename Method,1
+350,DSheirer/sdrtrunk,Move Attribute,24
+351,DSheirer/sdrtrunk,Move Method,6
+352,DSheirer/sdrtrunk,Push Down Attribute,1
+353,DSheirer/sdrtrunk,Push Down Method,2
+354,DSheirer/sdrtrunk,Remove Parameter,4
+355,DSheirer/sdrtrunk,Rename Attribute,2
+356,DSheirer/sdrtrunk,Rename Class,4
+357,DSheirer/sdrtrunk,Rename Method,1
+358,DSheirer/sdrtrunk,Rename Parameter,7
+359,DSheirer/sdrtrunk,Rename Variable,4
+360,DSheirer/sdrtrunk,Split Conditional,1
+361,DSpace/DSpace,Add Attribute Annotation,2
+362,DSpace/DSpace,Add Class Annotation,2
+363,DSpace/DSpace,Add Method Annotation,4
+364,DSpace/DSpace,Add Method Modifier,1
+365,DSpace/DSpace,Add Parameter,15
+366,DSpace/DSpace,Add Variable Modifier,1
+367,DSpace/DSpace,Change Attribute Access Modifier,5
+368,DSpace/DSpace,Change Attribute Type,9
+369,DSpace/DSpace,Change Class Access Modifier,1
+370,DSpace/DSpace,Change Method Access Modifier,6
+371,DSpace/DSpace,Change Parameter Type,5
+372,DSpace/DSpace,Change Return Type,10
+373,DSpace/DSpace,Change Thrown Exception Type,2
+374,DSpace/DSpace,Change Variable Type,17
+375,DSpace/DSpace,Encapsulate Attribute,2
+376,DSpace/DSpace,Extract Method,10
+377,DSpace/DSpace,Extract Variable,7
+378,DSpace/DSpace,Inline Method,1
+379,DSpace/DSpace,Invert Condition,2
+380,DSpace/DSpace,Merge Conditional,1
+381,DSpace/DSpace,Modify Method Annotation,3
+382,DSpace/DSpace,Move And Rename Class,3
+383,DSpace/DSpace,Move Attribute,1
+384,DSpace/DSpace,Move Class,2
+385,DSpace/DSpace,Move Method,1
+386,DSpace/DSpace,Pull Up Attribute,1
+387,DSpace/DSpace,Pull Up Method,1
+388,DSpace/DSpace,Remove Attribute Annotation,2
+389,DSpace/DSpace,Remove Attribute Modifier,1
+390,DSpace/DSpace,Remove Class Annotation,1
+391,DSpace/DSpace,Remove Method Annotation,2
+392,DSpace/DSpace,Remove Parameter,6
+393,DSpace/DSpace,Rename Attribute,1
+394,DSpace/DSpace,Rename Class,3
+395,DSpace/DSpace,Rename Method,12
+396,DSpace/DSpace,Rename Parameter,2
+397,DSpace/DSpace,Rename Variable,14
+398,DSpace/DSpace,Replace Anonymous With Lambda,1
+399,DSpace/DSpace,Replace Attribute With Variable,3
+400,DSpace/DSpace,Split Attribute,1
+401,DSpace/DSpace,Split Conditional,1
+402,DSpace/DSpace,Split Parameter,1
+403,DSpace/DSpace,Split Variable,2
+404,Dynious/RefinedRelocation,Add Attribute Modifier,3
+405,Dynious/RefinedRelocation,Change Attribute Access Modifier,1
+406,Dynious/RefinedRelocation,Change Attribute Type,1
+407,Dynious/RefinedRelocation,Merge Conditional,1
+408,ELTE-Soft/txtUML,Add Attribute Modifier,4
+409,ELTE-Soft/txtUML,Add Class Modifier,25
+410,ELTE-Soft/txtUML,Add Method Modifier,12
+411,ELTE-Soft/txtUML,Add Parameter,6
+412,ELTE-Soft/txtUML,Add Thrown Exception Type,6
+413,ELTE-Soft/txtUML,Change Attribute Access Modifier,1
+414,ELTE-Soft/txtUML,Change Attribute Type,4
+415,ELTE-Soft/txtUML,Change Class Access Modifier,1
+416,ELTE-Soft/txtUML,Change Method Access Modifier,12
+417,ELTE-Soft/txtUML,Change Parameter Type,24
+418,ELTE-Soft/txtUML,Change Return Type,2
+419,ELTE-Soft/txtUML,Change Variable Type,5
+420,ELTE-Soft/txtUML,Collapse Hierarchy,3
+421,ELTE-Soft/txtUML,Encapsulate Attribute,1
+422,ELTE-Soft/txtUML,Extract And Move Method,1
+423,ELTE-Soft/txtUML,Extract Interface,1
+424,ELTE-Soft/txtUML,Extract Method,4
+425,ELTE-Soft/txtUML,Extract Superclass,4
+426,ELTE-Soft/txtUML,Extract Variable,3
+427,ELTE-Soft/txtUML,Merge Class,1
+428,ELTE-Soft/txtUML,Merge Conditional,2
+429,ELTE-Soft/txtUML,Modify Class Annotation,29
+430,ELTE-Soft/txtUML,Move And Rename Class,21
+431,ELTE-Soft/txtUML,Move And Rename Method,1
+432,ELTE-Soft/txtUML,Move Attribute,3
+433,ELTE-Soft/txtUML,Move Class,99
+434,ELTE-Soft/txtUML,Move Method,22
+435,ELTE-Soft/txtUML,Move Source Folder,1
+436,ELTE-Soft/txtUML,Pull Up Method,2
+437,ELTE-Soft/txtUML,Remove Attribute Modifier,2
+438,ELTE-Soft/txtUML,Remove Class Annotation,23
+439,ELTE-Soft/txtUML,Remove Class Modifier,1
+440,ELTE-Soft/txtUML,Remove Method Annotation,4
+441,ELTE-Soft/txtUML,Remove Method Modifier,1
+442,ELTE-Soft/txtUML,Remove Parameter,1
+443,ELTE-Soft/txtUML,Remove Parameter Modifier,2
+444,ELTE-Soft/txtUML,Remove Thrown Exception Type,2
+445,ELTE-Soft/txtUML,Rename Attribute,1
+446,ELTE-Soft/txtUML,Rename Class,1
+447,ELTE-Soft/txtUML,Rename Method,23
+448,ELTE-Soft/txtUML,Rename Parameter,19
+449,ELTE-Soft/txtUML,Reorder Parameter,1
+450,ELTE-Soft/txtUML,Split Class,1
+451,Elenterius/Biomancy,Add Attribute Modifier,1
+452,Elenterius/Biomancy,Add Class Modifier,1
+453,Elenterius/Biomancy,Add Method Annotation,4
+454,Elenterius/Biomancy,Add Parameter,12
+455,Elenterius/Biomancy,Add Parameter Annotation,1
+456,Elenterius/Biomancy,Change Attribute Access Modifier,1
+457,Elenterius/Biomancy,Change Attribute Type,58
+458,Elenterius/Biomancy,Change Parameter Type,45
+459,Elenterius/Biomancy,Change Return Type,19
+460,Elenterius/Biomancy,Change Variable Type,24
+461,Elenterius/Biomancy,Encapsulate Attribute,1
+462,Elenterius/Biomancy,Extract And Move Method,2
+463,Elenterius/Biomancy,Extract Method,3
+464,Elenterius/Biomancy,Extract Subclass,1
+465,Elenterius/Biomancy,Extract Superclass,1
+466,Elenterius/Biomancy,Extract Variable,1
+467,Elenterius/Biomancy,Inline Variable,1
+468,Elenterius/Biomancy,Move And Rename Attribute,1
+469,Elenterius/Biomancy,Move And Rename Class,1
+470,Elenterius/Biomancy,Move Attribute,1
+471,Elenterius/Biomancy,Move Class,18
+472,Elenterius/Biomancy,Push Down Method,6
+473,Elenterius/Biomancy,Remove Parameter,7
+474,Elenterius/Biomancy,Rename Attribute,58
+475,Elenterius/Biomancy,Rename Class,6
+476,Elenterius/Biomancy,Rename Method,17
+477,Elenterius/Biomancy,Rename Parameter,26
+478,Elenterius/Biomancy,Rename Variable,16
+479,Elenterius/Biomancy,Replace Attribute With Variable,3
+480,Elenterius/Biomancy,Replace Variable With Attribute,1
+481,Elenterius/Biomancy,Split Attribute,2
+482,Elenterius/Biomancy,Split Conditional,3
+483,Elenterius/Biomancy,Split Parameter,1
+484,Elenterius/Biomancy,Split Variable,2
+485,EnterpriseQualityCoding/FizzBuzzEnterpriseEdition,Change Variable Type,1
+486,EnterpriseQualityCoding/FizzBuzzEnterpriseEdition,Rename Variable,1
+487,ErdbeerbaerLP/DiscordIntegration-Forge,Add Method Annotation,1
+488,ErdbeerbaerLP/DiscordIntegration-Forge,Change Parameter Type,1
+489,ErdbeerbaerLP/DiscordIntegration-Forge,Extract Variable,2
+490,Farama-Foundation/MicroRTS,Add Parameter,8
+491,Farama-Foundation/MicroRTS,Change Method Access Modifier,1
+492,Farama-Foundation/MicroRTS,Change Parameter Type,2
+493,Farama-Foundation/MicroRTS,Extract Method,6
+494,Farama-Foundation/MicroRTS,Inline Variable,1
+495,Farama-Foundation/MicroRTS,Parameterize Variable,1
+496,Farama-Foundation/MicroRTS,Remove Parameter,2
+497,FreeAndFair/ColoradoRLA,Add Parameter,1
+498,FreeAndFair/ColoradoRLA,Change Variable Type,1
+499,FreeAndFair/ColoradoRLA,Extract Method,1
+500,FreeAndFair/ColoradoRLA,Extract Variable,1
+501,FreeAndFair/ColoradoRLA,Remove Variable Modifier,1
+502,FreeAndFair/ColoradoRLA,Rename Variable,2
+503,GoogleCloudPlatform/fda-mystudies,Change Return Type,1
+504,Gridstone/RxStore,Add Method Annotation,41
+505,Gridstone/RxStore,Add Parameter Annotation,20
+506,Gridstone/RxStore,Add Thrown Exception Type,2
+507,Gridstone/RxStore,Change Attribute Type,2
+508,Gridstone/RxStore,Change Class Access Modifier,2
+509,Gridstone/RxStore,Change Method Access Modifier,5
+510,Gridstone/RxStore,Change Parameter Type,11
+511,Gridstone/RxStore,Change Return Type,8
+512,Gridstone/RxStore,Change Type Declaration Kind,2
+513,Gridstone/RxStore,Extract Class,1
+514,Gridstone/RxStore,Extract Subclass,2
+515,Gridstone/RxStore,Move And Rename Class,1
+516,Gridstone/RxStore,Move And Rename Method,1
+517,Gridstone/RxStore,Move Attribute,5
+518,Gridstone/RxStore,Move Class,4
+519,Gridstone/RxStore,Move Method,8
+520,Gridstone/RxStore,Push Down Attribute,5
+521,Gridstone/RxStore,Push Down Method,31
+522,Gridstone/RxStore,Remove Class Modifier,4
+523,Gridstone/RxStore,Remove Method Annotation,13
+524,Gridstone/RxStore,Remove Parameter Annotation,17
+525,Gridstone/RxStore,Rename Method,7
+526,Gridstone/RxStore,Rename Parameter,5
+527,HarryDulaney/intro-to-java-programming,Rename Variable,1
+528,HubTurbo/HubTurbo,Add Attribute Modifier,7
+529,HubTurbo/HubTurbo,Add Method Annotation,5
+530,HubTurbo/HubTurbo,Add Method Modifier,1
+531,HubTurbo/HubTurbo,Add Parameter,2
+532,HubTurbo/HubTurbo,Change Attribute Access Modifier,8
+533,HubTurbo/HubTurbo,Change Attribute Type,4
+534,HubTurbo/HubTurbo,Change Method Access Modifier,1
+535,HubTurbo/HubTurbo,Change Parameter Type,4
+536,HubTurbo/HubTurbo,Change Return Type,7
+537,HubTurbo/HubTurbo,Encapsulate Attribute,1
+538,HubTurbo/HubTurbo,Extract And Move Method,1
+539,HubTurbo/HubTurbo,Extract Class,1
+540,HubTurbo/HubTurbo,Inline Attribute,2
+541,HubTurbo/HubTurbo,Inline Method,1
+542,HubTurbo/HubTurbo,Inline Variable,6
+543,HubTurbo/HubTurbo,Merge Attribute,1
+544,HubTurbo/HubTurbo,Merge Parameter,2
+545,HubTurbo/HubTurbo,Move And Rename Method,1
+546,HubTurbo/HubTurbo,Move Attribute,4
+547,HubTurbo/HubTurbo,Move Class,3
+548,HubTurbo/HubTurbo,Parameterize Variable,1
+549,HubTurbo/HubTurbo,Push Down Method,1
+550,HubTurbo/HubTurbo,Remove Thrown Exception Type,1
+551,HubTurbo/HubTurbo,Rename Attribute,9
+552,HubTurbo/HubTurbo,Rename Method,2
+553,HubTurbo/HubTurbo,Reorder Parameter,3
+554,IBMStreams/streamsx.topology,Add Method Modifier,1
+555,IBMStreams/streamsx.topology,Change Class Access Modifier,1
+556,IBMStreams/streamsx.topology,Change Method Access Modifier,1
+557,IBMStreams/streamsx.topology,Change Parameter Type,1
+558,IBMStreams/streamsx.topology,Change Variable Type,1
+559,IBMStreams/streamsx.topology,Extract Method,2
+560,IBMStreams/streamsx.topology,Localize Parameter,2
+561,IBMStreams/streamsx.topology,Merge Parameter,1
+562,IQSS/dataverse,Add Attribute Annotation,4
+563,IQSS/dataverse,Add Attribute Modifier,5
+564,IQSS/dataverse,Add Class Annotation,4
+565,IQSS/dataverse,Add Method Annotation,83
+566,IQSS/dataverse,Add Method Modifier,2
+567,IQSS/dataverse,Add Parameter,106
+568,IQSS/dataverse,Add Parameter Annotation,1
+569,IQSS/dataverse,Change Attribute Access Modifier,6
+570,IQSS/dataverse,Change Attribute Type,6
+571,IQSS/dataverse,Change Method Access Modifier,12
+572,IQSS/dataverse,Change Parameter Type,10
+573,IQSS/dataverse,Change Return Type,12
+574,IQSS/dataverse,Change Thrown Exception Type,2
+575,IQSS/dataverse,Change Variable Type,15
+576,IQSS/dataverse,Extract And Move Method,1
+577,IQSS/dataverse,Extract Class,1
+578,IQSS/dataverse,Extract Method,19
+579,IQSS/dataverse,Extract Subclass,1
+580,IQSS/dataverse,Extract Superclass,1
+581,IQSS/dataverse,Extract Variable,17
+582,IQSS/dataverse,Inline Method,7
+583,IQSS/dataverse,Inline Variable,2
+584,IQSS/dataverse,Localize Parameter,1
+585,IQSS/dataverse,Modify Attribute Annotation,5
+586,IQSS/dataverse,Modify Class Annotation,5
+587,IQSS/dataverse,Move And Rename Method,1
+588,IQSS/dataverse,Move Attribute,4
+589,IQSS/dataverse,Move Class,8
+590,IQSS/dataverse,Move Code,1
+591,IQSS/dataverse,Move Method,4
+592,IQSS/dataverse,Parameterize Variable,3
+593,IQSS/dataverse,Pull Up Method,17
+594,IQSS/dataverse,Push Down Attribute,2
+595,IQSS/dataverse,Push Down Method,1
+596,IQSS/dataverse,Remove Attribute Annotation,1
+597,IQSS/dataverse,Remove Attribute Modifier,5
+598,IQSS/dataverse,Remove Class Annotation,4
+599,IQSS/dataverse,Remove Method Annotation,7
+600,IQSS/dataverse,Remove Method Modifier,1
+601,IQSS/dataverse,Remove Parameter,15
+602,IQSS/dataverse,Remove Thrown Exception Type,8
+603,IQSS/dataverse,Remove Variable Modifier,1
+604,IQSS/dataverse,Rename Attribute,13
+605,IQSS/dataverse,Rename Class,5
+606,IQSS/dataverse,Rename Method,23
+607,IQSS/dataverse,Rename Parameter,12
+608,IQSS/dataverse,Rename Variable,21
+609,IQSS/dataverse,Replace Attribute With Variable,5
+610,IQSS/dataverse,Replace Variable With Attribute,7
+611,Intel-bigdata/HiBench,Change Parameter Type,10
+612,Intel-bigdata/HiBench,Change Return Type,8
+613,Intel-bigdata/HiBench,Change Variable Type,16
+614,Iterable/iterable-android-sdk,Extract And Move Method,1
+615,Iterable/iterable-android-sdk,Parameterize Variable,1
+616,Iterable/iterable-android-sdk,Rename Variable,1
+617,JSQLParser/JSqlParser,Add Class Annotation,2
+618,JSQLParser/JSqlParser,Add Method Annotation,4
+619,JSQLParser/JSqlParser,Change Attribute Type,1
+620,JSQLParser/JSqlParser,Encapsulate Attribute,1
+621,JSQLParser/JSqlParser,Extract Method,1
+622,JSQLParser/JSqlParser,Remove Class Annotation,2
+623,JSQLParser/JSqlParser,Rename Attribute,1
+624,JSQLParser/JSqlParser,Rename Variable,1
+625,JakeWharton/butterknife,Add Parameter,1
+626,JakeWharton/butterknife,Extract Method,2
+627,JakeWharton/butterknife,Extract Variable,2
+628,JakeWharton/butterknife,Inline Method,1
+629,JetBrains/js-graphql-intellij-plugin,Remove Method Annotation,1
+630,MarcusWolschon/osmeditor4android,Add Method Annotation,10
+631,MarcusWolschon/osmeditor4android,Add Parameter,6
+632,MarcusWolschon/osmeditor4android,Add Parameter Annotation,29
+633,MarcusWolschon/osmeditor4android,Add Variable Modifier,1
+634,MarcusWolschon/osmeditor4android,Change Attribute Access Modifier,9
+635,MarcusWolschon/osmeditor4android,Change Attribute Type,5
+636,MarcusWolschon/osmeditor4android,Change Class Access Modifier,1
+637,MarcusWolschon/osmeditor4android,Change Method Access Modifier,3
+638,MarcusWolschon/osmeditor4android,Change Parameter Type,8
+639,MarcusWolschon/osmeditor4android,Change Return Type,4
+640,MarcusWolschon/osmeditor4android,Change Variable Type,9
+641,MarcusWolschon/osmeditor4android,Extract And Move Method,1
+642,MarcusWolschon/osmeditor4android,Extract Attribute,2
+643,MarcusWolschon/osmeditor4android,Extract Class,1
+644,MarcusWolschon/osmeditor4android,Extract Method,7
+645,MarcusWolschon/osmeditor4android,Extract Variable,9
+646,MarcusWolschon/osmeditor4android,Inline Variable,2
+647,MarcusWolschon/osmeditor4android,Move Method,5
+648,MarcusWolschon/osmeditor4android,Parameterize Attribute,1
+649,MarcusWolschon/osmeditor4android,Parameterize Variable,1
+650,MarcusWolschon/osmeditor4android,Remove Parameter,1
+651,MarcusWolschon/osmeditor4android,Remove Parameter Annotation,2
+652,MarcusWolschon/osmeditor4android,Remove Variable Modifier,1
+653,MarcusWolschon/osmeditor4android,Rename Attribute,3
+654,MarcusWolschon/osmeditor4android,Rename Class,3
+655,MarcusWolschon/osmeditor4android,Rename Parameter,2
+656,MarcusWolschon/osmeditor4android,Rename Variable,13
+657,MarcusWolschon/osmeditor4android,Split Conditional,1
+658,MegaMek/megamek,Add Attribute Modifier,6
+659,MegaMek/megamek,Add Method Annotation,3
+660,MegaMek/megamek,Add Method Modifier,2
+661,MegaMek/megamek,Add Parameter,26
+662,MegaMek/megamek,Add Parameter Modifier,3
+663,MegaMek/megamek,Add Variable Modifier,2
+664,MegaMek/megamek,Change Attribute Access Modifier,10
+665,MegaMek/megamek,Change Attribute Type,3
+666,MegaMek/megamek,Change Method Access Modifier,6
+667,MegaMek/megamek,Change Parameter Type,11
+668,MegaMek/megamek,Change Return Type,2
+669,MegaMek/megamek,Change Variable Type,8
+670,MegaMek/megamek,Encapsulate Attribute,5
+671,MegaMek/megamek,Extract And Move Method,11
+672,MegaMek/megamek,Extract Method,17
+673,MegaMek/megamek,Extract Superclass,1
+674,MegaMek/megamek,Extract Variable,24
+675,MegaMek/megamek,Inline Method,3
+676,MegaMek/megamek,Merge Conditional,1
+677,MegaMek/megamek,Merge Method,3
+678,MegaMek/megamek,Move Code,1
+679,MegaMek/megamek,Parameterize Attribute,1
+680,MegaMek/megamek,Parameterize Variable,5
+681,MegaMek/megamek,Pull Up Attribute,32
+682,MegaMek/megamek,Pull Up Method,19
+683,MegaMek/megamek,Remove Attribute Modifier,1
+684,MegaMek/megamek,Remove Method Annotation,3
+685,MegaMek/megamek,Remove Method Modifier,1
+686,MegaMek/megamek,Remove Parameter,4
+687,MegaMek/megamek,Remove Parameter Modifier,1
+688,MegaMek/megamek,Remove Variable Modifier,10
+689,MegaMek/megamek,Rename Attribute,9
+690,MegaMek/megamek,Rename Method,19
+691,MegaMek/megamek,Rename Parameter,7
+692,MegaMek/megamek,Rename Variable,16
+693,MegaMek/megamek,Replace Attribute With Variable,2
+694,MegaMek/megamek,Replace Variable With Attribute,2
+695,MegaMek/megamek,Split Conditional,1
+696,MegaMek/megamek,Split Method,3
+697,MobiVM/robovm,Change Parameter Type,1
+698,MobiVM/robovm,Change Return Type,1
+699,MobiVM/robovm,Change Variable Type,2
+700,MobiVM/robovm,Rename Method,1
+701,MobiVM/robovm,Rename Parameter,2
+702,ModelDriven/Alf-Reference-Implementation,Move Source Folder,1
+703,Multiverse/Multiverse-Core,Extract Method,2
+704,Multiverse/Multiverse-Core,Extract Variable,1
+705,Multiverse/Multiverse-Core,Rename Method,1
+706,Multiverse/Multiverse-Core,Rename Variable,1
+707,NationalSecurityAgency/ghidra,Add Attribute Modifier,1
+708,NationalSecurityAgency/ghidra,Add Method Annotation,1
+709,NationalSecurityAgency/ghidra,Add Method Modifier,3
+710,NationalSecurityAgency/ghidra,Add Parameter,2
+711,NationalSecurityAgency/ghidra,Add Thrown Exception Type,1
+712,NationalSecurityAgency/ghidra,Change Attribute Access Modifier,3
+713,NationalSecurityAgency/ghidra,Change Method Access Modifier,3
+714,NationalSecurityAgency/ghidra,Change Return Type,1
+715,NationalSecurityAgency/ghidra,Change Type Declaration Kind,1
+716,NationalSecurityAgency/ghidra,Change Variable Type,5
+717,NationalSecurityAgency/ghidra,Extract Method,2
+718,NationalSecurityAgency/ghidra,Extract Superclass,1
+719,NationalSecurityAgency/ghidra,Extract Variable,1
+720,NationalSecurityAgency/ghidra,Inline Variable,2
+721,NationalSecurityAgency/ghidra,Move And Rename Attribute,1
+722,NationalSecurityAgency/ghidra,Move Attribute,8
+723,NationalSecurityAgency/ghidra,Move Method,5
+724,NationalSecurityAgency/ghidra,Parameterize Variable,2
+725,NationalSecurityAgency/ghidra,Pull Up Attribute,3
+726,NationalSecurityAgency/ghidra,Pull Up Method,6
+727,NationalSecurityAgency/ghidra,Remove Method Annotation,2
+728,NationalSecurityAgency/ghidra,Remove Parameter,3
+729,NationalSecurityAgency/ghidra,Remove Thrown Exception Type,1
+730,NationalSecurityAgency/ghidra,Remove Variable Annotation,1
+731,NationalSecurityAgency/ghidra,Rename Attribute,1
+732,NationalSecurityAgency/ghidra,Rename Method,4
+733,NationalSecurityAgency/ghidra,Rename Parameter,2
+734,NationalSecurityAgency/ghidra,Rename Variable,6
+735,NationalSecurityAgency/ghidra,Replace Attribute With Variable,1
+736,Netflix/Hystrix,Extract Variable,3
+737,Netflix/Hystrix,Inline Attribute,1
+738,NightscoutFoundation/xDrip,Add Attribute Annotation,1
+739,NightscoutFoundation/xDrip,Add Parameter,4
+740,NightscoutFoundation/xDrip,Add Parameter Modifier,3
+741,NightscoutFoundation/xDrip,Add Variable Modifier,2
+742,NightscoutFoundation/xDrip,Change Attribute Type,7
+743,NightscoutFoundation/xDrip,Change Method Access Modifier,1
+744,NightscoutFoundation/xDrip,Change Parameter Type,4
+745,NightscoutFoundation/xDrip,Change Return Type,7
+746,NightscoutFoundation/xDrip,Change Variable Type,11
+747,NightscoutFoundation/xDrip,Extract Method,1
+748,NightscoutFoundation/xDrip,Extract Superclass,1
+749,NightscoutFoundation/xDrip,Extract Variable,2
+750,NightscoutFoundation/xDrip,Inline Variable,1
+751,NightscoutFoundation/xDrip,Merge Conditional,1
+752,NightscoutFoundation/xDrip,Remove Class Annotation,1
+753,NightscoutFoundation/xDrip,Remove Parameter,1
+754,NightscoutFoundation/xDrip,Rename Attribute,3
+755,NightscoutFoundation/xDrip,Rename Class,2
+756,NightscoutFoundation/xDrip,Rename Method,2
+757,NightscoutFoundation/xDrip,Rename Parameter,2
+758,NightscoutFoundation/xDrip,Rename Variable,2
+759,NightscoutFoundation/xDrip,Split Conditional,1
+760,NordicSemiconductor/Android-nRF-Mesh-Library,Add Attribute Annotation,17
+761,NordicSemiconductor/Android-nRF-Mesh-Library,Add Attribute Modifier,31
+762,NordicSemiconductor/Android-nRF-Mesh-Library,Add Class Modifier,1
+763,NordicSemiconductor/Android-nRF-Mesh-Library,Add Method Annotation,4
+764,NordicSemiconductor/Android-nRF-Mesh-Library,Add Method Modifier,1
+765,NordicSemiconductor/Android-nRF-Mesh-Library,Add Parameter Annotation,4
+766,NordicSemiconductor/Android-nRF-Mesh-Library,Add Variable Modifier,3
+767,NordicSemiconductor/Android-nRF-Mesh-Library,Change Attribute Access Modifier,2
+768,NordicSemiconductor/Android-nRF-Mesh-Library,Change Attribute Type,7
+769,NordicSemiconductor/Android-nRF-Mesh-Library,Change Method Access Modifier,3
+770,NordicSemiconductor/Android-nRF-Mesh-Library,Change Parameter Type,17
+771,NordicSemiconductor/Android-nRF-Mesh-Library,Change Return Type,7
+772,NordicSemiconductor/Android-nRF-Mesh-Library,Change Variable Type,5
+773,NordicSemiconductor/Android-nRF-Mesh-Library,Extract Class,4
+774,NordicSemiconductor/Android-nRF-Mesh-Library,Extract Method,7
+775,NordicSemiconductor/Android-nRF-Mesh-Library,Extract Superclass,3
+776,NordicSemiconductor/Android-nRF-Mesh-Library,Inline Method,3
+777,NordicSemiconductor/Android-nRF-Mesh-Library,Modify Attribute Annotation,4
+778,NordicSemiconductor/Android-nRF-Mesh-Library,Modify Class Annotation,1
+779,NordicSemiconductor/Android-nRF-Mesh-Library,Modify Method Annotation,1
+780,NordicSemiconductor/Android-nRF-Mesh-Library,Move And Rename Attribute,10
+781,NordicSemiconductor/Android-nRF-Mesh-Library,Move And Rename Class,4
+782,NordicSemiconductor/Android-nRF-Mesh-Library,Move Attribute,18
+783,NordicSemiconductor/Android-nRF-Mesh-Library,Move Method,20
+784,NordicSemiconductor/Android-nRF-Mesh-Library,Pull Up Attribute,14
+785,NordicSemiconductor/Android-nRF-Mesh-Library,Pull Up Method,4
+786,NordicSemiconductor/Android-nRF-Mesh-Library,Push Down Method,1
+787,NordicSemiconductor/Android-nRF-Mesh-Library,Remove Attribute Annotation,3
+788,NordicSemiconductor/Android-nRF-Mesh-Library,Remove Attribute Modifier,4
+789,NordicSemiconductor/Android-nRF-Mesh-Library,Remove Class Annotation,1
+790,NordicSemiconductor/Android-nRF-Mesh-Library,Remove Method Annotation,1
+791,NordicSemiconductor/Android-nRF-Mesh-Library,Remove Parameter,5
+792,NordicSemiconductor/Android-nRF-Mesh-Library,Remove Parameter Modifier,4
+793,NordicSemiconductor/Android-nRF-Mesh-Library,Rename Attribute,7
+794,NordicSemiconductor/Android-nRF-Mesh-Library,Rename Class,1
+795,NordicSemiconductor/Android-nRF-Mesh-Library,Rename Method,9
+796,NordicSemiconductor/Android-nRF-Mesh-Library,Rename Parameter,19
+797,NordicSemiconductor/Android-nRF-Mesh-Library,Rename Variable,5
+798,NordicSemiconductor/Android-nRF-Mesh-Library,Replace Attribute,2
+799,NordicSemiconductor/Android-nRF-Mesh-Library,Replace Attribute With Variable,6
+800,OpenAPITools/openapi-generator,Extract Variable,1
+801,OpenAPITools/openapi-generator,Rename Attribute,3
+802,OpenAPITools/openapi-generator,Rename Method,2
+803,OpenAPITools/openapi-generator,Rename Parameter,1
+804,OpenRefine/OpenRefine,Extract Method,1
+805,OpenTracksApp/OpenTracks,Add Method Annotation,3
+806,OpenTracksApp/OpenTracks,Add Method Modifier,1
+807,OpenTracksApp/OpenTracks,Add Parameter,1
+808,OpenTracksApp/OpenTracks,Change Attribute Access Modifier,2
+809,OpenTracksApp/OpenTracks,Change Attribute Type,6
+810,OpenTracksApp/OpenTracks,Change Method Access Modifier,2
+811,OpenTracksApp/OpenTracks,Change Parameter Type,12
+812,OpenTracksApp/OpenTracks,Change Return Type,8
+813,OpenTracksApp/OpenTracks,Change Variable Type,43
+814,OpenTracksApp/OpenTracks,Extract Class,1
+815,OpenTracksApp/OpenTracks,Extract Method,1
+816,OpenTracksApp/OpenTracks,Merge Attribute,2
+817,OpenTracksApp/OpenTracks,Move Attribute,3
+818,OpenTracksApp/OpenTracks,Move Method,2
+819,OpenTracksApp/OpenTracks,Remove Method Annotation,1
+820,OpenTracksApp/OpenTracks,Remove Parameter,1
+821,OpenTracksApp/OpenTracks,Rename Attribute,5
+822,OpenTracksApp/OpenTracks,Rename Class,6
+823,OpenTracksApp/OpenTracks,Rename Method,1
+824,OpenTracksApp/OpenTracks,Rename Parameter,10
+825,OpenTracksApp/OpenTracks,Rename Variable,32
+826,OpenTracksApp/OpenTracks,Replace Attribute With Variable,1
+827,Rails-18xx/Rails,Add Method Annotation,3
+828,Rails-18xx/Rails,Add Parameter,8
+829,Rails-18xx/Rails,Change Attribute Type,20
+830,Rails-18xx/Rails,Change Parameter Type,12
+831,Rails-18xx/Rails,Change Return Type,22
+832,Rails-18xx/Rails,Change Variable Type,41
+833,Rails-18xx/Rails,Encapsulate Attribute,3
+834,Rails-18xx/Rails,Extract Class,2
+835,Rails-18xx/Rails,Extract Method,7
+836,Rails-18xx/Rails,Extract Variable,1
+837,Rails-18xx/Rails,Move Attribute,2
+838,Rails-18xx/Rails,Move Method,4
+839,Rails-18xx/Rails,Rename Attribute,14
+840,Rails-18xx/Rails,Rename Class,2
+841,Rails-18xx/Rails,Rename Method,14
+842,Rails-18xx/Rails,Rename Parameter,10
+843,Rails-18xx/Rails,Rename Variable,30
+844,SORMAS-Foundation/SORMAS-Project,Add Attribute Annotation,5
+845,SORMAS-Foundation/SORMAS-Project,Add Attribute Modifier,3
+846,SORMAS-Foundation/SORMAS-Project,Add Method Annotation,5
+847,SORMAS-Foundation/SORMAS-Project,Add Method Modifier,2
+848,SORMAS-Foundation/SORMAS-Project,Add Parameter,30
+849,SORMAS-Foundation/SORMAS-Project,Add Thrown Exception Type,14
+850,SORMAS-Foundation/SORMAS-Project,Add Variable Modifier,1
+851,SORMAS-Foundation/SORMAS-Project,Change Attribute Access Modifier,2
+852,SORMAS-Foundation/SORMAS-Project,Change Attribute Type,15
+853,SORMAS-Foundation/SORMAS-Project,Change Method Access Modifier,7
+854,SORMAS-Foundation/SORMAS-Project,Change Parameter Type,31
+855,SORMAS-Foundation/SORMAS-Project,Change Return Type,25
+856,SORMAS-Foundation/SORMAS-Project,Change Thrown Exception Type,1
+857,SORMAS-Foundation/SORMAS-Project,Change Variable Type,50
+858,SORMAS-Foundation/SORMAS-Project,Encapsulate Attribute,4
+859,SORMAS-Foundation/SORMAS-Project,Extract And Move Method,3
+860,SORMAS-Foundation/SORMAS-Project,Extract Attribute,1
+861,SORMAS-Foundation/SORMAS-Project,Extract Class,3
+862,SORMAS-Foundation/SORMAS-Project,Extract Method,9
+863,SORMAS-Foundation/SORMAS-Project,Extract Variable,13
+864,SORMAS-Foundation/SORMAS-Project,Inline Method,2
+865,SORMAS-Foundation/SORMAS-Project,Inline Variable,5
+866,SORMAS-Foundation/SORMAS-Project,Merge Conditional,2
+867,SORMAS-Foundation/SORMAS-Project,Modify Class Annotation,4
+868,SORMAS-Foundation/SORMAS-Project,Modify Method Annotation,6
+869,SORMAS-Foundation/SORMAS-Project,Move And Rename Class,1
+870,SORMAS-Foundation/SORMAS-Project,Move And Rename Method,1
+871,SORMAS-Foundation/SORMAS-Project,Move Attribute,9
+872,SORMAS-Foundation/SORMAS-Project,Move Class,3
+873,SORMAS-Foundation/SORMAS-Project,Move Method,11
+874,SORMAS-Foundation/SORMAS-Project,Parameterize Variable,1
+875,SORMAS-Foundation/SORMAS-Project,Pull Up Method,1
+876,SORMAS-Foundation/SORMAS-Project,Remove Attribute Annotation,4
+877,SORMAS-Foundation/SORMAS-Project,Remove Attribute Modifier,1
+878,SORMAS-Foundation/SORMAS-Project,Remove Method Annotation,6
+879,SORMAS-Foundation/SORMAS-Project,Remove Method Modifier,2
+880,SORMAS-Foundation/SORMAS-Project,Remove Parameter,7
+881,SORMAS-Foundation/SORMAS-Project,Rename Attribute,11
+882,SORMAS-Foundation/SORMAS-Project,Rename Class,6
+883,SORMAS-Foundation/SORMAS-Project,Rename Method,12
+884,SORMAS-Foundation/SORMAS-Project,Rename Parameter,8
+885,SORMAS-Foundation/SORMAS-Project,Rename Variable,25
+886,SORMAS-Foundation/SORMAS-Project,Replace Anonymous With Lambda,5
+887,SORMAS-Foundation/SORMAS-Project,Replace Attribute With Variable,1
+888,SORMAS-Foundation/SORMAS-Project,Replace Variable With Attribute,1
+889,SkriptLang/Skript,Add Parameter Annotation,1
+890,SkriptLang/Skript,Extract Variable,2
+891,SkyDynamic/QuickBackupM-Fabric,Add Method Annotation,2
+892,SkyDynamic/QuickBackupM-Fabric,Change Variable Type,8
+893,SkyDynamic/QuickBackupM-Fabric,Extract Variable,1
+894,SkyDynamic/QuickBackupM-Fabric,Inline Method,1
+895,SkyDynamic/QuickBackupM-Fabric,Move Class,11
+896,SkyDynamic/QuickBackupM-Fabric,Replace Variable With Attribute,1
+897,Slimefun/Slimefun4,Add Attribute Annotation,1
+898,Slimefun/Slimefun4,Add Class Modifier,1
+899,Slimefun/Slimefun4,Add Method Annotation,13
+900,Slimefun/Slimefun4,Add Method Modifier,1
+901,Slimefun/Slimefun4,Add Parameter,1
+902,Slimefun/Slimefun4,Add Parameter Annotation,2
+903,Slimefun/Slimefun4,Change Attribute Access Modifier,2
+904,Slimefun/Slimefun4,Change Class Access Modifier,1
+905,Slimefun/Slimefun4,Change Method Access Modifier,3
+906,Slimefun/Slimefun4,Change Parameter Type,6
+907,Slimefun/Slimefun4,Change Variable Type,3
+908,Slimefun/Slimefun4,Extract Method,2
+909,Slimefun/Slimefun4,Extract Subclass,1
+910,Slimefun/Slimefun4,Extract Superclass,1
+911,Slimefun/Slimefun4,Extract Variable,3
+912,Slimefun/Slimefun4,Move Class,14
+913,Slimefun/Slimefun4,Pull Up Attribute,2
+914,Slimefun/Slimefun4,Pull Up Method,2
+915,Slimefun/Slimefun4,Push Down Method,2
+916,Slimefun/Slimefun4,Remove Parameter Annotation,1
+917,Slimefun/Slimefun4,Rename Attribute,2
+918,Slimefun/Slimefun4,Rename Class,2
+919,Slimefun/Slimefun4,Rename Method,2
+920,Slimefun/Slimefun4,Rename Parameter,2
+921,SonarOpenCommunity/sonar-cxx,Add Attribute Modifier,2
+922,SonarOpenCommunity/sonar-cxx,Add Method Annotation,1
+923,SonarOpenCommunity/sonar-cxx,Add Parameter,5
+924,SonarOpenCommunity/sonar-cxx,Add Variable Modifier,1
+925,SonarOpenCommunity/sonar-cxx,Change Attribute Type,12
+926,SonarOpenCommunity/sonar-cxx,Change Method Access Modifier,3
+927,SonarOpenCommunity/sonar-cxx,Change Parameter Type,7
+928,SonarOpenCommunity/sonar-cxx,Change Return Type,9
+929,SonarOpenCommunity/sonar-cxx,Change Thrown Exception Type,1
+930,SonarOpenCommunity/sonar-cxx,Change Variable Type,18
+931,SonarOpenCommunity/sonar-cxx,Extract Method,4
+932,SonarOpenCommunity/sonar-cxx,Extract Variable,8
+933,SonarOpenCommunity/sonar-cxx,Inline Method,1
+934,SonarOpenCommunity/sonar-cxx,Inline Variable,1
+935,SonarOpenCommunity/sonar-cxx,Localize Parameter,2
+936,SonarOpenCommunity/sonar-cxx,Move And Inline Method,5
+937,SonarOpenCommunity/sonar-cxx,Parameterize Variable,1
+938,SonarOpenCommunity/sonar-cxx,Remove Method Modifier,1
+939,SonarOpenCommunity/sonar-cxx,Remove Parameter,6
+940,SonarOpenCommunity/sonar-cxx,Rename Attribute,2
+941,SonarOpenCommunity/sonar-cxx,Rename Class,2
+942,SonarOpenCommunity/sonar-cxx,Rename Method,11
+943,SonarOpenCommunity/sonar-cxx,Rename Parameter,10
+944,SonarOpenCommunity/sonar-cxx,Rename Variable,21
+945,SonarOpenCommunity/sonar-cxx,Replace Loop With Pipeline,1
+946,SpartanJ/ImgurViewer,Add Attribute Modifier,1
+947,SpartanJ/ImgurViewer,Change Return Type,1
+948,SudokuMonster/SukakuExplainer,Add Attribute Modifier,14
+949,SudokuMonster/SukakuExplainer,Add Class Modifier,4
+950,SudokuMonster/SukakuExplainer,Add Method Modifier,3
+951,SudokuMonster/SukakuExplainer,Add Parameter,155
+952,SudokuMonster/SukakuExplainer,Change Attribute Type,2
+953,SudokuMonster/SukakuExplainer,Change Return Type,1
+954,SudokuMonster/SukakuExplainer,Extract And Move Method,20
+955,SudokuMonster/SukakuExplainer,Extract Method,5
+956,SudokuMonster/SukakuExplainer,Extract Variable,1
+957,SudokuMonster/SukakuExplainer,Inline Variable,1
+958,SudokuMonster/SukakuExplainer,Merge Variable,2
+959,SudokuMonster/SukakuExplainer,Move And Inline Method,1
+960,SudokuMonster/SukakuExplainer,Move And Rename Method,1
+961,SudokuMonster/SukakuExplainer,Parameterize Variable,11
+962,SudokuMonster/SukakuExplainer,Remove Parameter,2
+963,SudokuMonster/SukakuExplainer,Rename Attribute,2
+964,SudokuMonster/SukakuExplainer,Rename Method,2
+965,SudokuMonster/SukakuExplainer,Rename Parameter,2
+966,SudokuMonster/SukakuExplainer,Rename Variable,7
+967,TESTARtool/TESTAR_dev,Add Parameter,2
+968,TESTARtool/TESTAR_dev,Change Attribute Access Modifier,1
+969,TESTARtool/TESTAR_dev,Encapsulate Attribute,1
+970,TESTARtool/TESTAR_dev,Extract Method,2
+971,TESTARtool/TESTAR_dev,Remove Attribute Modifier,1
+972,TESTARtool/TESTAR_dev,Remove Parameter,2
+973,TESTARtool/TESTAR_dev,Rename Variable,3
+974,Team-EnderIO/EnderIO,Extract Method,1
+975,TeamAmaze/AmazeFileManager,Add Parameter,7
+976,TeamAmaze/AmazeFileManager,Change Attribute Access Modifier,3
+977,TeamAmaze/AmazeFileManager,Change Attribute Type,9
+978,TeamAmaze/AmazeFileManager,Change Class Access Modifier,1
+979,TeamAmaze/AmazeFileManager,Change Method Access Modifier,1
+980,TeamAmaze/AmazeFileManager,Change Parameter Type,4
+981,TeamAmaze/AmazeFileManager,Change Return Type,6
+982,TeamAmaze/AmazeFileManager,Change Variable Type,2
+983,TeamAmaze/AmazeFileManager,Extract Method,1
+984,TeamAmaze/AmazeFileManager,Extract Variable,3
+985,TeamAmaze/AmazeFileManager,Invert Condition,1
+986,TeamAmaze/AmazeFileManager,Localize Parameter,1
+987,TeamAmaze/AmazeFileManager,Modify Method Annotation,3
+988,TeamAmaze/AmazeFileManager,Move Attribute,1
+989,TeamAmaze/AmazeFileManager,Move Code,2
+990,TeamAmaze/AmazeFileManager,Move Method,1
+991,TeamAmaze/AmazeFileManager,Move Source Folder,1
+992,TeamAmaze/AmazeFileManager,Parameterize Variable,1
+993,TeamAmaze/AmazeFileManager,Remove Attribute Modifier,1
+994,TeamAmaze/AmazeFileManager,Remove Parameter,6
+995,TeamAmaze/AmazeFileManager,Rename Class,2
+996,TeamAmaze/AmazeFileManager,Rename Method,1
+997,TeamAmaze/AmazeFileManager,Rename Parameter,1
+998,TeamAmaze/AmazeFileManager,Rename Variable,3
+999,TeamAmaze/AmazeFileManager,Reorder Parameter,1
+1000,TeamAmaze/AmazeFileManager,Replace Anonymous With Lambda,1
+1001,TeamAmaze/AmazeFileManager,Replace Variable With Attribute,1
+1002,TeamNewPipe/NewPipe,Add Attribute Annotation,6
+1003,TeamNewPipe/NewPipe,Add Attribute Modifier,9
+1004,TeamNewPipe/NewPipe,Add Class Modifier,2
+1005,TeamNewPipe/NewPipe,Add Method Annotation,9
+1006,TeamNewPipe/NewPipe,Add Method Modifier,4
+1007,TeamNewPipe/NewPipe,Add Parameter,21
+1008,TeamNewPipe/NewPipe,Add Parameter Annotation,26
+1009,TeamNewPipe/NewPipe,Add Thrown Exception Type,8
+1010,TeamNewPipe/NewPipe,Add Variable Annotation,4
+1011,TeamNewPipe/NewPipe,Add Variable Modifier,14
+1012,TeamNewPipe/NewPipe,Change Attribute Access Modifier,33
+1013,TeamNewPipe/NewPipe,Change Attribute Type,19
+1014,TeamNewPipe/NewPipe,Change Class Access Modifier,2
+1015,TeamNewPipe/NewPipe,Change Method Access Modifier,20
+1016,TeamNewPipe/NewPipe,Change Parameter Type,23
+1017,TeamNewPipe/NewPipe,Change Return Type,15
+1018,TeamNewPipe/NewPipe,Change Thrown Exception Type,2
+1019,TeamNewPipe/NewPipe,Change Variable Type,29
+1020,TeamNewPipe/NewPipe,Extract And Move Method,12
+1021,TeamNewPipe/NewPipe,Extract Attribute,4
+1022,TeamNewPipe/NewPipe,Extract Class,1
+1023,TeamNewPipe/NewPipe,Extract Method,40
+1024,TeamNewPipe/NewPipe,Extract Variable,27
+1025,TeamNewPipe/NewPipe,Inline Method,18
+1026,TeamNewPipe/NewPipe,Inline Variable,6
+1027,TeamNewPipe/NewPipe,Localize Parameter,2
+1028,TeamNewPipe/NewPipe,Merge Conditional,6
+1029,TeamNewPipe/NewPipe,Move And Inline Method,6
+1030,TeamNewPipe/NewPipe,Move Attribute,1
+1031,TeamNewPipe/NewPipe,Move Class,2
+1032,TeamNewPipe/NewPipe,Parameterize Attribute,1
+1033,TeamNewPipe/NewPipe,Parameterize Variable,6
+1034,TeamNewPipe/NewPipe,Remove Attribute Modifier,12
+1035,TeamNewPipe/NewPipe,Remove Class Annotation,1
+1036,TeamNewPipe/NewPipe,Remove Method Annotation,5
+1037,TeamNewPipe/NewPipe,Remove Method Modifier,2
+1038,TeamNewPipe/NewPipe,Remove Parameter,23
+1039,TeamNewPipe/NewPipe,Remove Parameter Modifier,2
+1040,TeamNewPipe/NewPipe,Remove Thrown Exception Type,4
+1041,TeamNewPipe/NewPipe,Remove Variable Annotation,3
+1042,TeamNewPipe/NewPipe,Remove Variable Modifier,7
+1043,TeamNewPipe/NewPipe,Rename Attribute,31
+1044,TeamNewPipe/NewPipe,Rename Class,2
+1045,TeamNewPipe/NewPipe,Rename Method,33
+1046,TeamNewPipe/NewPipe,Rename Parameter,23
+1047,TeamNewPipe/NewPipe,Rename Variable,33
+1048,TeamNewPipe/NewPipe,Replace Attribute With Variable,6
+1049,TeamNewPipe/NewPipe,Replace Variable With Attribute,10
+1050,TeamNewPipe/NewPipe,Split Conditional,3
+1051,Tencent/matrix,Add Attribute Annotation,4
+1052,Tencent/matrix,Add Class Modifier,1
+1053,Tencent/matrix,Add Method Annotation,16
+1054,Tencent/matrix,Add Parameter Annotation,1
+1055,Tencent/matrix,Change Attribute Access Modifier,3
+1056,Tencent/matrix,Change Attribute Type,2
+1057,Tencent/matrix,Change Class Access Modifier,1
+1058,Tencent/matrix,Change Method Access Modifier,2
+1059,Tencent/matrix,Change Return Type,3
+1060,Tencent/matrix,Change Variable Type,8
+1061,Tencent/matrix,Encapsulate Attribute,2
+1062,Tencent/matrix,Extract Class,1
+1063,Tencent/matrix,Extract Method,4
+1064,Tencent/matrix,Extract Variable,2
+1065,Tencent/matrix,Move Attribute,2
+1066,Tencent/matrix,Move Class,1
+1067,Tencent/matrix,Move Method,2
+1068,Tencent/matrix,Remove Attribute Modifier,2
+1069,Tencent/matrix,Remove Class Modifier,1
+1070,Tencent/matrix,Remove Method Annotation,1
+1071,Tencent/matrix,Rename Class,1
+1072,Tencent/matrix,Rename Method,4
+1073,Tencent/matrix,Rename Variable,1
+1074,Tencent/matrix,Replace Attribute With Variable,1
+1075,TestFX/TestFX,Inline Method,1
+1076,TongchengOpenSource/smart-doc,Add Parameter,10
+1077,TongchengOpenSource/smart-doc,Change Variable Type,1
+1078,TongchengOpenSource/smart-doc,Extract Variable,1
+1079,TooTallNate/Java-WebSocket,Add Attribute Modifier,1
+1080,TooTallNate/Java-WebSocket,Add Method Annotation,1
+1081,TooTallNate/Java-WebSocket,Add Parameter,1
+1082,TooTallNate/Java-WebSocket,Add Thrown Exception Type,14
+1083,TooTallNate/Java-WebSocket,Extract Method,7
+1084,TooTallNate/Java-WebSocket,Modify Class Annotation,5
+1085,TooTallNate/Java-WebSocket,Rename Attribute,1
+1086,TooTallNate/Java-WebSocket,Replace Variable With Attribute,1
+1087,WeBankFinTech/Exchangis,Add Class Annotation,2
+1088,WeBankFinTech/Exchangis,Add Method Annotation,5
+1089,WeBankFinTech/Exchangis,Add Parameter,1
+1090,WeBankFinTech/Exchangis,Change Attribute Access Modifier,3
+1091,WeBankFinTech/Exchangis,Change Attribute Type,1
+1092,WeBankFinTech/Exchangis,Change Class Access Modifier,1
+1093,WeBankFinTech/Exchangis,Change Parameter Type,3
+1094,WeBankFinTech/Exchangis,Change Return Type,18
+1095,WeBankFinTech/Exchangis,Change Type Declaration Kind,1
+1096,WeBankFinTech/Exchangis,Change Variable Type,48
+1097,WeBankFinTech/Exchangis,Encapsulate Attribute,1
+1098,WeBankFinTech/Exchangis,Extract Class,2
+1099,WeBankFinTech/Exchangis,Extract Interface,1
+1100,WeBankFinTech/Exchangis,Extract Subclass,1
+1101,WeBankFinTech/Exchangis,Extract Superclass,2
+1102,WeBankFinTech/Exchangis,Move And Rename Class,2
+1103,WeBankFinTech/Exchangis,Move Attribute,15
+1104,WeBankFinTech/Exchangis,Move Class,5
+1105,WeBankFinTech/Exchangis,Move Method,35
+1106,WeBankFinTech/Exchangis,Push Down Attribute,3
+1107,WeBankFinTech/Exchangis,Push Down Method,7
+1108,WeBankFinTech/Exchangis,Remove Attribute Annotation,2
+1109,WeBankFinTech/Exchangis,Remove Class Annotation,1
+1110,WeBankFinTech/Exchangis,Rename Class,2
+1111,WeBankFinTech/Exchangis,Rename Parameter,11
+1112,WiIIiam278/HuskHomes,Add Thrown Exception Type,2
+1113,WiIIiam278/HuskHomes,Change Attribute Type,1
+1114,WiIIiam278/HuskHomes,Change Return Type,2
+1115,WiIIiam278/HuskHomes,Change Variable Type,1
+1116,WiIIiam278/HuskHomes,Modify Class Annotation,1
+1117,WiIIiam278/HuskHomes,Remove Parameter,3
+1118,WiIIiam278/HuskHomes,Rename Class,1
+1119,WiIIiam278/HuskHomes,Rename Method,2
+1120,Wikidata/Wikidata-Toolkit,Extract And Move Method,1
+1121,Wikidata/Wikidata-Toolkit,Extract Method,1
+1122,Wikidata/Wikidata-Toolkit,Remove Attribute Modifier,1
+1123,Wikidata/Wikidata-Toolkit,Replace Attribute With Variable,1
+1124,Wolfsblvt/BlossomsPokemonGoManager,Add Parameter,1
+1125,Wurst-Imperium/Wurst7,Add Method Annotation,2
+1126,Wurst-Imperium/Wurst7,Add Parameter,2
+1127,Wurst-Imperium/Wurst7,Change Method Access Modifier,1
+1128,Wurst-Imperium/Wurst7,Change Return Type,2
+1129,Wurst-Imperium/Wurst7,Remove Method Annotation,3
+1130,Wurst-Imperium/Wurst7,Rename Parameter,8
+1131,Yalantis/uCrop,Add Parameter,1
+1132,Yalantis/uCrop,Extract Variable,2
+1133,Yalantis/uCrop,Parameterize Variable,1
+1134,Yalantis/uCrop,Remove Parameter,1
+1135,Yalantis/uCrop,Rename Method,1
+1136,YoKeyword/Fragmentation,Inline Variable,1
+1137,alibaba/nacos,Add Attribute Modifier,7
+1138,alibaba/nacos,Add Class Annotation,4
+1139,alibaba/nacos,Add Method Annotation,3
+1140,alibaba/nacos,Add Method Modifier,1
+1141,alibaba/nacos,Add Parameter,9
+1142,alibaba/nacos,Add Thrown Exception Type,4
+1143,alibaba/nacos,Change Attribute Access Modifier,3
+1144,alibaba/nacos,Change Attribute Type,4
+1145,alibaba/nacos,Change Method Access Modifier,3
+1146,alibaba/nacos,Change Parameter Type,36
+1147,alibaba/nacos,Change Return Type,45
+1148,alibaba/nacos,Change Thrown Exception Type,15
+1149,alibaba/nacos,Change Type Declaration Kind,1
+1150,alibaba/nacos,Change Variable Type,71
+1151,alibaba/nacos,Extract And Move Method,11
+1152,alibaba/nacos,Extract Class,1
+1153,alibaba/nacos,Extract Method,2
+1154,alibaba/nacos,Extract Subclass,1
+1155,alibaba/nacos,Extract Superclass,1
+1156,alibaba/nacos,Extract Variable,3
+1157,alibaba/nacos,Inline Variable,12
+1158,alibaba/nacos,Merge Variable,1
+1159,alibaba/nacos,Modify Class Annotation,2
+1160,alibaba/nacos,Move And Rename Method,1
+1161,alibaba/nacos,Move Attribute,5
+1162,alibaba/nacos,Move Class,14
+1163,alibaba/nacos,Move Method,9
+1164,alibaba/nacos,Parameterize Variable,1
+1165,alibaba/nacos,Push Down Attribute,1
+1166,alibaba/nacos,Push Down Method,3
+1167,alibaba/nacos,Remove Attribute Annotation,2
+1168,alibaba/nacos,Remove Attribute Modifier,5
+1169,alibaba/nacos,Remove Class Modifier,1
+1170,alibaba/nacos,Remove Method Annotation,24
+1171,alibaba/nacos,Remove Method Modifier,3
+1172,alibaba/nacos,Remove Parameter,1
+1173,alibaba/nacos,Remove Thrown Exception Type,8
+1174,alibaba/nacos,Remove Variable Annotation,1
+1175,alibaba/nacos,Rename Attribute,6
+1176,alibaba/nacos,Rename Class,6
+1177,alibaba/nacos,Rename Method,4
+1178,alibaba/nacos,Rename Parameter,20
+1179,alibaba/nacos,Rename Variable,11
+1180,alibaba/nacos,Reorder Parameter,2
+1181,alibaba/spring-cloud-alibaba,Add Attribute Annotation,1
+1182,alibaba/spring-cloud-alibaba,Add Class Annotation,1
+1183,apache/beam,Add Method Annotation,1
+1184,apache/beam,Add Parameter,1
+1185,apache/beam,Add Variable Annotation,1
+1186,apache/beam,Change Parameter Type,7
+1187,apache/beam,Change Return Type,1
+1188,apache/beam,Extract Method,3
+1189,apache/beam,Move Source Folder,1
+1190,apache/beam,Remove Parameter,1
+1191,apache/beam,Remove Thrown Exception Type,3
+1192,apache/beam,Rename Method,1
+1193,apache/doris,Add Attribute Modifier,1
+1194,apache/doris,Add Parameter,2
+1195,apache/doris,Change Variable Type,5
+1196,apache/doris,Extract Attribute,1
+1197,apache/doris,Extract Method,1
+1198,apache/doris,Inline Method,1
+1199,apache/doris,Inline Variable,1
+1200,apache/doris,Remove Method Annotation,1
+1201,apache/doris,Rename Parameter,1
+1202,apache/doris,Rename Variable,1
+1203,apache/doris,Split Conditional,1
+1204,apache/dubbo,Add Attribute Modifier,1
+1205,apache/dubbo,Add Method Modifier,1
+1206,apache/dubbo,Extract Variable,2
+1207,apache/dubbo,Merge Conditional,1
+1208,apache/dubbo,Rename Variable,1
+1209,apache/eventmesh,Add Attribute Annotation,3
+1210,apache/eventmesh,Add Attribute Modifier,54
+1211,apache/eventmesh,Add Class Annotation,10
+1212,apache/eventmesh,Add Parameter Annotation,4
+1213,apache/eventmesh,Add Parameter Modifier,53
+1214,apache/eventmesh,Add Thrown Exception Type,1
+1215,apache/eventmesh,Add Variable Modifier,156
+1216,apache/eventmesh,Change Attribute Access Modifier,24
+1217,apache/eventmesh,Change Attribute Type,9
+1218,apache/eventmesh,Change Method Access Modifier,1
+1219,apache/eventmesh,Change Parameter Type,9
+1220,apache/eventmesh,Change Return Type,10
+1221,apache/eventmesh,Change Variable Type,13
+1222,apache/eventmesh,Encapsulate Attribute,11
+1223,apache/eventmesh,Extract And Move Method,70
+1224,apache/eventmesh,Extract Attribute,1
+1225,apache/eventmesh,Extract Class,1
+1226,apache/eventmesh,Extract Variable,11
+1227,apache/eventmesh,Inline Variable,45
+1228,apache/eventmesh,Merge Conditional,2
+1229,apache/eventmesh,Modify Class Annotation,3
+1230,apache/eventmesh,Move Attribute,2
+1231,apache/eventmesh,Move Class,1
+1232,apache/eventmesh,Remove Attribute Modifier,2
+1233,apache/eventmesh,Remove Class Annotation,1
+1234,apache/eventmesh,Remove Method Annotation,1
+1235,apache/eventmesh,Remove Method Modifier,3
+1236,apache/eventmesh,Remove Parameter Modifier,2
+1237,apache/eventmesh,Remove Thrown Exception Type,1
+1238,apache/eventmesh,Remove Variable Modifier,2
+1239,apache/eventmesh,Rename Attribute,11
+1240,apache/eventmesh,Rename Class,1
+1241,apache/eventmesh,Rename Method,7
+1242,apache/eventmesh,Rename Parameter,4
+1243,apache/eventmesh,Rename Variable,16
+1244,apache/hop,Add Attribute Annotation,4
+1245,apache/hop,Add Parameter,1
+1246,apache/hop,Extract Variable,1
+1247,apache/hop,Modify Class Annotation,1
+1248,apache/hop,Rename Variable,1
+1249,apache/hop,Split Conditional,1
+1250,apache/jmeter,Replace Attribute With Variable,1
+1251,apache/mina-sshd,Add Parameter,1
+1252,apache/mina-sshd,Change Attribute Type,1
+1253,apache/mina-sshd,Change Method Access Modifier,1
+1254,apache/mina-sshd,Change Return Type,1
+1255,apache/mina-sshd,Extract Variable,1
+1256,apache/mina-sshd,Inline Variable,4
+1257,apache/mina-sshd,Merge Parameter,3
+1258,apache/mina-sshd,Merge Variable,8
+1259,apache/mina-sshd,Remove Attribute Modifier,1
+1260,apache/mina-sshd,Rename Attribute,1
+1261,apache/rocketmq,Add Attribute Modifier,1
+1262,apache/rocketmq,Add Parameter,7
+1263,apache/rocketmq,Change Attribute Access Modifier,1
+1264,apache/rocketmq,Change Variable Type,1
+1265,apache/rocketmq,Encapsulate Attribute,1
+1266,apache/rocketmq,Remove Parameter,2
+1267,apache/rocketmq,Rename Attribute,2
+1268,apache/rocketmq,Rename Variable,5
+1269,apache/shardingsphere-elasticjob,Change Variable Type,1
+1270,apache/shardingsphere-elasticjob,Remove Thrown Exception Type,1
+1271,apache/skywalking,Add Attribute Annotation,40
+1272,apache/skywalking,Add Attribute Modifier,3
+1273,apache/skywalking,Add Class Annotation,6
+1274,apache/skywalking,Add Class Modifier,3
+1275,apache/skywalking,Add Method Annotation,8
+1276,apache/skywalking,Add Method Modifier,11
+1277,apache/skywalking,Add Parameter,81
+1278,apache/skywalking,Add Parameter Annotation,11
+1279,apache/skywalking,Add Parameter Modifier,5
+1280,apache/skywalking,Add Thrown Exception Type,7
+1281,apache/skywalking,Change Attribute Access Modifier,6
+1282,apache/skywalking,Change Attribute Type,40
+1283,apache/skywalking,Change Class Access Modifier,1
+1284,apache/skywalking,Change Method Access Modifier,32
+1285,apache/skywalking,Change Parameter Type,44
+1286,apache/skywalking,Change Return Type,36
+1287,apache/skywalking,Change Thrown Exception Type,15
+1288,apache/skywalking,Change Type Declaration Kind,3
+1289,apache/skywalking,Change Variable Type,39
+1290,apache/skywalking,Collapse Hierarchy,1
+1291,apache/skywalking,Encapsulate Attribute,15
+1292,apache/skywalking,Extract And Move Method,5
+1293,apache/skywalking,Extract Class,3
+1294,apache/skywalking,Extract Interface,2
+1295,apache/skywalking,Extract Method,2
+1296,apache/skywalking,Extract Superclass,4
+1297,apache/skywalking,Extract Variable,7
+1298,apache/skywalking,Inline Method,2
+1299,apache/skywalking,Inline Variable,3
+1300,apache/skywalking,Modify Attribute Annotation,1
+1301,apache/skywalking,Modify Class Annotation,1
+1302,apache/skywalking,Modify Method Annotation,1
+1303,apache/skywalking,Move And Inline Method,2
+1304,apache/skywalking,Move And Rename Class,20
+1305,apache/skywalking,Move And Rename Method,1
+1306,apache/skywalking,Move Attribute,5
+1307,apache/skywalking,Move Class,252
+1308,apache/skywalking,Move Method,20
+1309,apache/skywalking,Parameterize Variable,4
+1310,apache/skywalking,Pull Up Attribute,8
+1311,apache/skywalking,Pull Up Method,8
+1312,apache/skywalking,Push Down Attribute,4
+1313,apache/skywalking,Push Down Method,5
+1314,apache/skywalking,Remove Attribute Annotation,24
+1315,apache/skywalking,Remove Attribute Modifier,9
+1316,apache/skywalking,Remove Class Modifier,1
+1317,apache/skywalking,Remove Method Annotation,2
+1318,apache/skywalking,Remove Method Modifier,18
+1319,apache/skywalking,Remove Parameter,90
+1320,apache/skywalking,Remove Thrown Exception Type,36
+1321,apache/skywalking,Rename Attribute,16
+1322,apache/skywalking,Rename Class,21
+1323,apache/skywalking,Rename Method,31
+1324,apache/skywalking,Rename Parameter,13
+1325,apache/skywalking,Rename Variable,19
+1326,apache/skywalking,Reorder Parameter,1
+1327,apache/skywalking,Replace Attribute With Variable,1
+1328,apache/skywalking,Split Class,1
+1329,auth0/jwks-rsa-java,Extract Method,1
+1330,auth0/jwks-rsa-java,Rename Method,1
+1331,authorjapps/zerocode,Add Parameter,7
+1332,authorjapps/zerocode,Change Parameter Type,1
+1333,authorjapps/zerocode,Change Return Type,6
+1334,authorjapps/zerocode,Change Variable Type,6
+1335,authorjapps/zerocode,Extract Method,1
+1336,authorjapps/zerocode,Extract Variable,5
+1337,authorjapps/zerocode,Move And Inline Method,3
+1338,authorjapps/zerocode,Remove Attribute Modifier,1
+1339,authorjapps/zerocode,Remove Parameter,1
+1340,authorjapps/zerocode,Rename Method,2
+1341,authorjapps/zerocode,Rename Parameter,1
+1342,avioconsulting/mule-opentelemetry-module,Add Attribute Modifier,1
+1343,avioconsulting/mule-opentelemetry-module,Add Class Annotation,1
+1344,avioconsulting/mule-opentelemetry-module,Add Parameter,5
+1345,avioconsulting/mule-opentelemetry-module,Change Parameter Type,12
+1346,avioconsulting/mule-opentelemetry-module,Change Return Type,2
+1347,avioconsulting/mule-opentelemetry-module,Change Variable Type,1
+1348,avioconsulting/mule-opentelemetry-module,Encapsulate Attribute,1
+1349,avioconsulting/mule-opentelemetry-module,Extract Interface,1
+1350,avioconsulting/mule-opentelemetry-module,Extract Method,3
+1351,avioconsulting/mule-opentelemetry-module,Extract Variable,4
+1352,avioconsulting/mule-opentelemetry-module,Merge Parameter,4
+1353,avioconsulting/mule-opentelemetry-module,Pull Up Method,2
+1354,avioconsulting/mule-opentelemetry-module,Rename Class,2
+1355,avioconsulting/mule-opentelemetry-module,Rename Method,2
+1356,avioconsulting/mule-opentelemetry-module,Rename Parameter,8
+1357,avioconsulting/mule-opentelemetry-module,Rename Variable,4
+1358,beemdevelopment/Aegis,Add Parameter,5
+1359,beemdevelopment/Aegis,Change Class Access Modifier,1
+1360,beemdevelopment/Aegis,Remove Method Annotation,1
+1361,benchflow/benchflow,Add Attribute Annotation,6
+1362,benchflow/benchflow,Add Variable Modifier,2
+1363,benchflow/benchflow,Change Return Type,8
+1364,benchflow/benchflow,Change Variable Type,8
+1365,benchflow/benchflow,Encapsulate Attribute,2
+1366,benchflow/benchflow,Extract Method,2
+1367,benchflow/benchflow,Extract Variable,1
+1368,benchflow/benchflow,Inline Method,1
+1369,benchflow/benchflow,Inline Variable,1
+1370,benchflow/benchflow,Merge Catch,1
+1371,benchflow/benchflow,Move And Rename Class,1
+1372,benchflow/benchflow,Parameterize Variable,1
+1373,benchflow/benchflow,Remove Parameter,1
+1374,benchflow/benchflow,Remove Thrown Exception Type,3
+1375,benchflow/benchflow,Rename Attribute,2
+1376,benchflow/benchflow,Rename Method,3
+1377,benchflow/benchflow,Rename Variable,2
+1378,benfry/processing4,Add Thrown Exception Type,1
+1379,benfry/processing4,Change Attribute Access Modifier,1
+1380,benfry/processing4,Change Attribute Type,1
+1381,benfry/processing4,Change Variable Type,1
+1382,benfry/processing4,Remove Thrown Exception Type,1
+1383,bisq-network/bisq,Add Attribute Modifier,5
+1384,bisq-network/bisq,Add Method Annotation,3
+1385,bisq-network/bisq,Add Parameter,34
+1386,bisq-network/bisq,Add Thrown Exception Type,2
+1387,bisq-network/bisq,Change Attribute Access Modifier,18
+1388,bisq-network/bisq,Change Attribute Type,12
+1389,bisq-network/bisq,Change Class Access Modifier,9
+1390,bisq-network/bisq,Change Method Access Modifier,32
+1391,bisq-network/bisq,Change Parameter Type,11
+1392,bisq-network/bisq,Change Return Type,3
+1393,bisq-network/bisq,Change Variable Type,27
+1394,bisq-network/bisq,Encapsulate Attribute,1
+1395,bisq-network/bisq,Extract And Move Method,2
+1396,bisq-network/bisq,Extract Class,1
+1397,bisq-network/bisq,Extract Method,25
+1398,bisq-network/bisq,Extract Superclass,3
+1399,bisq-network/bisq,Extract Variable,12
+1400,bisq-network/bisq,Inline Method,1
+1401,bisq-network/bisq,Inline Variable,1
+1402,bisq-network/bisq,Move And Rename Class,1
+1403,bisq-network/bisq,Move Attribute,5
+1404,bisq-network/bisq,Move Class,133
+1405,bisq-network/bisq,Move Code,1
+1406,bisq-network/bisq,Move Method,1
+1407,bisq-network/bisq,Move Source Folder,1
+1408,bisq-network/bisq,Parameterize Variable,1
+1409,bisq-network/bisq,Pull Up Attribute,186
+1410,bisq-network/bisq,Pull Up Method,157
+1411,bisq-network/bisq,Remove Attribute Modifier,4
+1412,bisq-network/bisq,Remove Class Annotation,1
+1413,bisq-network/bisq,Remove Method Annotation,1
+1414,bisq-network/bisq,Remove Parameter,6
+1415,bisq-network/bisq,Remove Thrown Exception Type,1
+1416,bisq-network/bisq,Remove Variable Modifier,1
+1417,bisq-network/bisq,Rename Attribute,18
+1418,bisq-network/bisq,Rename Class,6
+1419,bisq-network/bisq,Rename Method,15
+1420,bisq-network/bisq,Rename Parameter,10
+1421,bisq-network/bisq,Rename Variable,14
+1422,bisq-network/bisq,Reorder Parameter,1
+1423,bisq-network/bisq,Replace Variable With Attribute,1
+1424,btraceio/btrace,Add Attribute Modifier,3
+1425,btraceio/btrace,Add Method Modifier,1
+1426,btraceio/btrace,Add Parameter,13
+1427,btraceio/btrace,Change Attribute Type,1
+1428,btraceio/btrace,Change Method Access Modifier,1
+1429,btraceio/btrace,Change Variable Type,2
+1430,btraceio/btrace,Extract Method,1
+1431,btraceio/btrace,Move Method,1
+1432,btraceio/btrace,Rename Variable,6
+1433,bumptech/glide,Add Attribute Modifier,1
+1434,bumptech/glide,Add Parameter Modifier,2
+1435,bumptech/glide,Change Class Access Modifier,1
+1436,bumptech/glide,Extract Method,1
+1437,bumptech/glide,Extract Variable,4
+1438,bumptech/glide,Inline Variable,1
+1439,bumptech/glide,Move Class,1
+1440,bumptech/glide,Move Code,2
+1441,bumptech/glide,Remove Attribute Modifier,6
+1442,bumptech/glide,Remove Class Modifier,1
+1443,bumptech/glide,Remove Method Modifier,8
+1444,bumptech/glide,Rename Method,2
+1445,bumptech/glide,Rename Variable,1
+1446,bwssytems/ha-bridge,Add Attribute Annotation,3
+1447,bwssytems/ha-bridge,Add Method Modifier,1
+1448,bwssytems/ha-bridge,Add Parameter,6
+1449,bwssytems/ha-bridge,Change Attribute Type,2
+1450,bwssytems/ha-bridge,Change Method Access Modifier,2
+1451,bwssytems/ha-bridge,Change Parameter Type,3
+1452,bwssytems/ha-bridge,Change Return Type,4
+1453,bwssytems/ha-bridge,Change Variable Type,8
+1454,bwssytems/ha-bridge,Encapsulate Attribute,2
+1455,bwssytems/ha-bridge,Extract Class,2
+1456,bwssytems/ha-bridge,Extract Method,1
+1457,bwssytems/ha-bridge,Extract Variable,2
+1458,bwssytems/ha-bridge,Inline Variable,2
+1459,bwssytems/ha-bridge,Invert Condition,1
+1460,bwssytems/ha-bridge,Localize Parameter,2
+1461,bwssytems/ha-bridge,Merge Conditional,2
+1462,bwssytems/ha-bridge,Merge Parameter,1
+1463,bwssytems/ha-bridge,Merge Variable,1
+1464,bwssytems/ha-bridge,Move Attribute,3
+1465,bwssytems/ha-bridge,Move Method,8
+1466,bwssytems/ha-bridge,Remove Parameter,5
+1467,bwssytems/ha-bridge,Remove Thrown Exception Type,2
+1468,bwssytems/ha-bridge,Remove Variable Modifier,2
+1469,bwssytems/ha-bridge,Rename Attribute,9
+1470,bwssytems/ha-bridge,Rename Method,15
+1471,bwssytems/ha-bridge,Rename Parameter,7
+1472,bwssytems/ha-bridge,Rename Variable,1
+1473,bwssytems/ha-bridge,Replace Attribute With Variable,1
+1474,bwssytems/ha-bridge,Split Conditional,3
+1475,cabaletta/baritone,Change Variable Type,2
+1476,cabaletta/baritone,Extract Variable,7
+1477,cabaletta/baritone,Rename Variable,1
+1478,cabaletta/baritone,Split Conditional,2
+1479,caelum/vraptor4,Add Attribute Modifier,7
+1480,caelum/vraptor4,Add Class Annotation,1
+1481,caelum/vraptor4,Add Method Annotation,8
+1482,caelum/vraptor4,Add Parameter,22
+1483,caelum/vraptor4,Change Attribute Type,4
+1484,caelum/vraptor4,Change Method Access Modifier,1
+1485,caelum/vraptor4,Change Parameter Type,6
+1486,caelum/vraptor4,Change Return Type,2
+1487,caelum/vraptor4,Change Type Declaration Kind,1
+1488,caelum/vraptor4,Extract Method,13
+1489,caelum/vraptor4,Extract Subclass,1
+1490,caelum/vraptor4,Extract Variable,3
+1491,caelum/vraptor4,Move Code,1
+1492,caelum/vraptor4,Push Down Method,7
+1493,caelum/vraptor4,Remove Class Annotation,2
+1494,caelum/vraptor4,Remove Method Annotation,1
+1495,caelum/vraptor4,Remove Method Modifier,7
+1496,caelum/vraptor4,Rename Attribute,1
+1497,caelum/vraptor4,Rename Method,1
+1498,caelum/vraptor4,Rename Parameter,9
+1499,caelum/vraptor4,Rename Variable,1
+1500,camunda-community-hub/zeebe-kafka-exporter,Add Attribute Modifier,2
+1501,camunda-community-hub/zeebe-kafka-exporter,Add Class Annotation,8
+1502,camunda-community-hub/zeebe-kafka-exporter,Add Class Modifier,14
+1503,camunda-community-hub/zeebe-kafka-exporter,Add Method Annotation,3
+1504,camunda-community-hub/zeebe-kafka-exporter,Add Parameter,6
+1505,camunda-community-hub/zeebe-kafka-exporter,Add Parameter Annotation,5
+1506,camunda-community-hub/zeebe-kafka-exporter,Add Parameter Modifier,1
+1507,camunda-community-hub/zeebe-kafka-exporter,Add Thrown Exception Type,2
+1508,camunda-community-hub/zeebe-kafka-exporter,Change Attribute Access Modifier,1
+1509,camunda-community-hub/zeebe-kafka-exporter,Change Attribute Type,7
+1510,camunda-community-hub/zeebe-kafka-exporter,Change Class Access Modifier,9
+1511,camunda-community-hub/zeebe-kafka-exporter,Change Method Access Modifier,21
+1512,camunda-community-hub/zeebe-kafka-exporter,Change Parameter Type,11
+1513,camunda-community-hub/zeebe-kafka-exporter,Change Return Type,8
+1514,camunda-community-hub/zeebe-kafka-exporter,Change Variable Type,25
+1515,camunda-community-hub/zeebe-kafka-exporter,Extract And Move Method,1
+1516,camunda-community-hub/zeebe-kafka-exporter,Extract Class,1
+1517,camunda-community-hub/zeebe-kafka-exporter,Extract Method,4
+1518,camunda-community-hub/zeebe-kafka-exporter,Extract Superclass,2
+1519,camunda-community-hub/zeebe-kafka-exporter,Extract Variable,1
+1520,camunda-community-hub/zeebe-kafka-exporter,Inline Method,5
+1521,camunda-community-hub/zeebe-kafka-exporter,Inline Variable,2
+1522,camunda-community-hub/zeebe-kafka-exporter,Merge Variable,1
+1523,camunda-community-hub/zeebe-kafka-exporter,Modify Class Annotation,3
+1524,camunda-community-hub/zeebe-kafka-exporter,Move And Rename Class,1
+1525,camunda-community-hub/zeebe-kafka-exporter,Move And Rename Method,4
+1526,camunda-community-hub/zeebe-kafka-exporter,Move Attribute,5
+1527,camunda-community-hub/zeebe-kafka-exporter,Move Class,1
+1528,camunda-community-hub/zeebe-kafka-exporter,Move Method,1
+1529,camunda-community-hub/zeebe-kafka-exporter,Pull Up Method,9
+1530,camunda-community-hub/zeebe-kafka-exporter,Push Down Method,2
+1531,camunda-community-hub/zeebe-kafka-exporter,Remove Attribute Annotation,1
+1532,camunda-community-hub/zeebe-kafka-exporter,Remove Class Annotation,5
+1533,camunda-community-hub/zeebe-kafka-exporter,Remove Method Annotation,38
+1534,camunda-community-hub/zeebe-kafka-exporter,Remove Parameter,2
+1535,camunda-community-hub/zeebe-kafka-exporter,Remove Parameter Annotation,55
+1536,camunda-community-hub/zeebe-kafka-exporter,Remove Thrown Exception Type,1
+1537,camunda-community-hub/zeebe-kafka-exporter,Rename Attribute,16
+1538,camunda-community-hub/zeebe-kafka-exporter,Rename Class,2
+1539,camunda-community-hub/zeebe-kafka-exporter,Rename Method,9
+1540,camunda-community-hub/zeebe-kafka-exporter,Rename Parameter,6
+1541,camunda-community-hub/zeebe-kafka-exporter,Rename Variable,4
+1542,camunda-community-hub/zeebe-kafka-exporter,Reorder Parameter,1
+1543,capacitor-community/admob,Add Attribute Annotation,5
+1544,capacitor-community/admob,Extract Variable,1
+1545,capacitor-community/admob,Inline Variable,1
+1546,capacitor-community/admob,Modify Attribute Annotation,1
+1547,cdancy/jenkins-rest,Extract Method,1
+1548,cdancy/jenkins-rest,Remove Parameter Annotation,1
+1549,cgeo/cgeo,Add Attribute Modifier,1
+1550,cgeo/cgeo,Add Method Annotation,11
+1551,cgeo/cgeo,Add Method Modifier,1
+1552,cgeo/cgeo,Add Parameter,4
+1553,cgeo/cgeo,Add Parameter Annotation,1
+1554,cgeo/cgeo,Add Variable Modifier,1
+1555,cgeo/cgeo,Change Attribute Access Modifier,4
+1556,cgeo/cgeo,Change Attribute Type,6
+1557,cgeo/cgeo,Change Method Access Modifier,4
+1558,cgeo/cgeo,Change Parameter Type,3
+1559,cgeo/cgeo,Change Return Type,4
+1560,cgeo/cgeo,Change Variable Type,5
+1561,cgeo/cgeo,Extract And Move Method,3
+1562,cgeo/cgeo,Extract Class,2
+1563,cgeo/cgeo,Extract Method,14
+1564,cgeo/cgeo,Extract Variable,2
+1565,cgeo/cgeo,Inline Variable,6
+1566,cgeo/cgeo,Move And Rename Method,2
+1567,cgeo/cgeo,Move Attribute,3
+1568,cgeo/cgeo,Move Method,1
+1569,cgeo/cgeo,Parameterize Attribute,1
+1570,cgeo/cgeo,Remove Method Annotation,2
+1571,cgeo/cgeo,Remove Method Modifier,2
+1572,cgeo/cgeo,Remove Parameter,5
+1573,cgeo/cgeo,Remove Variable Modifier,1
+1574,cgeo/cgeo,Rename Attribute,2
+1575,cgeo/cgeo,Rename Class,2
+1576,cgeo/cgeo,Rename Method,5
+1577,cgeo/cgeo,Rename Parameter,5
+1578,cgeo/cgeo,Rename Variable,12
+1579,cgeo/cgeo,Replace Attribute With Variable,2
+1580,cgeo/cgeo,Split Method,1
+1581,cloudfoundry/uaa,Add Attribute Annotation,5
+1582,cloudfoundry/uaa,Add Attribute Modifier,4
+1583,cloudfoundry/uaa,Add Class Annotation,1
+1584,cloudfoundry/uaa,Add Method Annotation,3
+1585,cloudfoundry/uaa,Add Parameter,6
+1586,cloudfoundry/uaa,Add Parameter Annotation,2
+1587,cloudfoundry/uaa,Add Parameter Modifier,2
+1588,cloudfoundry/uaa,Add Variable Modifier,5
+1589,cloudfoundry/uaa,Change Attribute Access Modifier,1
+1590,cloudfoundry/uaa,Change Attribute Type,4
+1591,cloudfoundry/uaa,Change Class Access Modifier,1
+1592,cloudfoundry/uaa,Change Method Access Modifier,7
+1593,cloudfoundry/uaa,Change Parameter Type,2
+1594,cloudfoundry/uaa,Change Return Type,2
+1595,cloudfoundry/uaa,Change Variable Type,4
+1596,cloudfoundry/uaa,Extract And Move Method,1
+1597,cloudfoundry/uaa,Extract Attribute,3
+1598,cloudfoundry/uaa,Extract Method,7
+1599,cloudfoundry/uaa,Extract Variable,3
+1600,cloudfoundry/uaa,Inline Method,1
+1601,cloudfoundry/uaa,Inline Variable,1
+1602,cloudfoundry/uaa,Parameterize Variable,2
+1603,cloudfoundry/uaa,Remove Attribute Modifier,3
+1604,cloudfoundry/uaa,Remove Method Annotation,1
+1605,cloudfoundry/uaa,Remove Parameter,9
+1606,cloudfoundry/uaa,Remove Variable Modifier,2
+1607,cloudfoundry/uaa,Rename Attribute,5
+1608,cloudfoundry/uaa,Rename Method,4
+1609,cloudfoundry/uaa,Rename Parameter,3
+1610,cloudfoundry/uaa,Rename Variable,8
+1611,cloudsimplus/cloudsimplus,Add Attribute Modifier,3
+1612,cloudsimplus/cloudsimplus,Add Variable Modifier,1
+1613,cloudsimplus/cloudsimplus,Assert Throws,1
+1614,cloudsimplus/cloudsimplus,Change Attribute Access Modifier,4
+1615,cloudsimplus/cloudsimplus,Change Attribute Type,6
+1616,cloudsimplus/cloudsimplus,Change Method Access Modifier,2
+1617,cloudsimplus/cloudsimplus,Change Parameter Type,8
+1618,cloudsimplus/cloudsimplus,Change Return Type,12
+1619,cloudsimplus/cloudsimplus,Change Variable Type,27
+1620,cloudsimplus/cloudsimplus,Encapsulate Attribute,1
+1621,cloudsimplus/cloudsimplus,Extract Method,5
+1622,cloudsimplus/cloudsimplus,Extract Variable,2
+1623,cloudsimplus/cloudsimplus,Inline Variable,6
+1624,cloudsimplus/cloudsimplus,Move And Inline Method,3
+1625,cloudsimplus/cloudsimplus,Move And Rename Method,2
+1626,cloudsimplus/cloudsimplus,Move Attribute,3
+1627,cloudsimplus/cloudsimplus,Move Method,24
+1628,cloudsimplus/cloudsimplus,Parameterize Attribute,1
+1629,cloudsimplus/cloudsimplus,Parameterize Variable,3
+1630,cloudsimplus/cloudsimplus,Pull Up Attribute,4
+1631,cloudsimplus/cloudsimplus,Push Down Attribute,3
+1632,cloudsimplus/cloudsimplus,Push Down Method,17
+1633,cloudsimplus/cloudsimplus,Remove Attribute Modifier,8
+1634,cloudsimplus/cloudsimplus,Remove Method Annotation,18
+1635,cloudsimplus/cloudsimplus,Remove Variable Modifier,3
+1636,cloudsimplus/cloudsimplus,Rename Attribute,1
+1637,cloudsimplus/cloudsimplus,Rename Class,1
+1638,cloudsimplus/cloudsimplus,Rename Method,1
+1639,cloudsimplus/cloudsimplus,Rename Variable,4
+1640,cloudsimplus/cloudsimplus,Replace Loop With Pipeline,1
+1641,cloudsimplus/cloudsimplus,Replace Pipeline With Loop,1
+1642,common-workflow-language/cwlviewer,Change Attribute Access Modifier,1
+1643,common-workflow-language/cwlviewer,Remove Method Annotation,1
+1644,common-workflow-language/cwlviewer,Rename Method,1
+1645,commons-app/apps-android-commons,Rename Variable,1
+1646,confluence-publisher/confluence-publisher,Add Parameter,5
+1647,confluence-publisher/confluence-publisher,Extract Method,2
+1648,confluence-publisher/confluence-publisher,Inline Variable,1
+1649,confluence-publisher/confluence-publisher,Rename Method,3
+1650,confluence-publisher/confluence-publisher,Rename Variable,1
+1651,constellation-app/constellation,Rename Attribute,12
+1652,cryptomator/cryptomator,Add Parameter,12
+1653,cryptomator/cryptomator,Add Thrown Exception Type,5
+1654,cryptomator/cryptomator,Change Attribute Type,17
+1655,cryptomator/cryptomator,Change Class Access Modifier,1
+1656,cryptomator/cryptomator,Change Method Access Modifier,1
+1657,cryptomator/cryptomator,Change Parameter Type,3
+1658,cryptomator/cryptomator,Change Return Type,18
+1659,cryptomator/cryptomator,Change Thrown Exception Type,2
+1660,cryptomator/cryptomator,Change Variable Type,5
+1661,cryptomator/cryptomator,Extract Method,4
+1662,cryptomator/cryptomator,Inline Method,2
+1663,cryptomator/cryptomator,Merge Conditional,1
+1664,cryptomator/cryptomator,Modify Class Annotation,2
+1665,cryptomator/cryptomator,Move Attribute,9
+1666,cryptomator/cryptomator,Move Class,1
+1667,cryptomator/cryptomator,Move Method,12
+1668,cryptomator/cryptomator,Remove Method Annotation,1
+1669,cryptomator/cryptomator,Remove Parameter,10
+1670,cryptomator/cryptomator,Remove Thrown Exception Type,7
+1671,cryptomator/cryptomator,Remove Variable Modifier,1
+1672,cryptomator/cryptomator,Rename Attribute,15
+1673,cryptomator/cryptomator,Rename Method,27
+1674,cryptomator/cryptomator,Rename Parameter,2
+1675,cryptomator/cryptomator,Rename Variable,5
+1676,cryptomator/cryptomator,Replace Loop With Pipeline,1
+1677,cryptomator/cryptomator,Replace Variable With Attribute,1
+1678,cryptomator/hub,Add Parameter Annotation,1
+1679,cryptomator/hub,Change Parameter Type,1
+1680,cryptomator/hub,Change Return Type,1
+1681,cryptomator/hub,Modify Class Annotation,1
+1682,cryptomator/hub,Modify Method Annotation,1
+1683,cryptomator/hub,Remove Parameter Annotation,1
+1684,cryptomator/hub,Rename Method,2
+1685,cucumber/cucumber-eclipse,Add Attribute Modifier,4
+1686,cucumber/cucumber-eclipse,Add Method Annotation,3
+1687,cucumber/cucumber-eclipse,Add Parameter,15
+1688,cucumber/cucumber-eclipse,Add Thrown Exception Type,21
+1689,cucumber/cucumber-eclipse,Change Attribute Access Modifier,6
+1690,cucumber/cucumber-eclipse,Change Attribute Type,16
+1691,cucumber/cucumber-eclipse,Change Class Access Modifier,2
+1692,cucumber/cucumber-eclipse,Change Method Access Modifier,18
+1693,cucumber/cucumber-eclipse,Change Parameter Type,15
+1694,cucumber/cucumber-eclipse,Change Return Type,13
+1695,cucumber/cucumber-eclipse,Change Variable Type,38
+1696,cucumber/cucumber-eclipse,Extract And Move Method,1
+1697,cucumber/cucumber-eclipse,Extract Class,2
+1698,cucumber/cucumber-eclipse,Extract Method,9
+1699,cucumber/cucumber-eclipse,Extract Superclass,1
+1700,cucumber/cucumber-eclipse,Extract Variable,10
+1701,cucumber/cucumber-eclipse,Inline Method,1
+1702,cucumber/cucumber-eclipse,Inline Variable,1
+1703,cucumber/cucumber-eclipse,Localize Parameter,3
+1704,cucumber/cucumber-eclipse,Merge Class,1
+1705,cucumber/cucumber-eclipse,Merge Parameter,1
+1706,cucumber/cucumber-eclipse,Move And Rename Method,3
+1707,cucumber/cucumber-eclipse,Move Attribute,9
+1708,cucumber/cucumber-eclipse,Move Class,13
+1709,cucumber/cucumber-eclipse,Move Method,7
+1710,cucumber/cucumber-eclipse,Parameterize Attribute,1
+1711,cucumber/cucumber-eclipse,Pull Up Method,5
+1712,cucumber/cucumber-eclipse,Remove Attribute Modifier,7
+1713,cucumber/cucumber-eclipse,Remove Class Modifier,1
+1714,cucumber/cucumber-eclipse,Remove Method Modifier,1
+1715,cucumber/cucumber-eclipse,Remove Parameter,2
+1716,cucumber/cucumber-eclipse,Remove Thrown Exception Type,1
+1717,cucumber/cucumber-eclipse,Rename Attribute,13
+1718,cucumber/cucumber-eclipse,Rename Class,7
+1719,cucumber/cucumber-eclipse,Rename Method,8
+1720,cucumber/cucumber-eclipse,Rename Parameter,7
+1721,cucumber/cucumber-eclipse,Rename Variable,10
+1722,cucumber/cucumber-eclipse,Replace Attribute With Variable,5
+1723,cucumber/cucumber-eclipse,Replace Variable With Attribute,1
+1724,cucumber/cucumber-eclipse,Split Conditional,1
+1725,dadoonet/fscrawler,Add Parameter,1
+1726,datahub-project/datahub,Extract Method,1
+1727,datahub-project/datahub,Rename Method,1
+1728,don/cordova-plugin-ble-central,Rename Attribute,1
+1729,ebean-orm/ebean,Split Method,1
+1730,ec-jrc/re3gistry,Rename Variable,2
+1731,eclipse-ee4j/glassfish,Add Attribute Modifier,59
+1732,eclipse-ee4j/glassfish,Add Method Annotation,226
+1733,eclipse-ee4j/glassfish,Add Parameter,1
+1734,eclipse-ee4j/glassfish,Add Parameter Modifier,1
+1735,eclipse-ee4j/glassfish,Add Variable Modifier,1
+1736,eclipse-ee4j/glassfish,Change Attribute Access Modifier,20
+1737,eclipse-ee4j/glassfish,Change Attribute Type,4
+1738,eclipse-ee4j/glassfish,Change Method Access Modifier,2
+1739,eclipse-ee4j/glassfish,Change Parameter Type,1
+1740,eclipse-ee4j/glassfish,Change Return Type,2
+1741,eclipse-ee4j/glassfish,Change Variable Type,4
+1742,eclipse-ee4j/glassfish,Extract Class,3
+1743,eclipse-ee4j/glassfish,Extract Variable,4
+1744,eclipse-ee4j/glassfish,Inline Attribute,1
+1745,eclipse-ee4j/glassfish,Inline Variable,3
+1746,eclipse-ee4j/glassfish,Modify Attribute Annotation,2
+1747,eclipse-ee4j/glassfish,Move And Rename Attribute,1
+1748,eclipse-ee4j/glassfish,Move Attribute,7
+1749,eclipse-ee4j/glassfish,Remove Class Modifier,1
+1750,eclipse-ee4j/glassfish,Remove Method Modifier,1
+1751,eclipse-ee4j/glassfish,Rename Attribute,46
+1752,eclipse-ee4j/glassfish,Rename Method,1
+1753,eclipse-ee4j/glassfish,Rename Parameter,1
+1754,eclipse-ee4j/glassfish,Rename Variable,3
+1755,eclipse-ee4j/yasson,Rename Method,1
+1756,eclipse-rdf4j/rdf4j,Add Attribute Modifier,5
+1757,eclipse-rdf4j/rdf4j,Add Class Annotation,10
+1758,eclipse-rdf4j/rdf4j,Add Class Modifier,1
+1759,eclipse-rdf4j/rdf4j,Add Method Annotation,29
+1760,eclipse-rdf4j/rdf4j,Add Method Modifier,2
+1761,eclipse-rdf4j/rdf4j,Add Parameter,21
+1762,eclipse-rdf4j/rdf4j,Add Thrown Exception Type,5
+1763,eclipse-rdf4j/rdf4j,Add Variable Modifier,2
+1764,eclipse-rdf4j/rdf4j,Change Attribute Access Modifier,4
+1765,eclipse-rdf4j/rdf4j,Change Attribute Type,37
+1766,eclipse-rdf4j/rdf4j,Change Class Access Modifier,1
+1767,eclipse-rdf4j/rdf4j,Change Method Access Modifier,15
+1768,eclipse-rdf4j/rdf4j,Change Parameter Type,73
+1769,eclipse-rdf4j/rdf4j,Change Return Type,50
+1770,eclipse-rdf4j/rdf4j,Change Type Declaration Kind,1
+1771,eclipse-rdf4j/rdf4j,Change Variable Type,70
+1772,eclipse-rdf4j/rdf4j,Extract And Move Method,4
+1773,eclipse-rdf4j/rdf4j,Extract Class,2
+1774,eclipse-rdf4j/rdf4j,Extract Method,29
+1775,eclipse-rdf4j/rdf4j,Extract Variable,13
+1776,eclipse-rdf4j/rdf4j,Inline Method,8
+1777,eclipse-rdf4j/rdf4j,Inline Variable,9
+1778,eclipse-rdf4j/rdf4j,Invert Condition,4
+1779,eclipse-rdf4j/rdf4j,Localize Parameter,1
+1780,eclipse-rdf4j/rdf4j,Merge Attribute,1
+1781,eclipse-rdf4j/rdf4j,Merge Parameter,2
+1782,eclipse-rdf4j/rdf4j,Merge Variable,1
+1783,eclipse-rdf4j/rdf4j,Modify Class Annotation,8
+1784,eclipse-rdf4j/rdf4j,Modify Method Annotation,2
+1785,eclipse-rdf4j/rdf4j,Move And Inline Method,2
+1786,eclipse-rdf4j/rdf4j,Move And Rename Method,1
+1787,eclipse-rdf4j/rdf4j,Move Attribute,6
+1788,eclipse-rdf4j/rdf4j,Move Method,12
+1789,eclipse-rdf4j/rdf4j,Parameterize Variable,3
+1790,eclipse-rdf4j/rdf4j,Push Down Method,1
+1791,eclipse-rdf4j/rdf4j,Remove Attribute Modifier,1
+1792,eclipse-rdf4j/rdf4j,Remove Class Annotation,2
+1793,eclipse-rdf4j/rdf4j,Remove Method Annotation,10
+1794,eclipse-rdf4j/rdf4j,Remove Method Modifier,7
+1795,eclipse-rdf4j/rdf4j,Remove Parameter,30
+1796,eclipse-rdf4j/rdf4j,Remove Thrown Exception Type,16
+1797,eclipse-rdf4j/rdf4j,Remove Variable Modifier,2
+1798,eclipse-rdf4j/rdf4j,Rename Attribute,11
+1799,eclipse-rdf4j/rdf4j,Rename Class,17
+1800,eclipse-rdf4j/rdf4j,Rename Method,18
+1801,eclipse-rdf4j/rdf4j,Rename Parameter,13
+1802,eclipse-rdf4j/rdf4j,Rename Variable,28
+1803,eclipse-rdf4j/rdf4j,Replace Anonymous With Lambda,1
+1804,eclipse-rdf4j/rdf4j,Replace Attribute With Variable,1
+1805,eclipse-rdf4j/rdf4j,Replace Loop With Pipeline,1
+1806,eclipse-rdf4j/rdf4j,Replace Pipeline With Loop,1
+1807,eclipse-rdf4j/rdf4j,Replace Variable With Attribute,2
+1808,eclipse-rdf4j/rdf4j,Split Variable,1
+1809,eclipse/microprofile-context-propagation,Add Attribute Annotation,11
+1810,eclipse/microprofile-context-propagation,Add Method Annotation,2
+1811,eclipse/microprofile-context-propagation,Add Parameter Annotation,3
+1812,eclipse/microprofile-context-propagation,Change Attribute Access Modifier,1
+1813,eclipse/microprofile-context-propagation,Move Attribute,1
+1814,eclipse/microprofile-context-propagation,Remove Attribute Annotation,9
+1815,eclipse/microprofile-context-propagation,Remove Method Annotation,2
+1816,eclipse/microprofile-context-propagation,Remove Parameter Annotation,3
+1817,eclipse/microprofile-context-propagation,Rename Method,3
+1818,eclipse/transformer,Add Method Annotation,8
+1819,eclipse/transformer,Add Method Modifier,12
+1820,eclipse/transformer,Add Parameter,23
+1821,eclipse/transformer,Add Parameter Annotation,9
+1822,eclipse/transformer,Add Variable Annotation,4
+1823,eclipse/transformer,Change Method Access Modifier,9
+1824,eclipse/transformer,Change Parameter Type,4
+1825,eclipse/transformer,Change Return Type,4
+1826,eclipse/transformer,Change Variable Type,14
+1827,eclipse/transformer,Encapsulate Attribute,1
+1828,eclipse/transformer,Extract And Move Method,1
+1829,eclipse/transformer,Extract Method,5
+1830,eclipse/transformer,Extract Variable,2
+1831,eclipse/transformer,Merge Variable,1
+1832,eclipse/transformer,Move And Rename Method,1
+1833,eclipse/transformer,Move Method,13
+1834,eclipse/transformer,Move Source Folder,1
+1835,eclipse/transformer,Parameterize Variable,2
+1836,eclipse/transformer,Remove Parameter,1
+1837,eclipse/transformer,Remove Thrown Exception Type,4
+1838,eclipse/transformer,Remove Variable Annotation,2
+1839,eclipse/transformer,Rename Attribute,2
+1840,eclipse/transformer,Rename Method,7
+1841,eclipse/transformer,Rename Parameter,3
+1842,eclipse/transformer,Rename Variable,7
+1843,elastic/elasticsearch-java,Add Attribute Modifier,1
+1844,elastic/elasticsearch-java,Change Parameter Type,1
+1845,elastic/elasticsearch-java,Change Return Type,2
+1846,elastic/elasticsearch-java,Change Variable Type,1
+1847,elastic/elasticsearch-java,Extract Superclass,1
+1848,elastic/elasticsearch-java,Rename Attribute,2
+1849,elastic/elasticsearch-java,Rename Method,5
+1850,elastic/elasticsearch-java,Rename Parameter,1
+1851,elastic/elasticsearch-java,Rename Variable,1
+1852,etiennestuder/teamcity-build-scan-plugin,Modify Class Annotation,1
+1853,everit-org/json-schema,Extract Method,1
+1854,everit-org/json-schema,Extract Variable,1
+1855,fabric8io/openshift-elasticsearch-plugin,Add Attribute Annotation,2
+1856,fabric8io/openshift-elasticsearch-plugin,Add Parameter,1
+1857,fabric8io/openshift-elasticsearch-plugin,Change Variable Type,1
+1858,fabric8io/openshift-elasticsearch-plugin,Extract Variable,1
+1859,fabric8io/openshift-elasticsearch-plugin,Rename Parameter,1
+1860,factcast/factcast,Add Attribute Annotation,2
+1861,factcast/factcast,Change Parameter Type,2
+1862,factcast/factcast,Change Variable Type,6
+1863,factcast/factcast,Extract Method,2
+1864,factcast/factcast,Merge Conditional,4
+1865,factcast/factcast,Modify Method Annotation,1
+1866,factcast/factcast,Move Code,1
+1867,fr3ts0n/AndrOBD,Change Attribute Type,1
+1868,fr3ts0n/AndrOBD,Change Variable Type,1
+1869,fr3ts0n/AndrOBD,Rename Variable,1
+1870,frc1678/C2022-Public,Add Attribute Modifier,1
+1871,frc1678/C2022-Public,Move Attribute,1
+1872,frc1678/C2022-Public,Rename Attribute,6
+1873,gaia-app/gaia,Change Return Type,1
+1874,gaia-app/gaia,Change Variable Type,2
+1875,gaia-app/gaia,Modify Method Annotation,1
+1876,gaia-app/gaia,Remove Method Annotation,1
+1877,gaia-app/gaia,Remove Parameter,2
+1878,gaia-app/gaia,Remove Thrown Exception Type,2
+1879,gaia-app/gaia,Rename Method,1
+1880,gaia-app/gaia,Rename Variable,3
+1881,gchq/MagmaCore,Add Parameter,17
+1882,gchq/MagmaCore,Change Attribute Access Modifier,2
+1883,gchq/MagmaCore,Change Attribute Type,2
+1884,gchq/MagmaCore,Change Return Type,14
+1885,gchq/MagmaCore,Change Variable Type,50
+1886,gchq/MagmaCore,Encapsulate Attribute,1
+1887,gchq/MagmaCore,Extract And Move Method,7
+1888,gchq/MagmaCore,Extract Class,1
+1889,gchq/MagmaCore,Extract Method,3
+1890,gchq/MagmaCore,Extract Variable,1
+1891,gchq/MagmaCore,Inline Variable,1
+1892,gchq/MagmaCore,Move And Rename Method,1
+1893,gchq/MagmaCore,Move Attribute,3
+1894,gchq/MagmaCore,Move Method,16
+1895,gchq/MagmaCore,Parameterize Attribute,1
+1896,gchq/MagmaCore,Remove Class Modifier,1
+1897,gchq/MagmaCore,Rename Class,1
+1898,gchq/MagmaCore,Rename Variable,2
+1899,gchq/MagmaCore,Reorder Parameter,1
+1900,gchq/stroom,Add Class Annotation,1
+1901,gchq/stroom,Add Method Annotation,1
+1902,gchq/stroom,Add Method Modifier,3
+1903,gchq/stroom,Add Parameter,25
+1904,gchq/stroom,Add Parameter Modifier,1
+1905,gchq/stroom,Add Variable Modifier,1
+1906,gchq/stroom,Change Attribute Access Modifier,1
+1907,gchq/stroom,Change Attribute Type,8
+1908,gchq/stroom,Change Method Access Modifier,2
+1909,gchq/stroom,Change Parameter Type,7
+1910,gchq/stroom,Change Return Type,5
+1911,gchq/stroom,Change Variable Type,5
+1912,gchq/stroom,Extract And Move Method,3
+1913,gchq/stroom,Extract Attribute,1
+1914,gchq/stroom,Extract Method,16
+1915,gchq/stroom,Extract Variable,7
+1916,gchq/stroom,Inline Method,1
+1917,gchq/stroom,Invert Condition,1
+1918,gchq/stroom,Merge Attribute,1
+1919,gchq/stroom,Merge Conditional,1
+1920,gchq/stroom,Merge Parameter,1
+1921,gchq/stroom,Modify Class Annotation,1
+1922,gchq/stroom,Move And Rename Method,1
+1923,gchq/stroom,Move Attribute,1
+1924,gchq/stroom,Move Class,2
+1925,gchq/stroom,Move Method,1
+1926,gchq/stroom,Parameterize Variable,3
+1927,gchq/stroom,Remove Class Annotation,6
+1928,gchq/stroom,Remove Method Modifier,1
+1929,gchq/stroom,Remove Parameter,10
+1930,gchq/stroom,Rename Attribute,8
+1931,gchq/stroom,Rename Method,5
+1932,gchq/stroom,Rename Parameter,5
+1933,gchq/stroom,Rename Variable,4
+1934,gchq/stroom,Replace Loop With Pipeline,2
+1935,gephi/gephi,Add Parameter,1
+1936,gephi/gephi,Change Variable Type,1
+1937,gephi/gephi,Rename Attribute,2
+1938,gephi/gephi,Rename Variable,1
+1939,gocd/gocd,Add Attribute Modifier,11
+1940,gocd/gocd,Add Class Annotation,1
+1941,gocd/gocd,Add Method Annotation,1
+1942,gocd/gocd,Add Parameter,7
+1943,gocd/gocd,Change Attribute Access Modifier,2
+1944,gocd/gocd,Change Method Access Modifier,3
+1945,gocd/gocd,Change Parameter Type,1
+1946,gocd/gocd,Change Return Type,9
+1947,gocd/gocd,Change Variable Type,4
+1948,gocd/gocd,Extract Method,4
+1949,gocd/gocd,Inline Method,1
+1950,gocd/gocd,Move And Inline Method,2
+1951,gocd/gocd,Move And Rename Method,1
+1952,gocd/gocd,Move Code,4
+1953,gocd/gocd,Pull Up Attribute,1
+1954,gocd/gocd,Remove Method Annotation,1
+1955,gocd/gocd,Remove Thrown Exception Type,18
+1956,gocd/gocd,Rename Attribute,1
+1957,gocd/gocd,Rename Method,6
+1958,gocd/gocd,Rename Parameter,5
+1959,gocd/gocd,Rename Variable,2
+1960,gocd/gocd,Replace Variable With Attribute,1
+1961,google/auto,Add Method Annotation,1
+1962,google/auto,Add Parameter,1
+1963,google/auto,Assert Throws,1
+1964,google/auto,Change Method Access Modifier,1
+1965,google/auto,Change Parameter Type,1
+1966,google/auto,Extract Variable,1
+1967,google/auto,Localize Parameter,1
+1968,google/auto,Remove Parameter,1
+1969,google/auto,Replace Variable With Attribute,1
+1970,google/closure-compiler,Add Parameter,1
+1971,google/closure-compiler,Collapse Hierarchy,1
+1972,google/closure-compiler,Extract And Move Method,2
+1973,google/closure-compiler,Merge Conditional,1
+1974,google/closure-compiler,Modify Attribute Annotation,2
+1975,google/closure-compiler,Move And Rename Method,1
+1976,google/closure-compiler,Pull Up Method,1
+1977,google/closure-compiler,Remove Method Annotation,1
+1978,google/closure-compiler,Rename Attribute,2
+1979,google/closure-compiler,Split Conditional,1
+1980,google/error-prone,Add Parameter,1
+1981,google/error-prone,Change Method Access Modifier,1
+1982,google/error-prone,Change Parameter Type,1
+1983,google/error-prone,Extract Method,2
+1984,gradle/exemplar,Rename Variable,1
+1985,gradle/gradle-profiler,Add Method Annotation,1
+1986,gradle/gradle-profiler,Add Parameter,8
+1987,gradle/gradle-profiler,Change Attribute Type,3
+1988,gradle/gradle-profiler,Change Parameter Type,4
+1989,gradle/gradle-profiler,Change Return Type,6
+1990,gradle/gradle-profiler,Change Variable Type,2
+1991,gradle/gradle-profiler,Encapsulate Attribute,1
+1992,gradle/gradle-profiler,Extract Method,2
+1993,gradle/gradle-profiler,Remove Parameter Annotation,2
+1994,gradle/gradle-profiler,Rename Attribute,1
+1995,gradle/gradle-profiler,Rename Method,1
+1996,gradle/gradle-profiler,Rename Parameter,1
+1997,graphhopper/graphhopper,Add Parameter,13
+1998,graphhopper/graphhopper,Add Variable Modifier,1
+1999,graphhopper/graphhopper,Change Attribute Access Modifier,8
+2000,graphhopper/graphhopper,Change Attribute Type,14
+2001,graphhopper/graphhopper,Change Method Access Modifier,7
+2002,graphhopper/graphhopper,Change Parameter Type,42
+2003,graphhopper/graphhopper,Change Return Type,5
+2004,graphhopper/graphhopper,Change Variable Type,6
+2005,graphhopper/graphhopper,Encapsulate Attribute,1
+2006,graphhopper/graphhopper,Extract Class,1
+2007,graphhopper/graphhopper,Extract Method,1
+2008,graphhopper/graphhopper,Extract Variable,1
+2009,graphhopper/graphhopper,Inline Method,3
+2010,graphhopper/graphhopper,Localize Parameter,1
+2011,graphhopper/graphhopper,Move Attribute,3
+2012,graphhopper/graphhopper,Move Code,4
+2013,graphhopper/graphhopper,Move Method,1
+2014,graphhopper/graphhopper,Pull Up Method,2
+2015,graphhopper/graphhopper,Push Down Method,1
+2016,graphhopper/graphhopper,Remove Attribute Modifier,6
+2017,graphhopper/graphhopper,Remove Method Modifier,1
+2018,graphhopper/graphhopper,Remove Parameter,2
+2019,graphhopper/graphhopper,Rename Attribute,10
+2020,graphhopper/graphhopper,Rename Class,2
+2021,graphhopper/graphhopper,Rename Method,4
+2022,graphhopper/graphhopper,Rename Parameter,2
+2023,graphhopper/graphhopper,Replace Variable With Attribute,2
+2024,graphql-java/graphql-java,Add Class Annotation,1
+2025,graphql-java/graphql-java,Add Method Annotation,16
+2026,graphql-java/graphql-java,Change Parameter Type,1
+2027,graphql-java/graphql-java,Extract Method,1
+2028,graphql-java/graphql-java,Rename Parameter,1
+2029,graphql-java/graphql-java,Rename Variable,2
+2030,grpc/grpc-java,Add Method Annotation,1
+2031,grpc/grpc-java,Add Parameter,1
+2032,grpc/grpc-java,Add Parameter Annotation,2
+2033,grpc/grpc-java,Change Attribute Type,3
+2034,grpc/grpc-java,Change Method Access Modifier,1
+2035,grpc/grpc-java,Change Parameter Type,1
+2036,grpc/grpc-java,Move And Rename Class,2
+2037,grpc/grpc-java,Remove Method Annotation,2
+2038,grpc/grpc-java,Rename Method,2
+2039,helmethair-co/scalatest-junit-runner,Change Return Type,1
+2040,helmethair-co/scalatest-junit-runner,Rename Variable,1
+2041,hyperledger/besu,Change Class Access Modifier,1
+2042,hyperledger/besu,Change Return Type,1
+2043,hyperledger/besu,Change Variable Type,1
+2044,hyperledger/besu,Encapsulate Attribute,1
+2045,hyperledger/besu,Inline Method,1
+2046,hyperledger/besu,Move Class,1
+2047,hyperledger/besu,Remove Parameter,10
+2048,hyperledger/besu,Rename Method,1
+2049,hyperledger/besu,Rename Parameter,2
+2050,hyperledger/besu,Rename Variable,1
+2051,hyperledger/besu,Replace Attribute With Variable,4
+2052,i-Cell-Mobilsoft-Open-Source/coffee,Change Attribute Type,1
+2053,i-Cell-Mobilsoft-Open-Source/coffee,Change Return Type,1
+2054,i-Cell-Mobilsoft-Open-Source/coffee,Rename Method,1
+2055,iluwatar/java-design-patterns,Add Attribute Modifier,3
+2056,iluwatar/java-design-patterns,Add Class Annotation,1
+2057,iluwatar/java-design-patterns,Add Method Annotation,2
+2058,iluwatar/java-design-patterns,Add Method Modifier,2
+2059,iluwatar/java-design-patterns,Change Attribute Access Modifier,2
+2060,iluwatar/java-design-patterns,Change Class Access Modifier,96
+2061,iluwatar/java-design-patterns,Change Method Access Modifier,106
+2062,iluwatar/java-design-patterns,Encapsulate Attribute,3
+2063,iluwatar/java-design-patterns,Extract Attribute,18
+2064,iluwatar/java-design-patterns,Extract Method,8
+2065,iluwatar/java-design-patterns,Extract Variable,2
+2066,iluwatar/java-design-patterns,Inline Method,2
+2067,iluwatar/java-design-patterns,Move Class,3
+2068,iluwatar/java-design-patterns,Move Source Folder,1
+2069,iluwatar/java-design-patterns,Remove Attribute Modifier,3
+2070,iluwatar/java-design-patterns,Remove Class Annotation,1
+2071,iluwatar/java-design-patterns,Remove Method Annotation,2
+2072,iluwatar/java-design-patterns,Remove Thrown Exception Type,20
+2073,iluwatar/java-design-patterns,Rename Attribute,18
+2074,iluwatar/java-design-patterns,Rename Method,104
+2075,inferred/FreeBuilder,Add Parameter,1
+2076,inferred/FreeBuilder,Change Attribute Type,5
+2077,inferred/FreeBuilder,Change Method Access Modifier,1
+2078,inferred/FreeBuilder,Change Parameter Type,1
+2079,inferred/FreeBuilder,Change Return Type,1
+2080,inferred/FreeBuilder,Change Variable Type,1
+2081,inferred/FreeBuilder,Remove Attribute Modifier,5
+2082,inferred/FreeBuilder,Rename Method,2
+2083,inferred/FreeBuilder,Rename Parameter,1
+2084,inferred/FreeBuilder,Rename Variable,1
+2085,javafx-maven-plugin/javafx-maven-plugin,Rename Parameter,3
+2086,javaparser/javaparser,Add Attribute Modifier,4
+2087,javaparser/javaparser,Add Class Modifier,1
+2088,javaparser/javaparser,Add Method Annotation,2
+2089,javaparser/javaparser,Add Method Modifier,9
+2090,javaparser/javaparser,Add Parameter,3
+2091,javaparser/javaparser,Add Thrown Exception Type,1
+2092,javaparser/javaparser,Change Attribute Type,1
+2093,javaparser/javaparser,Change Method Access Modifier,1
+2094,javaparser/javaparser,Change Parameter Type,4
+2095,javaparser/javaparser,Change Return Type,4
+2096,javaparser/javaparser,Change Variable Type,10
+2097,javaparser/javaparser,Extract And Move Method,3
+2098,javaparser/javaparser,Extract Method,13
+2099,javaparser/javaparser,Extract Variable,8
+2100,javaparser/javaparser,Inline Method,1
+2101,javaparser/javaparser,Localize Parameter,1
+2102,javaparser/javaparser,Parameterize Variable,3
+2103,javaparser/javaparser,Remove Method Annotation,2
+2104,javaparser/javaparser,Rename Class,1
+2105,javaparser/javaparser,Rename Method,2
+2106,javaparser/javaparser,Rename Parameter,2
+2107,javaparser/javaparser,Rename Variable,8
+2108,javaparser/javaparser,Replace Attribute With Variable,1
+2109,javaparser/javaparser,Split Conditional,2
+2110,jbangdev/jbang,Add Attribute Annotation,5
+2111,jbangdev/jbang,Add Attribute Modifier,1
+2112,jbangdev/jbang,Add Method Annotation,1
+2113,jbangdev/jbang,Add Parameter,2
+2114,jbangdev/jbang,Add Thrown Exception Type,2
+2115,jbangdev/jbang,Change Attribute Access Modifier,1
+2116,jbangdev/jbang,Change Attribute Type,2
+2117,jbangdev/jbang,Change Method Access Modifier,4
+2118,jbangdev/jbang,Change Parameter Type,1
+2119,jbangdev/jbang,Change Return Type,3
+2120,jbangdev/jbang,Change Variable Type,3
+2121,jbangdev/jbang,Extract Method,2
+2122,jbangdev/jbang,Extract Variable,2
+2123,jbangdev/jbang,Inline Variable,1
+2124,jbangdev/jbang,Modify Class Annotation,1
+2125,jbangdev/jbang,Modify Method Annotation,1
+2126,jbangdev/jbang,Modify Parameter Annotation,4
+2127,jbangdev/jbang,Move Method,4
+2128,jbangdev/jbang,Remove Attribute Modifier,2
+2129,jbangdev/jbang,Remove Method Annotation,1
+2130,jbangdev/jbang,Remove Method Modifier,1
+2131,jbangdev/jbang,Remove Thrown Exception Type,2
+2132,jbangdev/jbang,Rename Attribute,1
+2133,jbangdev/jbang,Rename Method,2
+2134,jbangdev/jbang,Replace Attribute With Variable,1
+2135,jenkinsci/gitlab-plugin,Encapsulate Attribute,1
+2136,jenkinsci/jobcacher-plugin,Add Class Annotation,2
+2137,jenkinsci/jobcacher-plugin,Remove Class Annotation,2
+2138,jeremylong/DependencyCheck,Add Variable Modifier,5
+2139,jeremylong/DependencyCheck,Change Attribute Access Modifier,1
+2140,jeremylong/DependencyCheck,Change Method Access Modifier,4
+2141,jeremylong/DependencyCheck,Change Parameter Type,3
+2142,jeremylong/DependencyCheck,Change Variable Type,1
+2143,jeremylong/DependencyCheck,Extract Variable,3
+2144,jeremylong/DependencyCheck,Inline Variable,4
+2145,jeremylong/DependencyCheck,Move Attribute,1
+2146,jeremylong/DependencyCheck,Move Method,2
+2147,jeremylong/DependencyCheck,Pull Up Attribute,1
+2148,jeremylong/DependencyCheck,Pull Up Method,3
+2149,jeremylong/DependencyCheck,Rename Method,1
+2150,jeremylong/DependencyCheck,Rename Parameter,2
+2151,jeremylong/DependencyCheck,Rename Variable,3
+2152,johnthagen/clion-cppcheck,Remove Variable Modifier,1
+2153,joinfaces/joinfaces,Add Method Annotation,1
+2154,joinfaces/joinfaces,Change Attribute Access Modifier,2
+2155,joinfaces/joinfaces,Change Attribute Type,16
+2156,joinfaces/joinfaces,Change Parameter Type,1
+2157,joinfaces/joinfaces,Modify Class Annotation,1
+2158,joinfaces/joinfaces,Rename Attribute,1
+2159,joinfaces/joinfaces,Rename Class,2
+2160,joinfaces/joinfaces,Rename Method,1
+2161,journeyapps/zxing-android-embedded,Extract Method,1
+2162,journeyapps/zxing-android-embedded,Remove Class Modifier,1
+2163,jplag/JPlag,Add Class Annotation,1
+2164,jplag/JPlag,Add Class Modifier,1
+2165,jplag/JPlag,Add Method Annotation,6
+2166,jplag/JPlag,Add Parameter,3
+2167,jplag/JPlag,Add Thrown Exception Type,7
+2168,jplag/JPlag,Change Attribute Access Modifier,1
+2169,jplag/JPlag,Change Attribute Type,4
+2170,jplag/JPlag,Change Parameter Type,2
+2171,jplag/JPlag,Change Return Type,2
+2172,jplag/JPlag,Change Thrown Exception Type,11
+2173,jplag/JPlag,Change Variable Type,7
+2174,jplag/JPlag,Encapsulate Attribute,1
+2175,jplag/JPlag,Inline Variable,1
+2176,jplag/JPlag,Modify Attribute Annotation,4
+2177,jplag/JPlag,Modify Method Annotation,1
+2178,jplag/JPlag,Move And Inline Method,6
+2179,jplag/JPlag,Move And Rename Method,2
+2180,jplag/JPlag,Move Class,8
+2181,jplag/JPlag,Move Code,6
+2182,jplag/JPlag,Move Method,1
+2183,jplag/JPlag,Move Source Folder,1
+2184,jplag/JPlag,Parameterize Variable,2
+2185,jplag/JPlag,Remove Method Annotation,4
+2186,jplag/JPlag,Remove Parameter,1
+2187,jplag/JPlag,Remove Thrown Exception Type,2
+2188,jplag/JPlag,Rename Attribute,5
+2189,jplag/JPlag,Rename Class,2
+2190,jplag/JPlag,Rename Method,3
+2191,jplag/JPlag,Rename Parameter,2
+2192,jplag/JPlag,Rename Variable,16
+2193,junit-team/junit5,Add Attribute Modifier,1
+2194,junit-team/junit5,Add Class Annotation,1
+2195,junit-team/junit5,Add Method Modifier,1
+2196,junit-team/junit5,Add Parameter,12
+2197,junit-team/junit5,Add Thrown Exception Type,5
+2198,junit-team/junit5,Change Attribute Type,4
+2199,junit-team/junit5,Change Class Access Modifier,1
+2200,junit-team/junit5,Change Method Access Modifier,6
+2201,junit-team/junit5,Change Parameter Type,16
+2202,junit-team/junit5,Change Return Type,7
+2203,junit-team/junit5,Change Thrown Exception Type,2
+2204,junit-team/junit5,Change Type Declaration Kind,1
+2205,junit-team/junit5,Change Variable Type,5
+2206,junit-team/junit5,Extract Class,2
+2207,junit-team/junit5,Extract Variable,1
+2208,junit-team/junit5,Modify Method Annotation,2
+2209,junit-team/junit5,Move And Inline Method,1
+2210,junit-team/junit5,Move And Rename Method,1
+2211,junit-team/junit5,Move Attribute,2
+2212,junit-team/junit5,Move Class,3
+2213,junit-team/junit5,Move Method,31
+2214,junit-team/junit5,Remove Class Modifier,1
+2215,junit-team/junit5,Remove Method Annotation,1
+2216,junit-team/junit5,Remove Method Modifier,1
+2217,junit-team/junit5,Remove Parameter,6
+2218,junit-team/junit5,Rename Attribute,3
+2219,junit-team/junit5,Rename Class,2
+2220,junit-team/junit5,Rename Method,7
+2221,junit-team/junit5,Rename Parameter,10
+2222,junit-team/junit5,Rename Variable,1
+2223,junit-team/junit5,Replace Variable With Attribute,1
+2224,keycloak/keycloak,Add Class Modifier,1
+2225,keycloak/keycloak,Add Method Annotation,2
+2226,keycloak/keycloak,Add Parameter,8
+2227,keycloak/keycloak,Change Attribute Type,2
+2228,keycloak/keycloak,Change Method Access Modifier,1
+2229,keycloak/keycloak,Change Parameter Type,2
+2230,keycloak/keycloak,Change Return Type,1
+2231,keycloak/keycloak,Change Variable Type,6
+2232,keycloak/keycloak,Encapsulate Attribute,1
+2233,keycloak/keycloak,Extract Method,2
+2234,keycloak/keycloak,Extract Variable,6
+2235,keycloak/keycloak,Inline Method,1
+2236,keycloak/keycloak,Inline Variable,1
+2237,keycloak/keycloak,Rename Attribute,1
+2238,keycloak/keycloak,Rename Class,3
+2239,keycloak/keycloak,Rename Method,4
+2240,keycloak/keycloak,Rename Variable,4
+2241,keycloak/keycloak,Split Conditional,1
+2242,killbill/killbill,Extract Variable,1
+2243,killbill/killbill,Rename Variable,1
+2244,kitodo/kitodo-production,Add Attribute Annotation,1
+2245,kitodo/kitodo-production,Add Thrown Exception Type,15
+2246,kitodo/kitodo-production,Change Attribute Type,1
+2247,kitodo/kitodo-production,Change Return Type,4
+2248,kitodo/kitodo-production,Change Variable Type,6
+2249,kitodo/kitodo-production,Extract Method,1
+2250,kitodo/kitodo-production,Extract Variable,1
+2251,kitodo/kitodo-production,Inline Method,2
+2252,kitodo/kitodo-production,Move Method,2
+2253,kitodo/kitodo-production,Remove Attribute Modifier,1
+2254,kitodo/kitodo-production,Rename Attribute,3
+2255,kitodo/kitodo-production,Rename Method,6
+2256,kumuluz/kumuluzee,Extract Variable,2
+2257,kungfoo/geohash-java,Extract Method,2
+2258,ldbc/ldbc_snb_interactive_v1_impls,Change Attribute Type,1
+2259,ldbc/ldbc_snb_interactive_v1_impls,Change Variable Type,3
+2260,ldbc/ldbc_snb_interactive_v1_impls,Extract Variable,1
+2261,ldbc/ldbc_snb_interactive_v1_impls,Rename Method,1
+2262,learningequality/kolibri-installer-android,Add Attribute Modifier,2
+2263,learningequality/kolibri-installer-android,Add Method Annotation,2
+2264,learningequality/kolibri-installer-android,Add Parameter,2
+2265,learningequality/kolibri-installer-android,Change Method Access Modifier,1
+2266,learningequality/kolibri-installer-android,Change Return Type,3
+2267,learningequality/kolibri-installer-android,Change Type Declaration Kind,1
+2268,learningequality/kolibri-installer-android,Change Variable Type,1
+2269,learningequality/kolibri-installer-android,Collapse Hierarchy,1
+2270,learningequality/kolibri-installer-android,Extract Method,1
+2271,learningequality/kolibri-installer-android,Extract Variable,1
+2272,learningequality/kolibri-installer-android,Move Method,2
+2273,learningequality/kolibri-installer-android,Parameterize Attribute,1
+2274,learningequality/kolibri-installer-android,Remove Parameter,1
+2275,learningequality/kolibri-installer-android,Rename Method,1
+2276,learningequality/kolibri-installer-android,Rename Variable,1
+2277,leonardehrenfried/jspc-maven-plugin,Extract Variable,1
+2278,libgdx/ashley,Add Method Modifier,6
+2279,libgdx/libgdx,Add Parameter,1
+2280,libgdx/libgdx,Change Attribute Access Modifier,3
+2281,libgdx/libgdx,Encapsulate Attribute,1
+2282,libgdx/libgdx,Extract Method,1
+2283,libgdx/libgdx,Extract Variable,2
+2284,libgdx/libgdx,Remove Parameter,1
+2285,libgdx/libgdx,Rename Attribute,1
+2286,libgdx/libgdx,Rename Method,4
+2287,libgdx/libgdx,Rename Parameter,8
+2288,libgdx/libgdx,Replace Variable With Attribute,1
+2289,librespot-org/librespot-java,Add Parameter Annotation,5
+2290,line/armeria,Change Attribute Type,1
+2291,line/armeria,Localize Parameter,1
+2292,line/armeria,Rename Attribute,2
+2293,line/armeria,Rename Class,2
+2294,line/armeria,Rename Method,5
+2295,line/armeria,Rename Parameter,2
+2296,line/armeria,Replace Anonymous With Lambda,1
+2297,lingochamp/FileDownloader,Remove Parameter,4
+2298,lingochamp/FileDownloader,Rename Parameter,1
+2299,liquibase/liquibase,Add Attribute Annotation,1
+2300,liquibase/liquibase,Add Attribute Modifier,1
+2301,liquibase/liquibase,Add Class Annotation,1
+2302,liquibase/liquibase,Add Method Annotation,5
+2303,liquibase/liquibase,Change Attribute Access Modifier,1
+2304,liquibase/liquibase,Change Method Access Modifier,5
+2305,liquibase/liquibase,Encapsulate Attribute,2
+2306,liquibase/liquibase,Extract Attribute,2
+2307,liquibase/liquibase,Extract Method,6
+2308,liquibase/liquibase,Extract Variable,1
+2309,liquibase/liquibase,Inline Variable,1
+2310,liquibase/liquibase,Move Class,2
+2311,liquibase/liquibase,Remove Attribute Modifier,2
+2312,liquibase/liquibase,Remove Parameter,2
+2313,liquibase/liquibase,Rename Attribute,1
+2314,liquibase/liquibase,Rename Method,1
+2315,liquibase/liquibase,Rename Parameter,4
+2316,liquibase/liquibase,Rename Variable,1
+2317,liquibase/liquibase,Replace Attribute With Variable,1
+2318,liquibase/liquibase,Replace Variable With Attribute,2
+2319,lisa-analyzer/lisa,Add Attribute Modifier,9
+2320,lisa-analyzer/lisa,Add Class Annotation,8
+2321,lisa-analyzer/lisa,Add Class Modifier,2
+2322,lisa-analyzer/lisa,Add Method Modifier,3
+2323,lisa-analyzer/lisa,Add Parameter,26
+2324,lisa-analyzer/lisa,Add Thrown Exception Type,3
+2325,lisa-analyzer/lisa,Change Attribute Access Modifier,2
+2326,lisa-analyzer/lisa,Change Attribute Type,7
+2327,lisa-analyzer/lisa,Change Class Access Modifier,2
+2328,lisa-analyzer/lisa,Change Method Access Modifier,13
+2329,lisa-analyzer/lisa,Change Parameter Type,12
+2330,lisa-analyzer/lisa,Change Return Type,19
+2331,lisa-analyzer/lisa,Change Variable Type,347
+2332,lisa-analyzer/lisa,Extract Class,1
+2333,lisa-analyzer/lisa,Extract Method,18
+2334,lisa-analyzer/lisa,Extract Variable,11
+2335,lisa-analyzer/lisa,Inline Method,5
+2336,lisa-analyzer/lisa,Inline Variable,4
+2337,lisa-analyzer/lisa,Localize Parameter,2
+2338,lisa-analyzer/lisa,Merge Attribute,1
+2339,lisa-analyzer/lisa,Move And Inline Method,2
+2340,lisa-analyzer/lisa,Move And Rename Class,1
+2341,lisa-analyzer/lisa,Move And Rename Method,1
+2342,lisa-analyzer/lisa,Move Attribute,10
+2343,lisa-analyzer/lisa,Move Class,93
+2344,lisa-analyzer/lisa,Move Method,10
+2345,lisa-analyzer/lisa,Move Source Folder,4
+2346,lisa-analyzer/lisa,Parameterize Variable,10
+2347,lisa-analyzer/lisa,Pull Up Method,26
+2348,lisa-analyzer/lisa,Remove Attribute Modifier,2
+2349,lisa-analyzer/lisa,Remove Method Annotation,28
+2350,lisa-analyzer/lisa,Remove Method Modifier,30
+2351,lisa-analyzer/lisa,Remove Parameter,49
+2352,lisa-analyzer/lisa,Remove Thrown Exception Type,1
+2353,lisa-analyzer/lisa,Rename Class,2
+2354,lisa-analyzer/lisa,Rename Method,6
+2355,lisa-analyzer/lisa,Rename Parameter,10
+2356,lisa-analyzer/lisa,Rename Variable,12
+2357,lisa-analyzer/lisa,Replace Attribute With Variable,3
+2358,lisa-analyzer/lisa,Replace Pipeline With Loop,3
+2359,lisa-analyzer/lisa,Replace Variable With Attribute,2
+2360,lisa-analyzer/lisa,Split Conditional,3
+2361,lisa-analyzer/lisa,Split Method,1
+2362,logisim-evolution/logisim-evolution,Rename Variable,1
+2363,lushen124/Universal-FE-Randomizer,Add Parameter,2
+2364,lushen124/Universal-FE-Randomizer,Change Attribute Type,5
+2365,lushen124/Universal-FE-Randomizer,Change Parameter Type,2
+2366,lushen124/Universal-FE-Randomizer,Change Variable Type,1
+2367,lushen124/Universal-FE-Randomizer,Encapsulate Attribute,2
+2368,lushen124/Universal-FE-Randomizer,Extract Attribute,1
+2369,lushen124/Universal-FE-Randomizer,Extract Method,1
+2370,lushen124/Universal-FE-Randomizer,Inline Variable,8
+2371,lushen124/Universal-FE-Randomizer,Move And Rename Method,1
+2372,lushen124/Universal-FE-Randomizer,Rename Attribute,1
+2373,lushen124/Universal-FE-Randomizer,Rename Parameter,1
+2374,lushen124/Universal-FE-Randomizer,Rename Variable,2
+2375,magento/magento2-phpstorm-plugin,Add Attribute Modifier,14
+2376,magento/magento2-phpstorm-plugin,Add Class Annotation,3
+2377,magento/magento2-phpstorm-plugin,Add Method Annotation,5
+2378,magento/magento2-phpstorm-plugin,Add Parameter,4
+2379,magento/magento2-phpstorm-plugin,Add Parameter Annotation,5
+2380,magento/magento2-phpstorm-plugin,Add Parameter Modifier,71
+2381,magento/magento2-phpstorm-plugin,Add Variable Modifier,51
+2382,magento/magento2-phpstorm-plugin,Change Attribute Type,1
+2383,magento/magento2-phpstorm-plugin,Change Method Access Modifier,16
+2384,magento/magento2-phpstorm-plugin,Change Return Type,1
+2385,magento/magento2-phpstorm-plugin,Change Variable Type,4
+2386,magento/magento2-phpstorm-plugin,Extract Attribute,1
+2387,magento/magento2-phpstorm-plugin,Extract Method,1
+2388,magento/magento2-phpstorm-plugin,Extract Variable,4
+2389,magento/magento2-phpstorm-plugin,Inline Variable,2
+2390,magento/magento2-phpstorm-plugin,Merge Parameter,1
+2391,magento/magento2-phpstorm-plugin,Modify Attribute Annotation,1
+2392,magento/magento2-phpstorm-plugin,Move Class,1
+2393,magento/magento2-phpstorm-plugin,Remove Attribute Modifier,2
+2394,magento/magento2-phpstorm-plugin,Remove Method Annotation,2
+2395,magento/magento2-phpstorm-plugin,Remove Parameter,2
+2396,magento/magento2-phpstorm-plugin,Remove Thrown Exception Type,1
+2397,magento/magento2-phpstorm-plugin,Remove Variable Modifier,2
+2398,magento/magento2-phpstorm-plugin,Rename Attribute,6
+2399,magento/magento2-phpstorm-plugin,Rename Class,1
+2400,magento/magento2-phpstorm-plugin,Rename Parameter,23
+2401,magento/magento2-phpstorm-plugin,Rename Variable,6
+2402,magento/magento2-phpstorm-plugin,Split Conditional,2
+2403,marzika/Snapprefs,Add Method Modifier,3
+2404,marzika/Snapprefs,Add Parameter,5
+2405,marzika/Snapprefs,Add Thrown Exception Type,4
+2406,marzika/Snapprefs,Change Attribute Access Modifier,12
+2407,marzika/Snapprefs,Change Method Access Modifier,7
+2408,marzika/Snapprefs,Change Return Type,3
+2409,marzika/Snapprefs,Change Variable Type,5
+2410,marzika/Snapprefs,Extract And Move Method,6
+2411,marzika/Snapprefs,Extract Class,2
+2412,marzika/Snapprefs,Extract Method,4
+2413,marzika/Snapprefs,Extract Variable,1
+2414,marzika/Snapprefs,Invert Condition,1
+2415,marzika/Snapprefs,Merge Conditional,2
+2416,marzika/Snapprefs,Move And Rename Class,1
+2417,marzika/Snapprefs,Move And Rename Method,2
+2418,marzika/Snapprefs,Move Attribute,85
+2419,marzika/Snapprefs,Move Class,1
+2420,marzika/Snapprefs,Move Method,7
+2421,marzika/Snapprefs,Parameterize Variable,5
+2422,marzika/Snapprefs,Remove Method Annotation,2
+2423,marzika/Snapprefs,Remove Parameter,5
+2424,marzika/Snapprefs,Remove Thrown Exception Type,9
+2425,marzika/Snapprefs,Rename Method,2
+2426,marzika/Snapprefs,Rename Variable,6
+2427,michel-kraemer/bson4jackson,Extract Method,1
+2428,michel-kraemer/bson4jackson,Extract Variable,1
+2429,microg/UnifiedNlp,Change Return Type,1
+2430,microg/UnifiedNlp,Change Variable Type,1
+2431,microg/UnifiedNlp,Extract Variable,1
+2432,micronaut-projects/micronaut-flyway,Add Class Annotation,3
+2433,micronaut-projects/micronaut-flyway,Change Class Access Modifier,3
+2434,microsoft/azure-maven-plugins,Add Method Annotation,3
+2435,microsoft/azure-maven-plugins,Add Parameter Annotation,3
+2436,microsoft/azure-maven-plugins,Extract Method,2
+2437,microsoft/azure-maven-plugins,Parameterize Variable,3
+2438,mikaelgrev/miglayout,Move Source Folder,1
+2439,nativejdb/nativejdb,Change Method Access Modifier,2
+2440,nativejdb/nativejdb,Extract Method,2
+2441,nativejdb/nativejdb,Extract Variable,6
+2442,nativejdb/nativejdb,Rename Variable,3
+2443,newrelic/newrelic-java-agent,Add Parameter,8
+2444,newrelic/newrelic-java-agent,Change Method Access Modifier,3
+2445,newrelic/newrelic-java-agent,Change Parameter Type,1
+2446,newrelic/newrelic-java-agent,Extract Method,5
+2447,newrelic/newrelic-java-agent,Extract Variable,2
+2448,newrelic/newrelic-java-agent,Inline Variable,1
+2449,newrelic/newrelic-java-agent,Localize Parameter,1
+2450,newrelic/newrelic-java-agent,Move Class,1
+2451,newrelic/newrelic-java-agent,Parameterize Attribute,1
+2452,newrelic/newrelic-java-agent,Parameterize Variable,1
+2453,newrelic/newrelic-java-agent,Rename Attribute,3
+2454,newrelic/newrelic-java-agent,Rename Method,5
+2455,newrelic/newrelic-java-agent,Rename Parameter,1
+2456,newrelic/newrelic-java-agent,Rename Variable,1
+2457,nextcloud/notes-android,Add Parameter,1
+2458,nextcloud/notes-android,Add Variable Modifier,1
+2459,nextcloud/notes-android,Extract Variable,1
+2460,nicolasbrailo/PianOli,Add Parameter Annotation,3
+2461,objectionary/eo,Add Attribute Annotation,1
+2462,objectionary/eo,Add Class Annotation,5
+2463,objectionary/eo,Add Class Modifier,3
+2464,objectionary/eo,Add Method Annotation,5
+2465,objectionary/eo,Change Attribute Access Modifier,1
+2466,objectionary/eo,Change Attribute Type,8
+2467,objectionary/eo,Change Class Access Modifier,5
+2468,objectionary/eo,Change Method Access Modifier,5
+2469,objectionary/eo,Change Parameter Type,3
+2470,objectionary/eo,Change Return Type,39
+2471,objectionary/eo,Change Thrown Exception Type,6
+2472,objectionary/eo,Change Variable Type,2
+2473,objectionary/eo,Extract And Move Method,1
+2474,objectionary/eo,Extract Class,1
+2475,objectionary/eo,Extract Method,6
+2476,objectionary/eo,Extract Variable,5
+2477,objectionary/eo,Inline Variable,4
+2478,objectionary/eo,Merge Conditional,2
+2479,objectionary/eo,Modify Attribute Annotation,2
+2480,objectionary/eo,Modify Class Annotation,5
+2481,objectionary/eo,Move And Inline Method,2
+2482,objectionary/eo,Move And Rename Method,1
+2483,objectionary/eo,Move Method,3
+2484,objectionary/eo,Remove Attribute Annotation,1
+2485,objectionary/eo,Remove Class Annotation,2
+2486,objectionary/eo,Remove Method Annotation,5
+2487,objectionary/eo,Remove Parameter,2
+2488,objectionary/eo,Remove Variable Modifier,2
+2489,objectionary/eo,Rename Attribute,2
+2490,objectionary/eo,Rename Class,7
+2491,objectionary/eo,Rename Method,12
+2492,objectionary/eo,Rename Variable,3
+2493,odpi/egeria-connector-ibm-information-server,Add Parameter,6
+2494,odpi/egeria-connector-ibm-information-server,Change Method Access Modifier,1
+2495,odpi/egeria-connector-ibm-information-server,Change Variable Type,2
+2496,odpi/egeria-connector-ibm-information-server,Extract Attribute,2
+2497,odpi/egeria-connector-ibm-information-server,Extract Method,1
+2498,odpi/egeria-connector-ibm-information-server,Remove Method Modifier,1
+2499,odpi/egeria-connector-ibm-information-server,Remove Parameter,2
+2500,odpi/egeria-connector-ibm-information-server,Rename Method,1
+2501,odpi/egeria-connector-ibm-information-server,Replace Variable With Attribute,1
+2502,odpi/egeria-connector-ibm-information-server,Split Conditional,1
+2503,ome/bioformats,Add Parameter,1
+2504,ome/bioformats,Change Return Type,1
+2505,ome/bioformats,Extract Method,1
+2506,ome/bioformats,Extract Variable,1
+2507,ome/bioformats,Rename Parameter,1
+2508,ome/bioformats,Rename Variable,4
+2509,oncokb/oncokb,Add Attribute Modifier,1
+2510,oncokb/oncokb,Add Class Annotation,1
+2511,oncokb/oncokb,Add Method Modifier,1
+2512,oncokb/oncokb,Change Attribute Type,1
+2513,oncokb/oncokb,Change Method Access Modifier,3
+2514,oncokb/oncokb,Change Parameter Type,2
+2515,oncokb/oncokb,Change Return Type,2
+2516,oncokb/oncokb,Change Variable Type,5
+2517,oncokb/oncokb,Extract And Move Method,1
+2518,oncokb/oncokb,Move And Rename Method,2
+2519,oncokb/oncokb,Move Attribute,1
+2520,oncokb/oncokb,Move Method,2
+2521,oncokb/oncokb,Parameterize Variable,2
+2522,oncokb/oncokb,Remove Parameter,1
+2523,oncokb/oncokb,Rename Attribute,1
+2524,oncokb/oncokb,Rename Method,4
+2525,oncokb/oncokb,Rename Parameter,2
+2526,oncokb/oncokb,Rename Variable,7
+2527,oncokb/oncokb,Replace Attribute With Variable,1
+2528,oncokb/oncokb,Replace Variable With Attribute,3
+2529,opencast/opencast,Add Method Annotation,1
+2530,opencast/opencast,Add Parameter,2
+2531,opencast/opencast,Change Parameter Type,1
+2532,opencast/opencast,Remove Method Annotation,1
+2533,opendcs/opendcs,Encapsulate Attribute,1
+2534,opendcs/opendcs,Rename Attribute,1
+2535,oracle/oracle-r2dbc,Change Variable Type,1
+2536,oracle/oracle-r2dbc,Extract Method,1
+2537,oracle/oracle-r2dbc,Modify Variable Annotation,1
+2538,oracle/oracle-r2dbc,Rename Variable,1
+2539,orphan-oss/launch4j-maven-plugin,Add Attribute Annotation,27
+2540,orphan-oss/launch4j-maven-plugin,Add Attribute Modifier,1
+2541,orphan-oss/launch4j-maven-plugin,Change Attribute Type,2
+2542,osate/osate2,Change Variable Type,228
+2543,osmandapp/OsmAnd,Add Method Annotation,5
+2544,osmandapp/OsmAnd,Add Parameter,5
+2545,osmandapp/OsmAnd,Change Method Access Modifier,3
+2546,osmandapp/OsmAnd,Extract And Move Method,1
+2547,osmandapp/OsmAnd,Extract Variable,1
+2548,osmandapp/OsmAnd,Localize Parameter,1
+2549,osmandapp/OsmAnd,Move And Rename Method,10
+2550,osmandapp/OsmAnd,Remove Method Annotation,5
+2551,osmandapp/OsmAnd,Remove Parameter,8
+2552,osmandapp/OsmAnd,Remove Parameter Annotation,1
+2553,osmandapp/OsmAnd,Rename Method,5
+2554,osmandapp/OsmAnd,Rename Parameter,2
+2555,osmandapp/OsmAnd,Rename Variable,2
+2556,palantir/docker-compose-rule,Add Parameter,1
+2557,palantir/docker-compose-rule,Change Return Type,1
+2558,payara/Payara,Add Attribute Modifier,3
+2559,payara/Payara,Add Method Annotation,2
+2560,payara/Payara,Add Parameter,1
+2561,payara/Payara,Change Attribute Access Modifier,2
+2562,payara/Payara,Change Attribute Type,9
+2563,payara/Payara,Change Method Access Modifier,1
+2564,payara/Payara,Change Parameter Type,7
+2565,payara/Payara,Change Return Type,10
+2566,payara/Payara,Change Variable Type,41
+2567,payara/Payara,Extract Method,2
+2568,payara/Payara,Extract Variable,2
+2569,payara/Payara,Merge Catch,1
+2570,payara/Payara,Merge Conditional,2
+2571,payara/Payara,Parameterize Variable,2
+2572,payara/Payara,Remove Method Modifier,1
+2573,payara/Payara,Remove Parameter,1
+2574,payara/Payara,Rename Attribute,1
+2575,payara/Payara,Rename Variable,3
+2576,permissions-dispatcher/PermissionsDispatcher,Add Parameter,1
+2577,permissions-dispatcher/PermissionsDispatcher,Localize Parameter,2
+2578,permissions-dispatcher/PermissionsDispatcher,Merge Parameter,1
+2579,permissions-dispatcher/PermissionsDispatcher,Rename Class,2
+2580,permissions-dispatcher/PermissionsDispatcher,Rename Method,1
+2581,permissions-dispatcher/PermissionsDispatcher,Rename Parameter,2
+2582,perwendel/spark,Merge Conditional,1
+2583,perwendel/spark,Modify Class Annotation,2
+2584,perwendel/spark,Split Conditional,1
+2585,pgjdbc/pgjdbc,Add Class Annotation,1
+2586,pgjdbc/pgjdbc,Add Method Annotation,2
+2587,pgjdbc/pgjdbc,Add Method Modifier,1
+2588,pgjdbc/pgjdbc,Add Parameter,2
+2589,pgjdbc/pgjdbc,Add Variable Modifier,5
+2590,pgjdbc/pgjdbc,Change Attribute Type,18
+2591,pgjdbc/pgjdbc,Change Class Access Modifier,1
+2592,pgjdbc/pgjdbc,Change Parameter Type,4
+2593,pgjdbc/pgjdbc,Change Return Type,2
+2594,pgjdbc/pgjdbc,Change Thrown Exception Type,1
+2595,pgjdbc/pgjdbc,Change Variable Type,3
+2596,pgjdbc/pgjdbc,Extract Class,1
+2597,pgjdbc/pgjdbc,Extract Variable,4
+2598,pgjdbc/pgjdbc,Inline Method,1
+2599,pgjdbc/pgjdbc,Inline Variable,1
+2600,pgjdbc/pgjdbc,Modify Class Annotation,2
+2601,pgjdbc/pgjdbc,Move And Inline Method,7
+2602,pgjdbc/pgjdbc,Move Code,2
+2603,pgjdbc/pgjdbc,Move Method,1
+2604,pgjdbc/pgjdbc,Remove Method Annotation,2
+2605,pgjdbc/pgjdbc,Rename Attribute,1
+2606,pgjdbc/pgjdbc,Rename Method,2
+2607,pgjdbc/pgjdbc,Rename Parameter,2
+2608,pgjdbc/pgjdbc,Rename Variable,3
+2609,pgjdbc/pgjdbc,Replace Anonymous With Class,1
+2610,phac-nml/irida,Add Attribute Annotation,2
+2611,phac-nml/irida,Add Class Annotation,47
+2612,phac-nml/irida,Add Method Annotation,2
+2613,phac-nml/irida,Add Parameter,2
+2614,phac-nml/irida,Add Thrown Exception Type,5
+2615,phac-nml/irida,Change Attribute Type,1
+2616,phac-nml/irida,Change Parameter Type,1
+2617,phac-nml/irida,Change Return Type,5
+2618,phac-nml/irida,Change Variable Type,6
+2619,phac-nml/irida,Extract Variable,1
+2620,phac-nml/irida,Inline Variable,2
+2621,phac-nml/irida,Modify Attribute Annotation,2
+2622,phac-nml/irida,Modify Class Annotation,52
+2623,phac-nml/irida,Modify Method Annotation,1
+2624,phac-nml/irida,Move Attribute,1
+2625,phac-nml/irida,Move Code,1
+2626,phac-nml/irida,Remove Attribute Modifier,1
+2627,phac-nml/irida,Remove Class Annotation,8
+2628,phac-nml/irida,Rename Attribute,1
+2629,phac-nml/irida,Rename Method,1
+2630,phac-nml/irida,Rename Parameter,2
+2631,phac-nml/irida,Rename Variable,1
+2632,phac-nml/irida,Replace Anonymous With Lambda,1
+2633,phac-nml/irida,Replace Loop With Pipeline,1
+2634,phac-nml/irida,Replace Variable With Attribute,4
+2635,plantuml/plantuml-server,Add Parameter,1
+2636,plantuml/plantuml-server,Extract Method,2
+2637,plantuml/plantuml-server,Remove Parameter,1
+2638,playframework/play1,Remove Attribute Modifier,1
+2639,plusonelabs/calendar-widget,Add Class Modifier,1
+2640,plusonelabs/calendar-widget,Change Attribute Access Modifier,10
+2641,plusonelabs/calendar-widget,Change Method Access Modifier,2
+2642,plusonelabs/calendar-widget,Extract Superclass,1
+2643,plusonelabs/calendar-widget,Pull Up Attribute,10
+2644,plusonelabs/calendar-widget,Pull Up Method,3
+2645,pmd/pmd,Add Attribute Annotation,1
+2646,pmd/pmd,Add Class Annotation,2
+2647,pmd/pmd,Add Class Modifier,1
+2648,pmd/pmd,Add Method Annotation,27
+2649,pmd/pmd,Add Method Modifier,1
+2650,pmd/pmd,Add Parameter,11
+2651,pmd/pmd,Add Parameter Modifier,3
+2652,pmd/pmd,Add Variable Modifier,6
+2653,pmd/pmd,Change Attribute Type,6
+2654,pmd/pmd,Change Method Access Modifier,8
+2655,pmd/pmd,Change Parameter Type,56
+2656,pmd/pmd,Change Return Type,12
+2657,pmd/pmd,Change Variable Type,26
+2658,pmd/pmd,Extract Attribute,1
+2659,pmd/pmd,Extract Class,2
+2660,pmd/pmd,Extract Method,18
+2661,pmd/pmd,Extract Superclass,2
+2662,pmd/pmd,Extract Variable,16
+2663,pmd/pmd,Inline Method,4
+2664,pmd/pmd,Inline Variable,4
+2665,pmd/pmd,Merge Conditional,2
+2666,pmd/pmd,Modify Attribute Annotation,2
+2667,pmd/pmd,Move And Rename Class,11
+2668,pmd/pmd,Move Class,161
+2669,pmd/pmd,Move Method,12
+2670,pmd/pmd,Parameterize Variable,3
+2671,pmd/pmd,Pull Up Method,6
+2672,pmd/pmd,Remove Attribute Modifier,7
+2673,pmd/pmd,Remove Class Annotation,7
+2674,pmd/pmd,Remove Method Annotation,29
+2675,pmd/pmd,Remove Parameter,7
+2676,pmd/pmd,Remove Parameter Modifier,9
+2677,pmd/pmd,Remove Thrown Exception Type,1
+2678,pmd/pmd,Remove Variable Modifier,1
+2679,pmd/pmd,Rename Attribute,5
+2680,pmd/pmd,Rename Class,5
+2681,pmd/pmd,Rename Method,24
+2682,pmd/pmd,Rename Parameter,15
+2683,pmd/pmd,Rename Variable,14
+2684,pmd/pmd,Replace Variable With Attribute,4
+2685,pmd/pmd,Split Conditional,4
+2686,preesm/preesm,Add Attribute Modifier,1
+2687,preesm/preesm,Add Method Annotation,8
+2688,preesm/preesm,Add Method Modifier,2
+2689,preesm/preesm,Add Parameter,15
+2690,preesm/preesm,Add Parameter Modifier,10
+2691,preesm/preesm,Add Variable Modifier,45
+2692,preesm/preesm,Change Attribute Access Modifier,1
+2693,preesm/preesm,Change Attribute Type,4
+2694,preesm/preesm,Change Method Access Modifier,8
+2695,preesm/preesm,Change Parameter Type,4
+2696,preesm/preesm,Change Return Type,9
+2697,preesm/preesm,Change Variable Type,3
+2698,preesm/preesm,Extract And Move Method,3
+2699,preesm/preesm,Extract Method,4
+2700,preesm/preesm,Extract Superclass,2
+2701,preesm/preesm,Extract Variable,4
+2702,preesm/preesm,Inline Method,2
+2703,preesm/preesm,Localize Parameter,5
+2704,preesm/preesm,Merge Parameter,1
+2705,preesm/preesm,Merge Variable,1
+2706,preesm/preesm,Modify Class Annotation,2
+2707,preesm/preesm,Move Attribute,2
+2708,preesm/preesm,Move Method,3
+2709,preesm/preesm,Parameterize Variable,1
+2710,preesm/preesm,Pull Up Method,4
+2711,preesm/preesm,Remove Method Modifier,1
+2712,preesm/preesm,Remove Parameter,2
+2713,preesm/preesm,Remove Thrown Exception Type,1
+2714,preesm/preesm,Remove Variable Modifier,3
+2715,preesm/preesm,Rename Attribute,1
+2716,preesm/preesm,Rename Class,2
+2717,preesm/preesm,Rename Method,8
+2718,preesm/preesm,Rename Parameter,5
+2719,preesm/preesm,Rename Variable,13
+2720,preesm/preesm,Reorder Parameter,2
+2721,preesm/preesm,Replace Loop With Pipeline,1
+2722,preesm/preesm,Split Attribute,1
+2723,preesm/preesm,Split Parameter,1
+2724,premium-minds/billy,Rename Attribute,4
+2725,processing/processing,Add Method Modifier,2
+2726,processing/processing,Add Parameter,22
+2727,processing/processing,Add Parameter Modifier,2
+2728,processing/processing,Change Attribute Type,2
+2729,processing/processing,Change Method Access Modifier,3
+2730,processing/processing,Change Parameter Type,4
+2731,processing/processing,Change Return Type,2
+2732,processing/processing,Change Variable Type,9
+2733,processing/processing,Encapsulate Attribute,1
+2734,processing/processing,Extract And Move Method,2
+2735,processing/processing,Extract Attribute,2
+2736,processing/processing,Extract Class,1
+2737,processing/processing,Extract Variable,5
+2738,processing/processing,Inline Method,3
+2739,processing/processing,Localize Parameter,11
+2740,processing/processing,Move And Rename Method,3
+2741,processing/processing,Move Attribute,9
+2742,processing/processing,Move Method,8
+2743,processing/processing,Parameterize Variable,2
+2744,processing/processing,Remove Parameter,9
+2745,processing/processing,Rename Method,5
+2746,processing/processing,Rename Parameter,14
+2747,processing/processing,Rename Variable,21
+2748,processing/processing,Replace Attribute With Variable,1
+2749,processing/processing,Replace Variable With Attribute,14
+2750,processing/processing,Split Conditional,1
+2751,prolificinteractive/material-calendarview,Add Parameter Annotation,2
+2752,prolificinteractive/material-calendarview,Change Class Access Modifier,1
+2753,prolificinteractive/material-calendarview,Change Method Access Modifier,1
+2754,prolificinteractive/material-calendarview,Extract Method,1
+2755,prolificinteractive/material-calendarview,Extract Variable,1
+2756,prolificinteractive/material-calendarview,Move Class,1
+2757,prolificinteractive/material-calendarview,Remove Class Modifier,1
+2758,prolificinteractive/material-calendarview,Remove Parameter,1
+2759,prolificinteractive/material-calendarview,Rename Parameter,1
+2760,prometheus/cloudwatch_exporter,Change Variable Type,2
+2761,prometheus/cloudwatch_exporter,Rename Class,2
+2762,quantumdb/quantumdb,Add Parameter,7
+2763,quantumdb/quantumdb,Add Thrown Exception Type,1
+2764,quantumdb/quantumdb,Change Parameter Type,1
+2765,quantumdb/quantumdb,Extract Variable,1
+2766,quantumdb/quantumdb,Localize Parameter,1
+2767,quantumdb/quantumdb,Parameterize Variable,2
+2768,quantumdb/quantumdb,Rename Variable,3
+2769,quarkusio/quarkus,Add Attribute Modifier,1
+2770,quarkusio/quarkus,Add Class Annotation,3
+2771,quarkusio/quarkus,Add Class Modifier,1
+2772,quarkusio/quarkus,Add Method Annotation,3
+2773,quarkusio/quarkus,Add Method Modifier,1
+2774,quarkusio/quarkus,Add Parameter,20
+2775,quarkusio/quarkus,Change Attribute Access Modifier,3
+2776,quarkusio/quarkus,Change Attribute Type,11
+2777,quarkusio/quarkus,Change Class Access Modifier,3
+2778,quarkusio/quarkus,Change Method Access Modifier,3
+2779,quarkusio/quarkus,Change Parameter Type,30
+2780,quarkusio/quarkus,Change Return Type,9
+2781,quarkusio/quarkus,Change Type Declaration Kind,3
+2782,quarkusio/quarkus,Change Variable Type,3
+2783,quarkusio/quarkus,Encapsulate Attribute,2
+2784,quarkusio/quarkus,Extract And Move Method,2
+2785,quarkusio/quarkus,Extract Method,5
+2786,quarkusio/quarkus,Extract Variable,1
+2787,quarkusio/quarkus,Modify Method Annotation,3
+2788,quarkusio/quarkus,Move And Inline Method,1
+2789,quarkusio/quarkus,Move And Rename Class,1
+2790,quarkusio/quarkus,Move And Rename Method,1
+2791,quarkusio/quarkus,Move Attribute,3
+2792,quarkusio/quarkus,Move Source Folder,1
+2793,quarkusio/quarkus,Parameterize Variable,1
+2794,quarkusio/quarkus,Pull Up Attribute,4
+2795,quarkusio/quarkus,Remove Attribute Modifier,2
+2796,quarkusio/quarkus,Remove Class Annotation,2
+2797,quarkusio/quarkus,Remove Class Modifier,4
+2798,quarkusio/quarkus,Remove Method Annotation,1
+2799,quarkusio/quarkus,Remove Method Modifier,3
+2800,quarkusio/quarkus,Remove Parameter,9
+2801,quarkusio/quarkus,Rename Attribute,4
+2802,quarkusio/quarkus,Rename Class,3
+2803,quarkusio/quarkus,Rename Method,8
+2804,quarkusio/quarkus,Rename Parameter,3
+2805,quarkusio/quarkus,Rename Variable,1
+2806,quarkusio/quarkus,Replace Attribute With Variable,1
+2807,quarkusio/quarkus,Split Attribute,1
+2808,quarkusio/quarkus,Split Method,1
+2809,quarkusio/quarkus,Split Parameter,1
+2810,querydsl/querydsl,Add Attribute Annotation,7
+2811,querydsl/querydsl,Add Attribute Modifier,4
+2812,querydsl/querydsl,Add Class Annotation,3
+2813,querydsl/querydsl,Add Method Annotation,14
+2814,querydsl/querydsl,Add Parameter,8
+2815,querydsl/querydsl,Add Parameter Annotation,5
+2816,querydsl/querydsl,Add Variable Modifier,2
+2817,querydsl/querydsl,Change Attribute Access Modifier,6
+2818,querydsl/querydsl,Change Attribute Type,17
+2819,querydsl/querydsl,Change Method Access Modifier,4
+2820,querydsl/querydsl,Change Parameter Type,21
+2821,querydsl/querydsl,Change Return Type,13
+2822,querydsl/querydsl,Change Type Declaration Kind,1
+2823,querydsl/querydsl,Change Variable Type,15
+2824,querydsl/querydsl,Encapsulate Attribute,2
+2825,querydsl/querydsl,Extract Method,6
+2826,querydsl/querydsl,Extract Subclass,1
+2827,querydsl/querydsl,Extract Superclass,2
+2828,querydsl/querydsl,Extract Variable,1
+2829,querydsl/querydsl,Modify Class Annotation,1
+2830,querydsl/querydsl,Move And Rename Class,1
+2831,querydsl/querydsl,Move And Rename Method,1
+2832,querydsl/querydsl,Move Class,3
+2833,querydsl/querydsl,Move Method,2
+2834,querydsl/querydsl,Parameterize Variable,1
+2835,querydsl/querydsl,Pull Up Attribute,4
+2836,querydsl/querydsl,Pull Up Method,11
+2837,querydsl/querydsl,Push Down Attribute,2
+2838,querydsl/querydsl,Push Down Method,6
+2839,querydsl/querydsl,Remove Attribute Annotation,1
+2840,querydsl/querydsl,Remove Attribute Modifier,1
+2841,querydsl/querydsl,Remove Class Annotation,1
+2842,querydsl/querydsl,Remove Method Annotation,2
+2843,querydsl/querydsl,Remove Method Modifier,4
+2844,querydsl/querydsl,Remove Parameter,5
+2845,querydsl/querydsl,Rename Class,2
+2846,querydsl/querydsl,Rename Method,4
+2847,querydsl/querydsl,Rename Parameter,2
+2848,querydsl/querydsl,Rename Variable,4
+2849,qupath/qupath,Add Method Annotation,2
+2850,qupath/qupath,Add Parameter,2
+2851,qupath/qupath,Change Variable Type,2
+2852,qupath/qupath,Extract And Move Method,2
+2853,qupath/qupath,Extract Class,1
+2854,qupath/qupath,Extract Method,2
+2855,qupath/qupath,Extract Variable,3
+2856,qupath/qupath,Move Attribute,1
+2857,qupath/qupath,Move Class,1
+2858,qupath/qupath,Move Method,4
+2859,qupath/qupath,Remove Method Modifier,9
+2860,qupath/qupath,Remove Parameter,1
+2861,qupath/qupath,Replace Variable With Attribute,12
+2862,reactive-streams/reactive-streams-jvm,Change Attribute Type,1
+2863,reactive-streams/reactive-streams-jvm,Change Return Type,1
+2864,reactive-streams/reactive-streams-jvm,Change Thrown Exception Type,3
+2865,reactive-streams/reactive-streams-jvm,Change Variable Type,2
+2866,reactive-streams/reactive-streams-jvm,Extract Method,1
+2867,reactive-streams/reactive-streams-jvm,Move And Rename Class,1
+2868,reactive-streams/reactive-streams-jvm,Move Class,3
+2869,reactive-streams/reactive-streams-jvm,Parameterize Variable,1
+2870,reactive-streams/reactive-streams-jvm,Rename Method,3
+2871,reactive-streams/reactive-streams-jvm,Rename Parameter,5
+2872,reactive-streams/reactive-streams-jvm,Rename Variable,1
+2873,realm/realm-java,Add Attribute Annotation,4
+2874,realm/realm-java,Add Attribute Modifier,2
+2875,realm/realm-java,Add Class Modifier,1
+2876,realm/realm-java,Add Method Annotation,4
+2877,realm/realm-java,Add Method Modifier,5
+2878,realm/realm-java,Add Parameter,2
+2879,realm/realm-java,Add Parameter Annotation,4
+2880,realm/realm-java,Add Parameter Modifier,5
+2881,realm/realm-java,Add Variable Modifier,1
+2882,realm/realm-java,Change Attribute Access Modifier,2
+2883,realm/realm-java,Change Attribute Type,2
+2884,realm/realm-java,Change Method Access Modifier,9
+2885,realm/realm-java,Change Parameter Type,8
+2886,realm/realm-java,Change Return Type,3
+2887,realm/realm-java,Change Type Declaration Kind,1
+2888,realm/realm-java,Change Variable Type,3
+2889,realm/realm-java,Encapsulate Attribute,3
+2890,realm/realm-java,Extract And Move Method,11
+2891,realm/realm-java,Extract Attribute,1
+2892,realm/realm-java,Extract Method,8
+2893,realm/realm-java,Extract Variable,14
+2894,realm/realm-java,Inline Method,3
+2895,realm/realm-java,Inline Variable,1
+2896,realm/realm-java,Merge Conditional,1
+2897,realm/realm-java,Merge Variable,1
+2898,realm/realm-java,Move And Inline Method,1
+2899,realm/realm-java,Parameterize Variable,1
+2900,realm/realm-java,Push Down Attribute,1
+2901,realm/realm-java,Remove Method Annotation,3
+2902,realm/realm-java,Remove Parameter,3
+2903,realm/realm-java,Remove Parameter Modifier,6
+2904,realm/realm-java,Rename Method,5
+2905,realm/realm-java,Rename Parameter,2
+2906,realm/realm-java,Rename Variable,2
+2907,realm/realm-java,Replace Variable With Attribute,1
+2908,redis/jedis,Extract Variable,1
+2909,redisson/redisson,Add Parameter,2
+2910,redisson/redisson,Add Variable Modifier,3
+2911,redisson/redisson,Inline Variable,1
+2912,redisson/redisson,Remove Parameter,1
+2913,reportportal/client-java,Add Parameter,1
+2914,reportportal/client-java,Change Method Access Modifier,1
+2915,reportportal/client-java,Change Return Type,1
+2916,reportportal/client-java,Extract And Move Method,1
+2917,reportportal/client-java,Move And Rename Method,1
+2918,reportportal/client-java,Remove Parameter Annotation,2
+2919,reportportal/client-java,Remove Variable Modifier,2
+2920,reportportal/client-java,Replace Anonymous With Lambda,7
+2921,robolectric/robolectric,Add Attribute Modifier,1
+2922,robolectric/robolectric,Add Class Annotation,1
+2923,robolectric/robolectric,Add Method Annotation,6
+2924,robolectric/robolectric,Add Method Modifier,1
+2925,robolectric/robolectric,Add Thrown Exception Type,36
+2926,robolectric/robolectric,Change Attribute Access Modifier,1
+2927,robolectric/robolectric,Change Attribute Type,1
+2928,robolectric/robolectric,Change Method Access Modifier,7
+2929,robolectric/robolectric,Change Parameter Type,1
+2930,robolectric/robolectric,Change Variable Type,2
+2931,robolectric/robolectric,Extract Method,22
+2932,robolectric/robolectric,Extract Variable,5
+2933,robolectric/robolectric,Inline Variable,5
+2934,robolectric/robolectric,Modify Method Annotation,2
+2935,robolectric/robolectric,Move And Rename Method,2
+2936,robolectric/robolectric,Move Code,14
+2937,robolectric/robolectric,Remove Class Annotation,2
+2938,robolectric/robolectric,Remove Method Annotation,1
+2939,robolectric/robolectric,Remove Method Modifier,3
+2940,robolectric/robolectric,Remove Thrown Exception Type,1
+2941,robolectric/robolectric,Rename Attribute,1
+2942,robolectric/robolectric,Rename Method,7
+2943,robolectric/robolectric,Rename Parameter,4
+2944,robolectric/robolectric,Rename Variable,1
+2945,rstudio/rstudio,Add Attribute Modifier,4
+2946,rstudio/rstudio,Add Class Modifier,1
+2947,rstudio/rstudio,Add Method Annotation,5
+2948,rstudio/rstudio,Add Method Modifier,1
+2949,rstudio/rstudio,Add Parameter,46
+2950,rstudio/rstudio,Change Attribute Access Modifier,7
+2951,rstudio/rstudio,Change Attribute Type,14
+2952,rstudio/rstudio,Change Class Access Modifier,6
+2953,rstudio/rstudio,Change Method Access Modifier,4
+2954,rstudio/rstudio,Change Parameter Type,10
+2955,rstudio/rstudio,Change Return Type,25
+2956,rstudio/rstudio,Change Variable Type,14
+2957,rstudio/rstudio,Encapsulate Attribute,1
+2958,rstudio/rstudio,Extract And Move Method,1
+2959,rstudio/rstudio,Extract Class,1
+2960,rstudio/rstudio,Extract Method,8
+2961,rstudio/rstudio,Extract Subclass,1
+2962,rstudio/rstudio,Extract Superclass,2
+2963,rstudio/rstudio,Extract Variable,2
+2964,rstudio/rstudio,Inline Method,2
+2965,rstudio/rstudio,Inline Variable,2
+2966,rstudio/rstudio,Localize Parameter,1
+2967,rstudio/rstudio,Merge Parameter,1
+2968,rstudio/rstudio,Move Attribute,2
+2969,rstudio/rstudio,Move Class,11
+2970,rstudio/rstudio,Move Code,4
+2971,rstudio/rstudio,Move Method,3
+2972,rstudio/rstudio,Parameterize Attribute,1
+2973,rstudio/rstudio,Pull Up Attribute,3
+2974,rstudio/rstudio,Pull Up Method,4
+2975,rstudio/rstudio,Push Down Attribute,2
+2976,rstudio/rstudio,Push Down Method,2
+2977,rstudio/rstudio,Remove Attribute Annotation,1
+2978,rstudio/rstudio,Remove Attribute Modifier,4
+2979,rstudio/rstudio,Remove Method Annotation,2
+2980,rstudio/rstudio,Remove Parameter,18
+2981,rstudio/rstudio,Rename Attribute,6
+2982,rstudio/rstudio,Rename Method,28
+2983,rstudio/rstudio,Rename Parameter,3
+2984,rstudio/rstudio,Rename Variable,8
+2985,rstudio/rstudio,Replace Attribute With Variable,1
+2986,rstudio/rstudio,Replace Variable With Attribute,1
+2987,runelite/runelite,Add Attribute Modifier,2
+2988,runelite/runelite,Add Parameter,1
+2989,runelite/runelite,Change Return Type,1
+2990,runelite/runelite,Remove Method Annotation,1
+2991,runelite/runelite,Remove Parameter,3
+2992,runelite/runelite,Rename Method,1
+2993,runelite/runelite,Rename Parameter,1
+2994,scribejava/scribejava,Add Method Modifier,1
+2995,sepinf-inc/IPED,Add Attribute Modifier,7
+2996,sepinf-inc/IPED,Add Class Modifier,2
+2997,sepinf-inc/IPED,Add Method Annotation,25
+2998,sepinf-inc/IPED,Add Method Modifier,6
+2999,sepinf-inc/IPED,Add Parameter,15
+3000,sepinf-inc/IPED,Add Thrown Exception Type,5
+3001,sepinf-inc/IPED,Change Attribute Access Modifier,29
+3002,sepinf-inc/IPED,Change Attribute Type,18
+3003,sepinf-inc/IPED,Change Method Access Modifier,10
+3004,sepinf-inc/IPED,Change Parameter Type,14
+3005,sepinf-inc/IPED,Change Return Type,20
+3006,sepinf-inc/IPED,Change Thrown Exception Type,1
+3007,sepinf-inc/IPED,Change Variable Type,33
+3008,sepinf-inc/IPED,Encapsulate Attribute,3
+3009,sepinf-inc/IPED,Extract And Move Method,23
+3010,sepinf-inc/IPED,Extract Attribute,1
+3011,sepinf-inc/IPED,Extract Class,27
+3012,sepinf-inc/IPED,Extract Interface,1
+3013,sepinf-inc/IPED,Extract Method,16
+3014,sepinf-inc/IPED,Extract Superclass,3
+3015,sepinf-inc/IPED,Extract Variable,10
+3016,sepinf-inc/IPED,Inline Variable,9
+3017,sepinf-inc/IPED,Localize Parameter,1
+3018,sepinf-inc/IPED,Merge Attribute,10
+3019,sepinf-inc/IPED,Merge Conditional,1
+3020,sepinf-inc/IPED,Move And Inline Method,8
+3021,sepinf-inc/IPED,Move And Rename Method,3
+3022,sepinf-inc/IPED,Move Attribute,118
+3023,sepinf-inc/IPED,Move Class,2
+3024,sepinf-inc/IPED,Move Code,1
+3025,sepinf-inc/IPED,Move Method,22
+3026,sepinf-inc/IPED,Parameterize Variable,2
+3027,sepinf-inc/IPED,Pull Up Method,12
+3028,sepinf-inc/IPED,Remove Attribute Modifier,57
+3029,sepinf-inc/IPED,Remove Method Annotation,4
+3030,sepinf-inc/IPED,Remove Method Modifier,12
+3031,sepinf-inc/IPED,Remove Parameter,5
+3032,sepinf-inc/IPED,Remove Thrown Exception Type,3
+3033,sepinf-inc/IPED,Rename Attribute,18
+3034,sepinf-inc/IPED,Rename Class,1
+3035,sepinf-inc/IPED,Rename Method,41
+3036,sepinf-inc/IPED,Rename Parameter,12
+3037,sepinf-inc/IPED,Rename Variable,23
+3038,sepinf-inc/IPED,Replace Attribute With Variable,9
+3039,sepinf-inc/IPED,Replace Loop With Pipeline,1
+3040,sepinf-inc/IPED,Replace Variable With Attribute,1
+3041,sepinf-inc/IPED,Split Conditional,3
+3042,siddhi-io/siddhi,Add Method Annotation,2
+3043,siddhi-io/siddhi,Add Method Modifier,1
+3044,siddhi-io/siddhi,Add Parameter,1
+3045,siddhi-io/siddhi,Change Attribute Type,2
+3046,siddhi-io/siddhi,Change Parameter Type,2
+3047,siddhi-io/siddhi,Change Variable Type,3
+3048,siddhi-io/siddhi,Extract Method,1
+3049,siddhi-io/siddhi,Extract Variable,1
+3050,siddhi-io/siddhi,Remove Method Modifier,1
+3051,siddhi-io/siddhi,Rename Method,2
+3052,sleekbyte/tailor,Add Thrown Exception Type,1
+3053,sleekbyte/tailor,Inline Method,1
+3054,sleekbyte/tailor,Remove Attribute Modifier,2
+3055,sleekbyte/tailor,Remove Thrown Exception Type,1
+3056,sleekbyte/tailor,Rename Attribute,1
+3057,smallrye/jandex,Add Method Annotation,2
+3058,smallrye/jandex,Change Attribute Type,3
+3059,smallrye/jandex,Change Parameter Type,1
+3060,smallrye/jandex,Change Variable Type,17
+3061,smallrye/jandex,Parameterize Variable,1
+3062,smallrye/jandex,Remove Parameter,1
+3063,smallrye/jandex,Rename Attribute,1
+3064,smallrye/jandex,Rename Method,14
+3065,smallrye/jandex,Rename Parameter,2
+3066,smallrye/jandex,Replace Attribute With Variable,1
+3067,smallrye/jandex,Split Conditional,1
+3068,smartdevicelink/sdl_java_suite,Add Method Annotation,2
+3069,smartdevicelink/sdl_java_suite,Add Parameter,1
+3070,smartdevicelink/sdl_java_suite,Change Variable Type,2
+3071,smartdevicelink/sdl_java_suite,Extract Method,2
+3072,smartdevicelink/sdl_java_suite,Inline Variable,1
+3073,smartdevicelink/sdl_java_suite,Parameterize Variable,1
+3074,smartdevicelink/sdl_java_suite,Remove Method Annotation,2
+3075,smartdevicelink/sdl_java_suite,Rename Variable,2
+3076,snuspl/cruise,Add Method Modifier,1
+3077,snuspl/cruise,Add Parameter,4
+3078,snuspl/cruise,Change Attribute Type,1
+3079,snuspl/cruise,Change Method Access Modifier,1
+3080,snuspl/cruise,Extract Method,2
+3081,snuspl/cruise,Modify Parameter Annotation,6
+3082,snuspl/cruise,Move And Rename Class,1
+3083,snuspl/cruise,Move Class,2
+3084,snuspl/cruise,Rename Attribute,2
+3085,snuspl/cruise,Rename Class,1
+3086,snuspl/cruise,Rename Parameter,2
+3087,software-mansion/react-native-svg,Change Attribute Access Modifier,1
+3088,software-mansion/react-native-svg,Extract And Move Method,1
+3089,software-mansion/react-native-svg,Extract Method,1
+3090,software-mansion/react-native-svg,Parameterize Variable,1
+3091,software-mansion/react-native-svg,Rename Method,1
+3092,spacecowboy/NotePad,Add Attribute Annotation,1
+3093,spacecowboy/NotePad,Change Attribute Type,2
+3094,spacecowboy/NotePad,Change Parameter Type,6
+3095,spacecowboy/NotePad,Extract Variable,3
+3096,spacecowboy/NotePad,Remove Method Annotation,2
+3097,spacecowboy/NotePad,Rename Class,2
+3098,spacecowboy/NotePad,Rename Parameter,1
+3099,sqlancer/sqlancer,Add Method Modifier,1
+3100,stratosphere/stratosphere,Add Thrown Exception Type,2
+3101,stratosphere/stratosphere,Change Attribute Type,1
+3102,stratosphere/stratosphere,Change Class Access Modifier,1
+3103,stratosphere/stratosphere,Change Method Access Modifier,3
+3104,stratosphere/stratosphere,Extract Method,1
+3105,stratosphere/stratosphere,Move Attribute,2
+3106,stratosphere/stratosphere,Remove Attribute Modifier,1
+3107,stratosphere/stratosphere,Remove Parameter,7
+3108,stratosphere/stratosphere,Rename Class,1
+3109,stratosphere/stratosphere,Rename Variable,1
+3110,telekom/testerra,Add Attribute Modifier,1
+3111,telekom/testerra,Add Method Modifier,1
+3112,telekom/testerra,Change Attribute Access Modifier,1
+3113,telekom/testerra,Change Attribute Type,1
+3114,telekom/testerra,Change Return Type,1
+3115,telekom/testerra,Pull Up Attribute,1
+3116,telekom/testerra,Remove Attribute Modifier,2
+3117,telekom/testerra,Rename Method,1
+3118,tomkeuper/BedWars2023,Add Parameter,2
+3119,tomkeuper/BedWars2023,Change Attribute Access Modifier,9
+3120,tomkeuper/BedWars2023,Extract Method,2
+3121,tomkeuper/BedWars2023,Extract Variable,2
+3122,tomkeuper/BedWars2023,Remove Attribute Modifier,1
+3123,tonihele/OpenKeeper,Add Attribute Modifier,2
+3124,tonihele/OpenKeeper,Add Class Modifier,1
+3125,tonihele/OpenKeeper,Add Parameter,13
+3126,tonihele/OpenKeeper,Add Parameter Modifier,4
+3127,tonihele/OpenKeeper,Change Attribute Access Modifier,3
+3128,tonihele/OpenKeeper,Change Attribute Type,1
+3129,tonihele/OpenKeeper,Change Method Access Modifier,3
+3130,tonihele/OpenKeeper,Change Parameter Type,2
+3131,tonihele/OpenKeeper,Change Return Type,3
+3132,tonihele/OpenKeeper,Change Variable Type,3
+3133,tonihele/OpenKeeper,Encapsulate Attribute,2
+3134,tonihele/OpenKeeper,Extract Attribute,3
+3135,tonihele/OpenKeeper,Extract Method,1
+3136,tonihele/OpenKeeper,Extract Variable,7
+3137,tonihele/OpenKeeper,Merge Conditional,1
+3138,tonihele/OpenKeeper,Move Class,1
+3139,tonihele/OpenKeeper,Pull Up Attribute,1
+3140,tonihele/OpenKeeper,Pull Up Method,2
+3141,tonihele/OpenKeeper,Remove Parameter,2
+3142,tonihele/OpenKeeper,Rename Attribute,4
+3143,tonihele/OpenKeeper,Rename Class,1
+3144,tonihele/OpenKeeper,Rename Parameter,2
+3145,tonihele/OpenKeeper,Rename Variable,3
+3146,tonihele/OpenKeeper,Replace Variable With Attribute,1
+3147,traccar/traccar,Add Parameter,2
+3148,traccar/traccar,Extract And Move Method,3
+3149,traccar/traccar,Inline Variable,1
+3150,traccar/traccar,Localize Parameter,1
+3151,traccar/traccar,Remove Parameter,2
+3152,treasure-data/digdag,Change Parameter Type,2
+3153,treasure-data/digdag,Change Return Type,1
+3154,treasure-data/digdag,Change Variable Type,1
+3155,treasure-data/digdag,Modify Method Annotation,1
+3156,treasure-data/digdag,Remove Parameter Annotation,1
+3157,treasure-data/digdag,Rename Method,1
+3158,treasure-data/digdag,Rename Parameter,3
+3159,treasure-data/digdag,Rename Variable,2
+3160,turkraft/springfilter,Change Attribute Type,1
+3161,turkraft/springfilter,Change Variable Type,1
+3162,turkraft/springfilter,Extract Variable,1
+3163,uber-archive/phabricator-jenkins-plugin,Add Parameter,3
+3164,uber-archive/phabricator-jenkins-plugin,Add Thrown Exception Type,2
+3165,uber-archive/phabricator-jenkins-plugin,Add Variable Modifier,2
+3166,uber-archive/phabricator-jenkins-plugin,Change Return Type,1
+3167,uber-archive/phabricator-jenkins-plugin,Change Variable Type,1
+3168,uber-archive/phabricator-jenkins-plugin,Extract Method,1
+3169,uber-archive/phabricator-jenkins-plugin,Rename Method,1
+3170,uber-archive/phabricator-jenkins-plugin,Rename Variable,1
+3171,uyuni-project/uyuni,Inline Method,1
+3172,uyuni-project/uyuni,Rename Parameter,1
+3173,vassalengine/vassal,Add Attribute Modifier,2
+3174,vassalengine/vassal,Add Method Annotation,2
+3175,vassalengine/vassal,Add Parameter,13
+3176,vassalengine/vassal,Add Variable Modifier,5
+3177,vassalengine/vassal,Change Attribute Type,2
+3178,vassalengine/vassal,Change Parameter Type,1
+3179,vassalengine/vassal,Change Return Type,2
+3180,vassalengine/vassal,Change Variable Type,8
+3181,vassalengine/vassal,Extract And Move Method,6
+3182,vassalengine/vassal,Extract Method,15
+3183,vassalengine/vassal,Extract Variable,2
+3184,vassalengine/vassal,Inline Variable,3
+3185,vassalengine/vassal,Parameterize Attribute,3
+3186,vassalengine/vassal,Parameterize Variable,1
+3187,vassalengine/vassal,Remove Parameter,14
+3188,vassalengine/vassal,Remove Variable Modifier,2
+3189,vassalengine/vassal,Rename Attribute,5
+3190,vassalengine/vassal,Rename Method,3
+3191,vassalengine/vassal,Rename Parameter,2
+3192,vassalengine/vassal,Rename Variable,6
+3193,vassalengine/vassal,Replace Attribute With Variable,2
+3194,vassalengine/vassal,Replace Variable With Attribute,2
+3195,vassalengine/vassal,Split Attribute,1
+3196,vassalengine/vassal,Split Parameter,1
+3197,vavr-io/vavr,Add Method Annotation,3
+3198,vavr-io/vavr,Change Attribute Access Modifier,6
+3199,vavr-io/vavr,Change Attribute Type,2
+3200,vavr-io/vavr,Change Parameter Type,1
+3201,vavr-io/vavr,Change Variable Type,4
+3202,vavr-io/vavr,Extract Variable,1
+3203,vavr-io/vavr,Parameterize Variable,2
+3204,vavr-io/vavr,Remove Attribute Annotation,1
+3205,vavr-io/vavr,Remove Attribute Modifier,4
+3206,vavr-io/vavr,Remove Parameter,1
+3207,vavr-io/vavr,Remove Variable Modifier,1
+3208,vavr-io/vavr,Rename Method,5
+3209,vavr-io/vavr,Rename Variable,2
+3210,vavr-io/vavr-jackson,Add Parameter,9
+3211,vavr-io/vavr-jackson,Extract Variable,1
+3212,vavr-io/vavr-jackson,Remove Thrown Exception Type,1
+3213,vavr-io/vavr-jackson,Rename Class,1
+3214,vert-x3/vertx-cassandra-client,Extract Variable,1
+3215,vert-x3/vertx-cassandra-client,Inline Variable,1
+3216,vert-x3/vertx-ignite,Change Attribute Type,2
+3217,vert-x3/vertx-ignite,Change Parameter Type,1
+3218,vert-x3/vertx-ignite,Change Return Type,1
+3219,vert-x3/vertx-ignite,Change Variable Type,2
+3220,vert-x3/vertx-ignite,Rename Attribute,2
+3221,vert-x3/vertx-ignite,Rename Method,2
+3222,vert-x3/vertx-ignite,Rename Parameter,1
+3223,vert-x3/vertx-ignite,Rename Variable,2
+3224,victools/jsonschema-generator,Add Method Modifier,1
+3225,victools/jsonschema-generator,Change Method Access Modifier,1
+3226,victools/jsonschema-generator,Change Variable Type,1
+3227,victools/jsonschema-generator,Extract Variable,1
+3228,victools/jsonschema-generator,Move And Rename Method,1
+3229,victools/jsonschema-generator,Rename Variable,1
+3230,virtualsatellite/VirtualSatellite4-Core,Add Method Annotation,1
+3231,virtualsatellite/VirtualSatellite4-Core,Change Attribute Access Modifier,3
+3232,virtualsatellite/VirtualSatellite4-Core,Change Method Access Modifier,1
+3233,virtualsatellite/VirtualSatellite4-Core,Change Return Type,1
+3234,virtualsatellite/VirtualSatellite4-Core,Change Variable Type,4
+3235,virtualsatellite/VirtualSatellite4-Core,Inline Method,2
+3236,virtualsatellite/VirtualSatellite4-Core,Move And Rename Method,1
+3237,virtualsatellite/VirtualSatellite4-Core,Remove Method Annotation,1
+3238,virtualsatellite/VirtualSatellite4-Core,Remove Thrown Exception Type,2
+3239,virtualsatellite/VirtualSatellite4-Core,Rename Variable,4
+3240,wso2/micro-integrator,Add Parameter,1
+3241,wso2/micro-integrator,Change Attribute Type,1
+3242,wso2/micro-integrator,Change Class Access Modifier,1
+3243,wso2/micro-integrator,Change Return Type,6
+3244,wso2/micro-integrator,Change Variable Type,4
+3245,wso2/micro-integrator,Extract And Move Method,1
+3246,wso2/micro-integrator,Extract Method,1
+3247,wso2/micro-integrator,Extract Variable,1
+3248,wso2/micro-integrator,Merge Conditional,2
+3249,wso2/micro-integrator,Move And Rename Method,1
+3250,wso2/micro-integrator,Move Attribute,1
+3251,wso2/micro-integrator,Move Code,1
+3252,wso2/micro-integrator,Move Method,2
+3253,wso2/micro-integrator,Remove Attribute Modifier,1
+3254,wso2/micro-integrator,Remove Method Modifier,1
+3255,wso2/micro-integrator,Remove Thrown Exception Type,1
+3256,wso2/micro-integrator,Rename Attribute,2
+3257,wso2/product-apim,Move Class,9
+3258,wso2/product-ei,Extract Variable,1
+3259,wso2/product-microgateway,Add Parameter,1
+3260,wso2/product-microgateway,Change Method Access Modifier,1
+3261,wso2/product-microgateway,Change Return Type,1
+3262,wso2/product-microgateway,Change Variable Type,3
+3263,wso2/product-microgateway,Extract Method,1
+3264,wso2/product-microgateway,Inline Method,3
+3265,wso2/product-microgateway,Modify Method Annotation,1
+3266,wso2/product-microgateway,Rename Attribute,1
+3267,wso2/product-microgateway,Rename Class,1
+3268,wso2/product-microgateway,Rename Method,2
+3269,wso2/product-microgateway,Rename Parameter,1
+3270,wso2/product-microgateway,Rename Variable,5
+3271,xenon-middleware/xenon,Add Parameter,2
+3272,xenon-middleware/xenon,Change Attribute Type,1
+3273,xenon-middleware/xenon,Change Parameter Type,1
+3274,xenon-middleware/xenon,Change Return Type,4
+3275,xenon-middleware/xenon,Extract Variable,1
+3276,ydb-platform/ydb-java-sdk,Change Return Type,5
+3277,yegor256/qulice,Rename Class,1
+3278,yegor256/qulice,Rename Method,1
+3279,zalando/riptide,Add Attribute Annotation,10
+3280,zalando/riptide,Add Parameter,1
+3281,zalando/riptide,Change Attribute Type,5
+3282,zalando/riptide,Change Parameter Type,1
+3283,zalando/riptide,Change Return Type,3
+3284,zalando/riptide,Change Variable Type,1
+3285,zalando/riptide,Extract Attribute,1
+3286,zalando/riptide,Extract Method,4
+3287,zalando/riptide,Inline Method,1
+3288,zalando/riptide,Parameterize Test,1
+3289,zalando/riptide,Remove Attribute Annotation,5
+3290,zalando/riptide,Remove Class Annotation,1
+3291,zalando/riptide,Remove Parameter Annotation,1
+3292,zalando/riptide,Remove Parameter Modifier,2
+3293,zalando/riptide,Rename Class,1
+3294,zalando/riptide,Rename Method,3
+3295,zalando/spring-cloud-config-aws-kms,Add Class Annotation,3
+3296,zalando/spring-cloud-config-aws-kms,Change Attribute Access Modifier,1
+3297,zalando/spring-cloud-config-aws-kms,Remove Class Annotation,9
+3298,zaproxy/zaproxy,Add Attribute Modifier,1
+3299,zaproxy/zaproxy,Add Method Annotation,1
+3300,zaproxy/zaproxy,Add Parameter,1
+3301,zaproxy/zaproxy,Change Attribute Type,2
+3302,zaproxy/zaproxy,Change Method Access Modifier,4
+3303,zaproxy/zaproxy,Change Variable Type,2
+3304,zaproxy/zaproxy,Extract And Move Method,1
+3305,zaproxy/zaproxy,Extract Method,10
+3306,zaproxy/zaproxy,Extract Variable,6
+3307,zaproxy/zaproxy,Inline Method,1
+3308,zaproxy/zaproxy,Inline Variable,1
+3309,zaproxy/zaproxy,Parameterize Attribute,1
+3310,zaproxy/zaproxy,Remove Attribute Modifier,2
+3311,zaproxy/zaproxy,Remove Method Annotation,1
+3312,zaproxy/zaproxy,Remove Method Modifier,2
+3313,zaproxy/zaproxy,Remove Thrown Exception Type,7
+3314,zaproxy/zaproxy,Rename Attribute,1
+3315,zaproxy/zaproxy,Rename Method,3
+3316,zaproxy/zaproxy,Rename Parameter,1
+3317,zaproxy/zaproxy,Rename Variable,3
+3318,zaproxy/zaproxy,Replace Attribute With Variable,1
+3319,zowe/zowe-client-java-sdk,Add Method Annotation,5
+3320,zowe/zowe-client-java-sdk,Add Method Modifier,1
+3321,zowe/zowe-client-java-sdk,Add Variable Modifier,20
+3322,zowe/zowe-client-java-sdk,Change Method Access Modifier,6
+3323,zowe/zowe-client-java-sdk,Change Return Type,1
+3324,zowe/zowe-client-java-sdk,Change Variable Type,3
+3325,zowe/zowe-client-java-sdk,Extract Variable,2
+3326,zowe/zowe-client-java-sdk,Inline Variable,3
+3327,zowe/zowe-client-java-sdk,Move Class,14
+3328,zowe/zowe-client-java-sdk,Move Method,2
+3329,zowe/zowe-client-java-sdk,Push Down Method,5
+3330,zowe/zowe-client-java-sdk,Remove Method Annotation,2
+3331,zowe/zowe-client-java-sdk,Remove Variable Modifier,9
+3332,zowe/zowe-client-java-sdk,Rename Variable,2

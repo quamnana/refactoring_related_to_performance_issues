@@ -1,0 +1,97 @@
+type,frequency,average_frequency
+Move Class,929,20.195652173913043
+Pull Up Attribute,367,17.476190476190474
+Change Variable Type,1807,14.57258064516129
+Pull Up Method,326,12.538461538461538
+Add Variable Modifier,371,11.242424242424242
+Add Parameter Modifier,170,10.625
+Add Parameter,1215,9.959016393442623
+Add Method Annotation,796,9.476190476190476
+Change Parameter Type,880,9.072164948453608
+Move Attribute,430,8.26923076923077
+Rename Method,875,7.291666666666667
+Move Method,393,7.277777777777778
+Remove Parameter Annotation,87,7.25
+Change Return Type,760,6.909090909090909
+Change Attribute Type,676,6.8979591836734695
+Modify Class Annotation,195,6.724137931034483
+Remove Parameter,535,6.524390243902439
+Change Method Access Modifier,595,6.397849462365591
+Rename Attribute,571,6.206521739130435
+Rename Variable,746,6.1652892561983474
+Add Attribute Annotation,197,5.96969696969697
+Add Thrown Exception Type,200,5.714285714285714
+Rename Parameter,562,5.62
+Extract And Move Method,270,5.510204081632653
+Extract Method,653,5.487394957983193
+Add Attribute Modifier,355,5.461538461538462
+Push Down Method,102,5.368421052631579
+Add Parameter Annotation,160,5.333333333333333
+Modify Parameter Annotation,10,5.0
+Change Attribute Access Modifier,355,4.930555555555555
+Change Class Access Modifier,165,4.714285714285714
+Remove Method Annotation,291,4.619047619047619
+Change Thrown Exception Type,69,4.6
+Remove Thrown Exception Type,181,4.414634146341464
+Remove Attribute Modifier,207,4.224489795918367
+Remove Attribute Annotation,67,4.1875
+Add Class Annotation,158,4.051282051282051
+Extract Variable,488,3.904
+Remove Method Modifier,147,3.8684210526315788
+Remove Class Annotation,99,3.8076923076923075
+Move And Rename Class,87,3.782608695652174
+Inline Variable,222,3.5238095238095237
+Rename Class,187,3.169491525423729
+Add Method Modifier,155,3.1
+Remove Parameter Modifier,31,3.1
+Move And Inline Method,55,3.0555555555555554
+Add Variable Annotation,9,3.0
+Merge Method,3,3.0
+Add Class Modifier,73,2.92
+Move And Rename Attribute,14,2.8
+Move Code,49,2.7222222222222223
+Merge Attribute,16,2.6666666666666665
+Replace Variable With Attribute,92,2.6285714285714286
+Extract Attribute,52,2.6
+Remove Variable Modifier,66,2.5384615384615383
+Replace Anonymous With Lambda,17,2.4285714285714284
+Modify Attribute Annotation,29,2.4166666666666665
+Push Down Attribute,24,2.4
+Inline Method,110,2.391304347826087
+Parameterize Variable,116,2.36734693877551
+Replace Attribute With Variable,77,2.3333333333333335
+Extract Class,84,2.3333333333333335
+Encapsulate Attribute,96,2.2325581395348837
+Replace Attribute,2,2.0
+Replace Pipeline With Loop,8,2.0
+Localize Parameter,45,1.9565217391304348
+Merge Variable,17,1.8888888888888888
+Modify Method Annotation,34,1.7894736842105263
+Remove Variable Annotation,7,1.75
+Split Conditional,49,1.75
+Merge Conditional,45,1.7307692307692308
+Extract Superclass,43,1.72
+Split Variable,5,1.6666666666666667
+Move And Rename Method,68,1.6585365853658536
+Parameterize Attribute,23,1.6428571428571428
+Merge Parameter,19,1.5833333333333333
+Invert Condition,12,1.5
+Collapse Hierarchy,6,1.5
+Reorder Parameter,13,1.4444444444444444
+Remove Class Modifier,20,1.4285714285714286
+Change Type Declaration Kind,17,1.4166666666666667
+Split Method,7,1.4
+Move Source Folder,16,1.3333333333333333
+Extract Interface,9,1.2857142857142858
+Inline Attribute,5,1.25
+Split Attribute,8,1.1428571428571428
+Split Parameter,9,1.125
+Extract Subclass,11,1.1
+Replace Loop With Pipeline,12,1.0909090909090908
+Parameterize Test,1,1.0
+Replace Anonymous With Class,2,1.0
+Merge Catch,2,1.0
+Split Class,2,1.0
+Assert Throws,2,1.0
+Merge Class,2,1.0
+Modify Variable Annotation,1,1.0

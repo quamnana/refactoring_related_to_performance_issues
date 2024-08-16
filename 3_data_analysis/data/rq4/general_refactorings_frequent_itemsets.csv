@@ -1,0 +1,104 @@
+support,itemsets
+0.18935034432954143,frozenset({'Change Variable Type'})
+0.17707191396478308,frozenset({'Add Parameter'})
+0.17098881294952328,frozenset({'Rename Method'})
+0.1629945772570094,frozenset({'Extract Variable'})
+0.15870550309197193,frozenset({'Rename Variable'})
+0.1497093448792976,frozenset({'Extract Method'})
+0.13326870716211953,frozenset({'Change Return Type'})
+0.1316405830668588,frozenset({'Change Attribute Type'})
+0.1305280587100573,frozenset({'Change Parameter Type'})
+0.1230445432632096,frozenset({'Rename Parameter'})
+0.11439808203403283,frozenset({'Rename Attribute'})
+0.11196484162792891,frozenset({'Change Method Access Modifier'})
+0.0978143125282604,frozenset({'Add Method Annotation'})
+0.09498420670832669,frozenset({'Remove Parameter'})
+0.08069705181045447,"frozenset({'Rename Variable', 'Change Variable Type'})"
+0.07153011135002553,"frozenset({'Change Variable Type', 'Change Return Type'})"
+0.07030861165418059,"frozenset({'Change Attribute Type', 'Change Parameter Type'})"
+0.06859265668864607,"frozenset({'Change Variable Type', 'Change Parameter Type'})"
+0.06559014212336009,frozenset({'Inline Variable'})
+0.06412792078306101,"frozenset({'Change Variable Type', 'Change Attribute Type'})"
+0.06336184041456171,"frozenset({'Change Return Type', 'Change Parameter Type'})"
+0.06312762476049823,"frozenset({'Change Parameter Type', 'Rename Parameter'})"
+0.061216490083244146,frozenset({'Change Attribute Access Modifier'})
+0.06103594884990355,"frozenset({'Change Return Type', 'Change Attribute Type'})"
+0.056460611107677396,frozenset({'Rename Class'})
+0.054978871796206356,"frozenset({'Change Return Type', 'Rename Method'})"
+0.054354296718703746,frozenset({'Move Method'})
+0.05401110572559684,frozenset({'Remove Method Annotation'})
+0.05364839676131798,"frozenset({'Change Attribute Type', 'Rename Attribute'})"
+0.05360936081897407,"frozenset({'Rename Parameter', 'Rename Method'})"
+0.05181045447595874,frozenset({'Move Class'})
+0.05153232338675836,"frozenset({'Change Variable Type', 'Rename Method'})"
+0.05074835154468477,"frozenset({'Rename Variable', 'Rename Method'})"
+0.0501660654047214,frozenset({'Add Attribute Modifier'})
+0.049635827187883244,"frozenset({'Add Parameter', 'Rename Method'})"
+0.0481719793499865,"frozenset({'Rename Method', 'Rename Attribute'})"
+0.047298550140041445,"frozenset({'Rename Parameter', 'Rename Attribute'})"
+0.04689029924302802,"frozenset({'Change Variable Type', 'Add Parameter'})"
+0.0465389757619328,"frozenset({'Rename Variable', 'Rename Parameter'})"
+0.04567367903997606,"frozenset({'Change Parameter Type', 'Rename Method'})"
+0.04539717444837334,"frozenset({'Change Variable Type', 'Rename Parameter'})"
+0.0453418735300528,"frozenset({'Change Return Type', 'Change Parameter Type', 'Change Attribute Type'})"
+0.04511904335917296,"frozenset({'Change Variable Type', 'Change Return Type', 'Change Parameter Type'})"
+0.04497103207778562,"frozenset({'Change Variable Type', 'Change Attribute Type', 'Change Parameter Type'})"
+0.04304200592695725,"frozenset({'Rename Parameter', 'Add Parameter'})"
+0.0428370672296517,"frozenset({'Add Parameter', 'Remove Parameter'})"
+0.042698814933850346,"frozenset({'Rename Variable', 'Change Return Type'})"
+0.04232959997918083,"frozenset({'Change Variable Type', 'Change Return Type', 'Change Attribute Type'})"
+0.04227592555845795,"frozenset({'Rename Variable', 'Add Parameter'})"
+0.0421767092050005,"frozenset({'Change Attribute Type', 'Rename Method'})"
+0.04192460207736273,"frozenset({'Change Attribute Type', 'Rename Parameter'})"
+0.041729422365643164,"frozenset({'Extract Method', 'Add Parameter'})"
+0.041332556951813385,"frozenset({'Change Parameter Type', 'Add Parameter'})"
+0.04129514750706713,"frozenset({'Change Return Type', 'Add Parameter'})"
+0.04091617356681164,"frozenset({'Change Variable Type', 'Extract Variable'})"
+0.04079255974938925,"frozenset({'Add Parameter', 'Extract Variable'})"
+0.04064617496559957,"frozenset({'Rename Variable', 'Extract Method'})"
+0.04064454846800191,frozenset({'Add Class Annotation'})
+0.04051605515778653,"frozenset({'Change Return Type', 'Rename Parameter'})"
+0.03988334759229561,"frozenset({'Change Variable Type', 'Extract Method'})"
+0.039665396914208756,"frozenset({'Rename Variable', 'Extract Variable'})"
+0.03962961396706017,"frozenset({'Rename Variable', 'Change Parameter Type'})"
+0.03870088383879457,frozenset({'Move Attribute'})
+0.03866672738924365,"frozenset({'Add Parameter', 'Change Method Access Modifier'})"
+0.038416246759203534,"frozenset({'Rename Method', 'Change Method Access Modifier'})"
+0.03785673158560745,"frozenset({'Rename Variable', 'Change Attribute Type'})"
+0.03775751523215,"frozenset({'Rename Variable', 'Rename Attribute'})"
+0.03765341938589957,frozenset({'Extract And Move Method'})
+0.03731836088078098,"frozenset({'Extract Method', 'Rename Method'})"
+0.037171976096991306,"frozenset({'Change Variable Type', 'Rename Attribute'})"
+0.036898724500583915,"frozenset({'Change Attribute Type', 'Add Parameter'})"
+0.03674908672159891,"frozenset({'Change Parameter Type', 'Rename Attribute'})"
+0.03656203949786766,"frozenset({'Rename Method', 'Remove Parameter'})"
+0.035698369273508584,frozenset({'Parameterize Variable'})
+0.03534379279721804,"frozenset({'Change Attribute Type', 'Change Parameter Type', 'Rename Parameter'})"
+0.03520554050141668,"frozenset({'Rename Variable', 'Change Return Type', 'Change Variable Type'})"
+0.03433211129147162,"frozenset({'Extract Method', 'Extract Variable'})"
+0.03416295554131467,"frozenset({'Change Variable Type', 'Remove Parameter'})"
+0.03407675116863852,"frozenset({'Change Variable Type', 'Change Return Type', 'Change Parameter Type', 'Change Attribute Type'})"
+0.0339677758295951,frozenset({'Encapsulate Attribute'})
+0.03384578850977037,frozenset({'Add Method Modifier'})
+0.03378560809865684,"frozenset({'Change Variable Type', 'Change Parameter Type', 'Rename Parameter'})"
+0.03376121063469189,"frozenset({'Change Variable Type', 'Change Method Access Modifier'})"
+0.03305043118451314,"frozenset({'Change Variable Type', 'Change Return Type', 'Rename Method'})"
+0.03283735999921928,"frozenset({'Rename Variable', 'Change Parameter Type', 'Change Variable Type'})"
+0.03255272291962825,"frozenset({'Rename Method', 'Extract Variable'})"
+0.032551096422030586,frozenset({'Inline Method'})
+0.03248603651812406,"frozenset({'Rename Parameter', 'Remove Parameter'})"
+0.03244862707337781,"frozenset({'Change Return Type', 'Rename Attribute'})"
+0.03241609712142455,"frozenset({'Rename Variable', 'Rename Method', 'Change Variable Type'})"
+0.032240435380876946,"frozenset({'Add Parameter', 'Rename Attribute'})"
+0.03170694416884346,"frozenset({'Rename Parameter', 'Change Parameter Type', 'Rename Method'})"
+0.031654896245718246,"frozenset({'Change Attribute Type', 'Change Parameter Type', 'Rename Attribute'})"
+0.031498752476342595,"frozenset({'Change Return Type', 'Change Method Access Modifier'})"
+0.03135562068774824,"frozenset({'Change Return Type', 'Change Parameter Type', 'Rename Parameter'})"
+0.030922972326769875,"frozenset({'Change Parameter Type', 'Remove Parameter'})"
+0.030903454355597916,"frozenset({'Change Return Type', 'Remove Parameter'})"
+0.03087417739883998,"frozenset({'Rename Variable', 'Change Attribute Type', 'Change Variable Type'})"
+0.03076032256700357,"frozenset({'Change Return Type', 'Change Parameter Type', 'Rename Method'})"
+0.030400866597920035,"frozenset({'Rename Variable', 'Rename Parameter', 'Change Variable Type'})"
+0.03033418019641585,"frozenset({'Rename Variable', 'Remove Parameter'})"
+0.030257734809325688,"frozenset({'Extract Method', 'Rename Parameter'})"
+0.030197554398212152,frozenset({'Replace Variable With Attribute'})

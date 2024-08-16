@@ -1,0 +1,11 @@
+type,Fix-related,Maintenance-related,Test-related
+Add Method Annotation,3,26,1
+Add Parameter,9,21,0
+Change Attribute Type,17,13,0
+Change Parameter Type,12,17,1
+Change Return Type,19,11,0
+Change Variable Type,17,10,3
+Extract Method,12,15,3
+Move Class,1,24,5
+Rename Method,2,23,5
+Rename Variable,1,28,1

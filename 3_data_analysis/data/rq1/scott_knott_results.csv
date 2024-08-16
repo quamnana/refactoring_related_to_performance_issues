@@ -1,0 +1,97 @@
+means,groups,Sig.level,Replicates,type
+2421.75,a,0.05,2,Modify Parameter Annotation
+2234,a,0.05,26,Pull Up Method
+2135.3,a,0.05,124,Change Variable Type
+2091.95,a,0.05,21,Pull Up Attribute
+2041.16,a,0.05,84,Add Method Annotation
+2037.67,a,0.05,54,Move Method
+2023,a,0.05,1,Merge Method
+2022.39,a,0.05,97,Change Parameter Type
+1991.24,a,0.05,122,Add Parameter
+1975.03,a,0.05,16,Add Parameter Modifier
+1972.27,a,0.05,98,Change Attribute Type
+1955.63,a,0.05,110,Change Return Type
+1945.17,a,0.05,35,Add Thrown Exception Type
+1920.79,a,0.05,46,Move Class
+1919.89,a,0.05,120,Rename Method
+1911.72,a,0.05,52,Move Attribute
+1908.3,a,0.05,100,Rename Parameter
+1899.21,a,0.05,33,Add Attribute Annotation
+1879.28,a,0.05,93,Change Method Access Modifier
+1857.23,a,0.05,82,Remove Parameter
+1835.57,a,0.05,121,Rename Variable
+1833.9,a,0.05,92,Rename Attribute
+1832.21,a,0.05,19,Push Down Method
+1773.35,a,0.05,30,Add Parameter Annotation
+1766.8,a,0.05,15,Change Thrown Exception Type
+1765.79,a,0.05,119,Extract Method
+1760.03,a,0.05,33,Add Variable Modifier
+1721.17,a,0.05,3,Add Variable Annotation
+1706.75,a,0.05,72,Change Attribute Access Modifier
+1694.9,a,0.05,29,Modify Class Annotation
+1681.85,a,0.05,65,Add Attribute Modifier
+1681.5,a,0.05,10,Remove Parameter Modifier
+1650.25,a,0.05,18,Move And Inline Method
+1610.94,a,0.05,49,Extract And Move Method
+1602.05,a,0.05,49,Remove Attribute Modifier
+1601.56,a,0.05,16,Remove Attribute Annotation
+1589.21,a,0.05,26,Remove Class Annotation
+1584.74,a,0.05,39,Add Class Annotation
+1572.5,a,0.05,1,Replace Attribute
+1568.88,a,0.05,125,Extract Variable
+1567.77,a,0.05,63,Remove Method Annotation
+1563.13,a,0.05,12,Modify Attribute Annotation
+1549.9,a,0.05,59,Rename Class
+1537.1,a,0.05,10,Push Down Attribute
+1502.48,a,0.05,41,Remove Thrown Exception Type
+1481.1,a,0.05,63,Inline Variable
+1447.36,a,0.05,38,Remove Method Modifier
+1412.71,b,0.05,12,Remove Parameter Annotation
+1396.5,b,0.05,26,Remove Variable Modifier
+1356,b,0.05,18,Move Code
+1353.15,b,0.05,49,Parameterize Variable
+1341.37,b,0.05,50,Add Method Modifier
+1328.75,b,0.05,4,Replace Pipeline With Loop
+1322.02,b,0.05,23,Move And Rename Class
+1298.87,b,0.05,46,Inline Method
+1276.82,b,0.05,33,Replace Attribute With Variable
+1259.83,b,0.05,3,Split Variable
+1257.08,b,0.05,20,Extract Attribute
+1238.17,b,0.05,35,Replace Variable With Attribute
+1216.13,b,0.05,4,Remove Variable Annotation
+1213.62,b,0.05,43,Encapsulate Attribute
+1192.44,b,0.05,36,Extract Class
+1191.25,b,0.05,28,Split Conditional
+1185.14,b,0.05,7,Replace Anonymous With Lambda
+1184.47,b,0.05,35,Change Class Access Modifier
+1167.08,b,0.05,6,Merge Attribute
+1159.56,b,0.05,25,Add Class Modifier
+1156.64,b,0.05,25,Extract Superclass
+1153.55,b,0.05,19,Modify Method Annotation
+1150.08,b,0.05,26,Merge Conditional
+1118.02,b,0.05,23,Localize Parameter
+1086,b,0.05,5,Move And Rename Attribute
+1042.38,b,0.05,12,Merge Parameter
+1024.93,b,0.05,41,Move And Rename Method
+997.22,b,0.05,9,Reorder Parameter
+981.63,b,0.05,4,Collapse Hierarchy
+975.94,b,0.05,9,Merge Variable
+955.5,b,0.05,8,Invert Condition
+944.08,b,0.05,12,Change Type Declaration Kind
+912.2,b,0.05,5,Split Method
+902.5,b,0.05,7,Extract Interface
+886.18,b,0.05,14,Parameterize Attribute
+869,b,0.05,4,Inline Attribute
+867.36,b,0.05,14,Remove Class Modifier
+848.5,b,0.05,12,Move Source Folder
+768.5,b,0.05,7,Split Attribute
+751.75,b,0.05,8,Split Parameter
+728.3,b,0.05,10,Extract Subclass
+719.77,b,0.05,11,Replace Loop With Pipeline
+634.5,b,0.05,2,Merge Catch
+634.5,b,0.05,2,Split Class
+634.5,b,0.05,2,Assert Throws
+634.5,b,0.05,2,Replace Anonymous With Class
+634.5,b,0.05,1,Parameterize Test
+634.5,b,0.05,2,Merge Class
+634.5,b,0.05,1,Modify Variable Annotation
