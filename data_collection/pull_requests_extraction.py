@@ -9,6 +9,21 @@ from github_api_helpers import get_issue_timeline, get_pr_commits
 issues_collection_name = "performance-issues"
 
 
+"""
+    This function retrieves performance issues from the database, checks their associated pull requests,
+    and updates the database with relevant pull request information.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+
+    Side Effects:
+    Prints progress information, updates the database, and sleeps to avoid rate limiting.
+"""
+
+
 def get_performance_pull_requests():
     issues = get_all_data_from_db(issues_collection_name)
     total_issues = count_data(issues_collection_name)
@@ -66,6 +81,22 @@ def get_performance_pull_requests():
             break
 
 
+"""
+    This function retrieves performance issues from the database, fetches the associated pull request commits,
+    and updates the database with the commit IDs.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+
+    Side Effects:
+    Prints progress information, updates the database, and sleeps to avoid rate limiting.
+
+"""
+
+
 def get_performance_pull_request_commits():
     query = {}
     issues = get_all_data_from_db(issues_collection_name, query)
@@ -97,7 +128,3 @@ def get_performance_pull_request_commits():
             )
         if i % 50 == 0:
             time.sleep(7)
-
-
-# get_performance_pull_requests()
-get_performance_pull_request_commits()

@@ -14,6 +14,21 @@ projects_collection_name = "all-projects"
 issues_collection_name = "performance-issues"
 
 
+"""
+    This function retrieves project refactorings from a database and performs git clone and RefactoringMiner operations.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+
+    Side Effects:
+    - Prints progress messages to the console.
+    - Calls other functions to create an empty JSON file, clone a git repository, and run RefactoringMiner.
+"""
+
+
 def get_project_refactorings():
     distinct_projects_in_performance_issues = get_distict_values(
         issues_collection_name, "repo_fullname"
@@ -56,6 +71,25 @@ def git_clone(repo_url, destination_folder):
         print(f"An error occurred: {e}")
         print("Git Clone Output:\n", e.output)
         print("Git Clone Error:\n", e.stderr)
+
+
+"""
+    This function executes the RefactoringMiner tool to extract refactorings from a given project.
+
+    Parameters:
+    project_folder (str): The path to the local directory where the project is cloned.
+    branch (str): The branch of the project to analyze.
+    json_file (str): The path to the JSON file where the refactoring data will be stored.
+
+    Returns:
+    None
+
+    Side Effects:
+    - Prints progress messages to the console.
+    - Calls subprocess to execute the RefactoringMiner tool.
+    - Prints the output of the RefactoringMiner tool.
+    - Prints an error message if the command fails.
+"""
 
 
 def run_refactoring_miner(project_folder, branch, json_file):

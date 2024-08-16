@@ -27,6 +27,20 @@ total = all_performance_refactorings_collection.count_documents({})
 
 
 def categorize_refactorings(all_performance_refactorings):
+    """
+    This function categorizes performance refactorings by checking their existence in a project's refactoring collection.
+    It iterates over a list of performance refactorings, queries the project's refactoring collection, and performs
+    specific operations based on the existence of the refactoring.
+
+    Parameters:
+    all_performance_refactorings (list): A list of dictionaries representing performance refactorings. Each dictionary should have the following keys:
+        - type: The type of refactoring.
+        - repo_fullname: The full name of the repository.
+        - commit_id: The commit ID associated with the refactoring.
+
+    Returns:
+    None
+    """
     index = 1
     for performance_refactoring in all_performance_refactorings:
         query = {
@@ -71,6 +85,14 @@ def categorize_refactorings(all_performance_refactorings):
 
 
 def extract_performance_refactorings_related_to_performance_issues():
+    """
+    This function extracts performance refactorings related to performance issues from the database.
+    It fetches issues with commit IDs, extracts commit IDs for each issue, fetches performance refactorings
+    with commit IDs in the performance issues collection, and inserts them into a new collection.
+
+    Returns:
+    None
+    """
     # Fetch issues with commit Ids
     issues_related_to_performance_refactorings = list(
         peformance_issues_collection.find(

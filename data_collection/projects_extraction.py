@@ -10,6 +10,18 @@ STARS_COUNT = [20 + i * 100 if i <= 9 else 1000 + (i - 9) * 10 for i in range(0,
 projects_collection_name = "all-projects"
 
 
+"""
+    This function retrieves Java projects from GitHub based on the specified star count ranges.
+    It iterates through the star count ranges, fetches the projects from GitHub, and persists the data in a MongoDB collection.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+"""
+
+
 def retrieve_projects():
 
     for index, count in enumerate(STARS_COUNT):
@@ -38,6 +50,20 @@ def retrieve_projects():
                 print("Failed to fetch Java projects from GitHub.")
                 time.sleep(20)
                 break
+
+
+"""
+    Retrieves detailed information about Java projects from MongoDB and updates the database with the new data.
+
+    This function fetches projects from MongoDB, iterates through each project, and retrieves detailed information
+    about the project using the GitHub API. It then updates the MongoDB database with the new data.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+"""
 
 
 def retrieve_projects_details():

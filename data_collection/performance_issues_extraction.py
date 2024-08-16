@@ -11,6 +11,19 @@ projects_collection_name = "all-projects"
 issues_collection_name = "performance-issues"
 
 
+"""
+    This function retrieves performance-related issues from GitHub for Java projects.
+    It searches for issues using predefined performance and bug keywords.
+    The function iterates through the projects, fetches issues, and persists the data to a database.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+"""
+
+
 def get_performance_issues():
     query = {"total_issue_and_prs": {"$gte": 20}}
     java_projects = get_all_data_from_db(projects_collection_name, query)

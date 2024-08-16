@@ -1,7 +1,7 @@
 import requests
 import time
 
-GITHUB_ACCESS_TOKEN = "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"
+GITHUB_ACCESS_TOKEN = "get-github-access-token"
 
 
 def get_pr_commits(full_name, pr_number):

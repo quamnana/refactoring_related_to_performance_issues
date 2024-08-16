@@ -1,5 +1,19 @@
 from pymongo import MongoClient, InsertOne
 
+"""
+    This function clones a collection from a source MongoDB database to a target MongoDB database.
+
+    Parameters:
+    source_db_name (str): The name of the source MongoDB database.
+    source_collection_name (str): The name of the source MongoDB collection.
+    target_collection_name (str): The name of the target MongoDB collection.
+    uri (str): The MongoDB connection URI. Default is "mongodb://localhost:27017/".
+    batch_size (int): The number of documents to insert in a single batch. Default is 5000.
+
+    Returns:
+    None. The function prints the progress of cloning and the final message.
+"""
+
 
 def clone_collection(
     source_db_name,

@@ -35,8 +35,20 @@ def create_unique_key(doc):
     return unique_key
 
 
-# Function to remove duplicates
 def remove_duplicates():
+    """
+    This function removes duplicate documents from a MongoDB collection based on specific fields.
+    It uses a unique key generated from multiple fields to identify duplicates.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+
+    Side Effects:
+    Deletes duplicate documents from the MongoDB collection.
+    """
     # Find all documents in the collection
     all_docs = list(collection.find())
 

@@ -47,7 +47,18 @@ def get_refactorings_performance_issues():
     return issues
 
 
-def view():
+def view_refactorings():
+    """
+    This function retrieves performance issues related to refactorings not found in projects,
+    opens the corresponding GitHub pull request URLs in a web browser, and allows the user to proceed
+    to the next issue by pressing Enter.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+    """
     issues = get_refactorings_performance_issues()
     # Iterate through each project
     for count, issue in enumerate(issues, start=1):
@@ -62,5 +73,4 @@ def view():
             print("No 'html_url' found in issue, skipping...")
 
 
-# view()
-get_refactorings_not_found_in_projects()
+view_refactorings()

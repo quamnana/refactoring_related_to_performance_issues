@@ -17,6 +17,21 @@ db = client[DATABASE_NAME]
 collection = db[COLLECTION_NAME]
 
 
+"""
+    This function iterates over all JSON files in the specified directory,
+    loads the data from each file, and inserts it into a MongoDB database.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+
+    Raises:
+    None
+"""
+
+
 def load_json_to_db():
     # Iterate over all JSON files in the specified directory
     files = os.listdir(JSON_DIRECTORY)
@@ -44,6 +59,17 @@ def load_json_to_db():
                     log_error(filename, str(e), index)
         else:
             log_error(filename, "The file was not valid", index)
+
+
+"""
+    This function processes the given data, which contains information about commits and refactorings.
+    It extracts relevant information from the commits and refactorings, and restructures the data for easier storage in a database.
+
+    Parameters:
+    data (dict): A dictionary containing information about commits and refactorings.
+    Returns:
+    None
+ """
 
 
 def restructure_data(data):
@@ -74,6 +100,18 @@ def restructure_data(data):
                 no_ref["leftSideLocations"] = []
                 no_ref["rightSideLocations"] = []
                 persist_data_to_db(no_ref, print_log)
+
+
+"""
+    Extracts the user/repo and repository name parts from a given GitHub repository URL.
+
+    Parameters:
+    url (str): The GitHub repository URL. It should be in the format "https://github.com/user/repo.git".
+
+    Returns:
+    tuple: A tuple containing two strings: the "user/repo" part and the repository name.
+           If the URL does not match the expected format, both parts will be None.
+"""
 
 
 def extract_repo_parts(url):

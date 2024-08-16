@@ -10,6 +10,16 @@ db = client["final-first-research"]
 
 
 def remove_non_performance_refactorings():
+    """
+    This function removes non-performance refactorings from a MongoDB collection and moves them to a new collection.
+    It uses a list of repository fullnames to determine which refactorings to move.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+    """
     non_performance_refactorings_collection = db["non-performance-refactorings"]
     new_collection = db["non-performance-refactorings-new"]
     repo_fullnames = projects
