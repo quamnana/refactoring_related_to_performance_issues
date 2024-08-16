@@ -6,7 +6,10 @@ GITHUB_ACCESS_TOKEN = "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"
 
 def get_pr_commits(full_name, pr_number):
     url = f"https://api.github.com/repos/{full_name}/pulls/{pr_number}/commits"
-    headers = {"Authorization": f"Bearer {GITHUB_ACCESS_TOKEN}"}
+    headers = {
+        "Authorization": f"token {GITHUB_ACCESS_TOKEN}",
+        "Accept": "application/vnd.github+json",
+    }
     try:
         response = requests.get(url, headers=headers)
         response.raise_for_status()  # Raise an exception for 4XX and 5XX status codes

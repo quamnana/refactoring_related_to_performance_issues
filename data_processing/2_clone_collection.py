@@ -4,7 +4,6 @@ from pymongo import MongoClient, InsertOne
 def clone_collection(
     source_db_name,
     source_collection_name,
-    target_db_name,
     target_collection_name,
     uri="mongodb://localhost:27017/",
     batch_size=5000,
@@ -14,7 +13,7 @@ def clone_collection(
     # Source and target database and collection
     source_db = client[source_db_name]
     source_collection = source_db[source_collection_name]
-    target_db = client[target_db_name]
+    target_db = client[source_db_name]
     target_collection = target_db[target_collection_name]
 
     # Remove existing documents in target collection if necessary
@@ -40,13 +39,12 @@ def clone_collection(
         print(f"Inserted {count} of {total_docs} documents.")
 
     print(
-        f"Cloned {source_collection_name} from {source_db_name} to {target_collection_name} in {target_db_name}"
+        f"Cloned {source_collection_name} from {source_db_name} to {target_collection_name} in {source_db_name}"
     )
 
 
 clone_collection(
-    source_db_name="research-data",
+    source_db_name="final-first-research",
     source_collection_name="projects-refactorings",
-    target_db_name="research-data",
-    target_collection_name="projects-refactoring-clone",
+    target_collection_name="projects-refactorings-clone-b",
 )

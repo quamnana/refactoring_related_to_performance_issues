@@ -13,6 +13,8 @@ def get_performance_pull_requests():
     issues = get_all_data_from_db(issues_collection_name)
     total_issues = count_data(issues_collection_name)
     for i, issue in enumerate(issues, start=1):
+        if issue.get("pr_number", None):
+            continue
         issue_timeline_url = issue["issue_timeline_url"]
         issue_timeline = get_issue_timeline(issue_timeline_url)
         if issue_timeline:
@@ -69,7 +71,7 @@ def get_performance_pull_request_commits():
     issues = get_all_data_from_db(issues_collection_name, query)
     total_issues = count_data(issues_collection_name, query)
     for i, issue in enumerate(issues, start=1):
-        if i <= 15665:
+        if issue.get("commit_ids", None):
             continue
         repo_fullname = issue["repo_fullname"]
         pr_number = issue.get("pr_number", None)
@@ -95,3 +97,7 @@ def get_performance_pull_request_commits():
             )
         if i % 50 == 0:
             time.sleep(7)
+
+
+# get_performance_pull_requests()
+get_performance_pull_request_commits()

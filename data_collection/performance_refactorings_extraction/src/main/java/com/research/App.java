@@ -7,7 +7,8 @@ public class App {
         DBHelpers db = new DBHelpers();
         RefactoringExtraction extractRef = new RefactoringExtraction();
         db.establishDBConnection();
-        extractRef.getPerformanceRefactorings();
+        // extractRef.getPerformanceRefactorings();
+        extractRef.getPerformanceRefactoringsWithCommits();
 
     }
 

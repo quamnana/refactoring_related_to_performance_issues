@@ -3,6 +3,7 @@ package com.research;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
+import java.io.File;
 
 import org.eclipse.jgit.lib.Repository;
 import org.refactoringminer.api.GitHistoryRefactoringMiner;
@@ -21,27 +22,176 @@ public class RefactoringExtraction {
     DBHelpers db = new DBHelpers();
     String issuesCollectionName = "performance-issues";
     String projectsCollectionName = "all-projects";
-    String performanceRefCollectionName = "all-performance-refactorings";
+    String performanceRefCollectionName = "all-performance-refactorings-using-commits";
 
-    public void getPerformanceRefactorings() {
-        final String errorLogsFilePath = "./logs/perf/error.log";
+    // public void getPerformanceRefactorings() {
+    // final String errorLogsFilePath = "./logs/perf/error.log";
+    // int counter = 0;
+    // FindIterable<Document> issues = db.getAllDataFromDB(issuesCollectionName);
+    // long total = db.countData(issuesCollectionName);
+
+    // for (Document issue : issues) {
+    // counter++;
+
+    // Integer prNumber = issue.getInteger("pr_number");
+    // System.out.println("========================= GETTING REFATORINGS
+    // ======================= (" + counter + "/"
+    // + total + ")");
+    // if (prNumber != null) {
+    // getRefactoringsByPullRequest(issue, errorLogsFilePath);
+    // } else {
+    // continue;
+    // }
+
+    // }
+    // }
+
+    public void getPerformanceRefactoringsWithCommits() {
+        final String errorLogsFilePath = "logs/perf/error.log";
         int counter = 0;
         FindIterable<Document> issues = db.getAllDataFromDB(issuesCollectionName);
         long total = db.countData(issuesCollectionName);
 
         for (Document issue : issues) {
             counter++;
-            Integer prNumber = issue.getInteger("pr_number");
+
+            // Skip counters less than 746
+            if (counter < 24326) {
+                continue;
+            }
+
+            String repoUrl = issue.getString("repo_url") + ".git";
+            String repoName = issue.getString("repo_name");
+            int repoId = issue.getInteger("repo_id");
+            String repoLocation = "./projects/" + repoName + "-" + String.valueOf(repoId);
+            Repository repo = initializeRepo(repoLocation, repoUrl);
+
+            List<String> commitIds = issue.getList("commit_ids", String.class);
             System.out.println("========================= GETTING REFATORINGS ======================= (" + counter + "/"
                     + total + ")");
-            if (prNumber != null) {
-                getRefactoringsByPullRequest(issue, errorLogsFilePath);
+            if (commitIds != null) {
+                for (String commitId : commitIds) {
+                    // getRefactoringsByCommit(repo, issue, commitId, errorLogsFilePath);
+                    getRefactoringsByCommit(issue, commitId, errorLogsFilePath);
+                }
             } else {
                 continue;
             }
 
+            // // Add sleep after every 50 iterations
+            // if (counter % 50 == 0) {
+            // try {
+            // Thread.sleep(7000); // Adjust sleep time as needed (in milliseconds)
+            // } catch (InterruptedException e) {
+            // e.printStackTrace(); // Handle interruption exception if needed
+            // }
+            // }
+
         }
     }
+
+    private void getRefactoringsByCommit(Document issue, String commitId, String errorLogsFilePath) {
+        final String repoName = issue.getString("repo_name");
+        final String repoFullName = issue.getString("repo_fullname");
+        final String perfKeyword = issue.getString("perf_keyword");
+        final String bugKeyword = issue.getString("bug_keyword");
+        final int issueNumber = issue.getInteger("issue_number");
+        final String issueTitle = issue.getString("issue_title");
+        final int prNumber = issue.getInteger("pr_number");
+        final String repoUrl = issue.getString("repo_url") + ".git";
+
+        final String[] commitWithError = { null };
+
+        try {
+
+            miner.detectAtCommit(repoUrl,
+                    commitId, new RefactoringHandler() {
+                        @Override
+                        public void handle(String commitId, List<Refactoring> refactorings) {
+                            System.out
+                                    .println("Refactorings for " + repoName + " at PR#" + prNumber + " Commit ID:"
+                                            + commitId);
+                            commitWithError[0] = commitId; // Assign the current commit ID
+                            for (Refactoring ref : refactorings) {
+                                System.out.println(ref.toString());
+                                Document data = Document.parse(ref.toJSON()).append("commit_id",
+                                        commitId).append("repo_name", repoName).append("repo_fullname", repoFullName)
+                                        .append("pr_number", prNumber)
+                                        .append("perf_keyword", perfKeyword).append("bug_keyword", bugKeyword)
+                                        .append("issue_number", issueNumber).append("issue_title", issueTitle);
+                                db.persistToDB(performanceRefCollectionName, data);
+                            }
+                        }
+                    }, 10);
+
+            // miner.detectAtCommit(repoUrl, commitId, new RefactoringHandler() {
+            // @Override
+            // public void handle(String commitId, List<Refactoring> refactorings) {
+            // System.out
+            // .println("Refactorings for " + repoName + " at PR#" + prNumber + " Commit
+            // ID:"
+            // + commitId);
+            // commitWithError[0] = commitId; // Assign the current commit ID
+            // for (Refactoring ref : refactorings) {
+            // System.out.println(ref.toString());
+            // Document data = Document.parse(ref.toJSON()).append("commit_id",
+            // commitId).append("repo_name", repoName).append("repo_fullname", repoFullName)
+            // .append("pr_number", prNumber)
+            // .append("perf_keyword", perfKeyword).append("bug_keyword", bugKeyword)
+            // .append("issue_number", issueNumber).append("issue_title", issueTitle);
+            // db.persistToDB(performanceRefCollectionName, data);
+            // }
+            // }
+            // });
+        } catch (Exception e) {
+            // TODO: handle exception
+            System.out.println(
+                    "An error occurred during the collection of refactorings inner for commit: "
+                            + commitWithError[0]);
+        }
+
+    }
+
+    // private void getRefactoringsByCommit(Repository repo, Document issue, String
+    // commitId, String errorLogsFilePath) {
+    // final String repoName = issue.getString("repo_name");
+    // final String repoFullName = issue.getString("repo_fullname");
+    // final String perfKeyword = issue.getString("perf_keyword");
+    // final String bugKeyword = issue.getString("bug_keyword");
+    // final int issueNumber = issue.getInteger("issue_number");
+    // final String issueTitle = issue.getString("issue_title");
+    // final int prNumber = issue.getInteger("pr_number");
+
+    // final String[] commitWithError = { null };
+
+    // try {
+    // miner.detectAtCommit(repo, commitId, new RefactoringHandler() {
+    // @Override
+    // public void handle(String commitId, List<Refactoring> refactorings) {
+    // System.out
+    // .println("Refactorings for " + repoName + " at PR#" + prNumber + " Commit
+    // ID:"
+    // + commitId);
+    // commitWithError[0] = commitId; // Assign the current commit ID
+    // for (Refactoring ref : refactorings) {
+    // System.out.println(ref.toString());
+    // Document data = Document.parse(ref.toJSON()).append("commit_id",
+    // commitId).append("repo_name", repoName).append("repo_fullname", repoFullName)
+    // .append("pr_number", prNumber)
+    // .append("perf_keyword", perfKeyword).append("bug_keyword", bugKeyword)
+    // .append("issue_number", issueNumber).append("issue_title", issueTitle);
+    // db.persistToDB(performanceRefCollectionName, data);
+    // }
+    // }
+    // });
+    // } catch (Exception e) {
+    // // TODO: handle exception
+    // System.out.println(
+    // "An error occurred during the collection of refactorings inner for commit: "
+    // + commitWithError[0]);
+    // }
+
+    // }
 
     private void getRefactoringsByPullRequest(Document issue, String errorLogsFilePath) {
         final String repoName = issue.getString("repo_name");
@@ -53,7 +203,7 @@ public class RefactoringExtraction {
         final int issueNumber = issue.getInteger("issue_number");
         final String issueTitle = issue.getString("issue_title");
 
-        final String[] commitWithError = { null }; 
+        final String[] commitWithError = { null };
         try {
             miner.detectAtPullRequest(repoUrl, prNumber, new RefactoringHandler() {
                 @Override
