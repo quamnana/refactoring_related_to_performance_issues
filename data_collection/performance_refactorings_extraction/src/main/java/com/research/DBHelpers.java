@@ -16,7 +16,7 @@ public class DBHelpers {
             MongoClient mongoClient = MongoClients.create("mongodb://127.0.0.1:27017/");
 
             // Connect to the "mydb" database
-            database = mongoClient.getDatabase("final-first-research");
+            database = mongoClient.getDatabase("research");
 
         } catch (Exception e) {
             e.printStackTrace();

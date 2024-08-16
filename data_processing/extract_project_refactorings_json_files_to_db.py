@@ -5,9 +5,8 @@ from pymongo import MongoClient
 
 # MongoDB configuration
 MONGO_URI = "mongodb://localhost:27017"
-DATABASE_NAME = "research-data"
+DATABASE_NAME = "research"
 COLLECTION_NAME = "projects-refactorings"
-# JSON_DIRECTORY = "/Users/nanaquam/Library/CloudStorage/GoogleDrive-quamgyambrah@gmail.com/My Drive/refactoring_miner_all_projects_results"
 JSON_DIRECTORY = "data_collection/project_refactorings_extraction/results"
 
 

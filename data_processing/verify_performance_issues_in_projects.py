@@ -7,7 +7,7 @@ from data_collection.db_helpers import get_distict_values, get_all_data_from_db
 
 # Replace the following with your MongoDB connection details
 mongo_uri = "mongodb://localhost:27017/"
-database_name = "research-data"
+database_name = "research"
 projects_collection_name = "all-projects"
 issues_collection_name = "performance-issues"
 limit = 50

@@ -7,18 +7,18 @@ from data import projects
 client = MongoClient("mongodb://localhost:27017/")
 
 # Step 2: Access the database and project_refactorings_collection
-db = client["final-first-research"]
+db = client["research"]
 project_refactorings_collection = db["projects-refactorings"]
 all_performance_refactorings_collection = db[
     "all-performance-refactorings-using-commits-backup"
 ]
-project_refactorings_clone_collection = db["projects-refactorings-clone-b"]
+project_refactorings_clone_collection = db["projects-refactorings-clone"]
 initial_performance_refactorings = db[
-    "performance-refactorings-from-projects-refactorings-b"
+    "performance-refactorings-from-projects-refactorings"
 ]
 
 
-performance_refactorings_collection = db["performance-refactorings-b"]
+performance_refactorings_collection = db["performance-refactorings"]
 peformance_issues_collection = db["performance-issues"]
 
 # Step 3: Find all documents in all_performance_refactorings_collection
@@ -78,10 +78,10 @@ def categorize_refactorings(all_performance_refactorings):
         index += 1
 
     # Step 7: Rename the collection
-    # db[project_refactorings_clone_collection].rename("non-performance-refactorings-b")
+    db[project_refactorings_clone_collection].rename("non-performance-refactorings")
 
-    # # Step 8: extract performance refactorings related to performance issues
-    # extract_performance_refactorings_related_to_performance_issues()
+    # Step 8: extract performance refactorings related to performance issues
+    extract_performance_refactorings_related_to_performance_issues()
 
 
 def extract_performance_refactorings_related_to_performance_issues():

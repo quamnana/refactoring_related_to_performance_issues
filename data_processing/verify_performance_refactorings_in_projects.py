@@ -5,7 +5,7 @@ import webbrowser
 client = MongoClient("mongodb://localhost:27017/")
 
 # Access the specified database
-db = client["final-first-research"]
+db = client["research"]
 
 
 def get_distinct_fields(collection_name, field):

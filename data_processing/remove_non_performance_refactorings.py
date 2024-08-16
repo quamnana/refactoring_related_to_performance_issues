@@ -6,7 +6,7 @@ from data import projects
 client = MongoClient("mongodb://localhost:27017/")
 
 # Step 2: Access the database and project_refactorings_collection
-db = client["final-first-research"]
+db = client["research"]
 
 
 def remove_non_performance_refactorings():

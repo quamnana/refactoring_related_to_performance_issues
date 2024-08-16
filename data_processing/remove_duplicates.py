@@ -4,7 +4,7 @@ import json
 
 # Replace with your MongoDB connection string
 mongo_uri = "mongodb://localhost:27017/"
-database_name = "final-first-research"
+database_name = "research"
 collection_name = "all-performance-refactorings-using-commits-backup"
 
 # Connect to MongoDB
