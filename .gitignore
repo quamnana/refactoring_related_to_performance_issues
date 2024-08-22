@@ -3,3 +3,4 @@ projects
 token.txt
 env.py
 __pycache__
+misc/
